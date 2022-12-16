@@ -156,6 +156,26 @@ Iterator<Map<Key, Value>> iterator = map.iterator(); → Cannot be Obtained
 
 ```
 <h2> </h2>
+
+<h2 align="Center">Constructors of HashMap </h2>
+
+<ul>
+
+<h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/map1.java"> 1.HashMap() </h3>
+
+<h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/map2.java"> 2.HashMap(int initialCapacity) </h3>
+
+<h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/map3.java"> 3.HashMap(int initialCapacity, float loadFactor) </h3>
+
+<h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/map3.java"> 4.HashMap(Map<? extends K, ? extends V> m) </h3>
+
+
+
+</ul>
+
+
+<h2> </h2>
+
 <h2 align="Center">Methods of HashMap </h2>
   
 
