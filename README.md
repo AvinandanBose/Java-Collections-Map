@@ -56,6 +56,16 @@ sequenceDiagram
 </tr>
 </table>
 
+<h3 align="center">
+
+```Syntax
+
+public abstract class AbstractMap<K,V> extends Object, implements Map<K,V>
+
+```
+
+</h3>
+
 </ul>
 
 <h1>2. Map Interface </h1>
