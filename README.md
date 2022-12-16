@@ -169,7 +169,31 @@ Iterator<Map<Key, Value>> iterator = map.iterator(); → Cannot be Obtained
 
 <h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/map3.java"> 4.HashMap(Map<? extends K, ? extends V> m) </h3>
 
-
+<table>
+ <tr>
+    <th>Constructor</th>
+    <th>Does This</th>
+    
+   
+</tr> 
+<tr>
+  <td >HashMap()</td>
+  <td >It constructs a new empty map.</td> 
+</tr>
+<tr>
+  <td >HashMap(int initialCapacity)</td>
+  <td >It constructs a new empty map, with the given initial capacity.</td> 
+  
+</tr>
+<tr>
+  <td >HashMap(int initialCapacity, float loadFactor)</td>
+  <td >It constructs a new empty map, with the given initial capacity and  the given load factor.</td> 
+</tr>
+<tr>
+  <td >HashMap(Map<? extends K, ? extends V> m)</td>
+  <td >It constructs a new  map, with the same mappings as the given map.</td> 
+</tr>
+</table>
 
 </ul>
 
