@@ -43,6 +43,68 @@ sequenceDiagram
   <td >TreeMap</td>
   <td ></td>
 </tr>
+<tr>
+  <td >NavigableMap</td>
+  <td ></td> 
+  <td ></td> 
+  <td >TreeMap</td>
+  <td ></td>
+</tr>
+<tr>
+  <td colspan="5">Map.Entry(Inner Class of Map)</td>
+ 
+</tr>
 </table>
-  
+
 </ul>
+
+<h1>2. Map Interface </h1>
+
+<ul>
+<li><h3>1. A <i> map</i> stores data in Key/Value pairs much like an array.</h3></li>
+<li><h3>2. Every Key/Value pairs stored in indexes .</h3></li>
+<li><h3>3. Every Key/Value pairs are stored as <i>Objects</i> in Java.</h3></li>
+<li><h3>4. Typically , <i>keys</i> are Strings.</h3></li>
+<li><h3>5. Given a Key and a Value, we can store the value in a <i>Map</i> object.</h3></li>
+<li><h3>6. After the value is stored , we can retrieve it by using its Key.</h3></li>
+<li><h3>7. Map is generic and is declared : </h3></li>
+
+<h3 align="center">
+
+```Syntax
+
+interface Map<K,V>
+
+```
+
+</h3>
+
+<h3> Where, <i>K</i> specifies the type of keys and <i>V</i> specifies the type of values. </h3>
+</ul>
+
+<table>
+ <tr>
+    <th>Interface</th>
+    <th>Description</th>
+    
+   
+</tr> 
+<tr>
+  <td >Map</td>
+  <td >Maps unique keys to values.</td> 
+</tr>
+<tr>
+  <td >Map.Entry</td>
+  <td >Describes an element (a key/value) in a map. This is an inner class of Map.</td> 
+  
+</tr>
+<tr>
+  <td >NavigableMap</td>
+  <td >It extends SortedMap to handle the retrieval of entries based on closest-match searches.</td> 
+</tr>
+<tr>
+  <td >SortedMap</td>
+  <td >It extends Map to keep the keys in ascending order.</td> 
+</tr>
+</table>
+
