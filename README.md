@@ -89,7 +89,25 @@ interface Map<K,V>
 
 </h3>
 
+
 <h3> Where, <i>K</i> specifies the type of keys and <i>V</i> specifies the type of values. </h3>
+
+<li><h3>8. Map do not implement the <i>Iterable</i> interface. Futhermore <i>Iterator</i> also cannot be obtained by a map.</h3></li>
+
+```Syntax
+
+That is :
+
+import java.util.Iterator;
+import  java.lang.Iterable;
+
+Iterable<Map<Key, Value>> itr = map; → Cannot be Obtained
+
+Or
+
+Iterator<Map<Key, Value>> iterator = map.iterator(); → Cannot be Obtained
+
+```
 </ul>
 
 <table>
