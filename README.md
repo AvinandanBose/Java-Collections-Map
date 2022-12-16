@@ -197,6 +197,58 @@ Iterator<Map<Key, Value>> iterator = map.iterator(); → Cannot be Obtained
 
 </ul>
 
+```Syntax
+
+:ThresHold of HashMap, Capacity and LoadFactor:
+--------------------------------------------------
+
+ThresHold of HashMap : 
+The threshold of a HashMap is approximately the product of current capacity and load factor
+
+LoadFactor : 
+The load factor is the measure that decides when to increase the capacity of the Map.
+
+Capacity of HashMap: 
+Capacity is the number of buckets in the HashMap. 
+
+Default Capacity of HashMap: 16
+That is empty HashMap created with capacity 16.
+
+Default LoadFactor of HashMap: 0.75
+That is empty HashMap created with Load Factor 0.75.
+
+Default Threshold of HashMap: is 16 * 0.75 = 12.
+That is empty HashMap created with threshold 12.
+
+```
+
+![HashMapStructure-660x545](https://user-images.githubusercontent.com/38869235/208160027-ee575296-d999-4a80-898a-b6e69aeccefc.jpg)
+
+<h3> <i> Extras: </i> </h3>
+
+```Syntax
+
+Index: 
+It is the integer value .
+It is obtained after performing → 
+Bitwise AND operation on the Value of Hash of the Key and Array Size Minus One.
+
+i.e., :| Index = hashcode(key) & (ArraySize – 1) |:
+
+
+Bucket: It is a LinkedList structure of nodes.
+
+
+Node: It is the elementary unit of a HashMap. 
+It contains the key-value pair and a link to the next node.
+
+Next: Link to the next node.
+
+
+
+
+```
+
 
 <h2> </h2>
 
