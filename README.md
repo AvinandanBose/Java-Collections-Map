@@ -94,6 +94,8 @@ interface Map<K,V>
 
 <li><h3>8. Map do not implement the <i>Iterable</i> interface. Futhermore <i>Iterator</i> also cannot be obtained by a map.</h3></li>
 
+<ul>
+
 ```Syntax
 
 That is :
@@ -135,4 +137,26 @@ Iterator<Map<Key, Value>> iterator = map.iterator(); → Cannot be Obtained
   <td >It extends Map to keep the keys in ascending order.</td> 
 </tr>
 </table>
+</ul>
 
+
+<h1> 3. HashMap </h1>
+
+<ul>
+
+<h3>1. HashMap extends Abstract Map abstract class. </h3>
+<h3>2. As Abstract Map implements Map interface and extends java.lang.Object class , HashMap inherits all of their functions. </h3>
+
+```mermaid
+  
+ graph TD;
+    Object-->|extends| AbstractMap;
+    Map-->|implements| AbstractMap;
+    AbstractMap-->|extends| HashMap;
+
+```
+<h2> </h2>
+<h2 align="Center">Methods of HashMap </h2>
+  
+
+</ul>
