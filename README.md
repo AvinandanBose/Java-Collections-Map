@@ -1,2 +1,2 @@
-# JavaCollectionMap
+# JavaUtilMap
 Here is all about Map of Java
