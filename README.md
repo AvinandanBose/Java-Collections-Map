@@ -361,6 +361,8 @@ Such as:
 →ParallelStream()
 →spliterator()
 →iterator()
+→contains()
+→containsAll()
 ...etc.
 ```
 </ul>
