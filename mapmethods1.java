@@ -9,7 +9,7 @@ public class mapmethods1 {
         map.put("Two", 2);
         map.put("Three", 3);
         map.put("Four", 4);
-        map.put("Five", 1);
+        map.put("Five", 5);
         map.put("Six", 6);
         System.out.println("Before clear:" + map);
         map.forEach((String key, Integer value) -> {
