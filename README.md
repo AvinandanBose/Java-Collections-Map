@@ -269,6 +269,14 @@ It removes all the mappings of this map.
 The map will be empty after this call returns.
 
 ```
+
+<h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/mapmethods2.java"> 2.Clone </h3>
+
+```Syntax
+Returns a shallow copy of the HashMap instance provided for cloning
+but the keys and values themselves are not cloned.
+
+```
 </ul>
   
 
