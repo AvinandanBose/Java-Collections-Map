@@ -302,7 +302,7 @@ until all entries have been processed or the action throws an exception.
 ```
 
 
-<h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/mapmethods6.java"> 5.get </h3>
+<h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/mapmethods6.java"> 6.get </h3>
   
 ```Syntax
 
@@ -313,7 +313,7 @@ or null if this map contains no mapping for the key.
 
 ```
 
-<h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/mapmethods7.java"> 5.getOrDefault</h3>
+<h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/mapmethods7.java"> 7.getOrDefault</h3>
 
 ```Syntax
 
@@ -332,6 +332,12 @@ If not found , then it searches for defaultValue for value.
 That is if "One" is not found then it searches for 1.
 ```
 
+<h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/mapmethods8.java"> 8.isEmpty</h3>
+
+```Syntax
+
+Returns true if this map contains no key-value mappings.
+```
 </ul>
 
 </ul>
