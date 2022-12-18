@@ -6,6 +6,7 @@ Here is all about Map of Java
 <li> <h3> 1. Every class of Java is inherited  from <i> java.lang.Object </i>  </h3></li>
 <li> <h3> 2. The <i> AbstractMap </i> class is the base class of the map classes in Java.</h3></li>
 
+
 ```mermaid
 
 sequenceDiagram
@@ -146,6 +147,11 @@ Iterator<Map<Key, Value>> iterator = map.iterator(); → Cannot be Obtained
 
 <h3>1. HashMap extends Abstract Map abstract class. </h3>
 <h3>2. As Abstract Map implements Map interface and extends java.lang.Object class , HashMap inherits all of their functions. </h3>
+<li> <h3> 3. And most imported thing : "The HashMap provides us an unsorted, unordered Map ".</h3></li>
+<li> <h3> 4. HashMap has implementation based on a Hash table.</h3></li>
+<li> <h3> 5. Duplicate keys are not allowed i.e. Keys are unique .</h3></li>
+<li> <h3> 6. Whereas, Duplicate values can be present / allowed .</h3></li>
+
 
 ```mermaid
   
