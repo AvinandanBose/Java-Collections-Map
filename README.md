@@ -338,6 +338,31 @@ That is if "One" is not found then it searches for 1.
 
 Returns true if this map contains no key-value mappings.
 ```
+
+<h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/mapmethods9.java"> 9.KeySet</h3>
+
+```Syntax
+
+Returns a Set view of the keys contained in this map. 
+The set is backed by the map, 
+so changes to the map are reflected in the set, and vice-versa.
+
+Noted:
+As Set<K> keySet()→ Is a Function that returns Set,
+Hence, it call all those functions that Set contains,
+Such as:
+→forEach
+→toArray()
+→remove()
+→removeIf()
+→retainAll()
+→removeAll()
+→Stream()
+→ParallelStream()
+→spliterator()
+→iterator()
+...etc.
+```
 </ul>
 
 </ul>
