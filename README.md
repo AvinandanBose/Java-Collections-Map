@@ -259,6 +259,17 @@ Next: Link to the next node.
 <h2> </h2>
 
 <h2 align="Center">Methods of HashMap </h2>
+
+<ul>
+<h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/mapmethods1.java"> 1.Clear </h3>
+
+```Syntax
+
+It removes all the mappings of this map.
+The map will be empty after this call returns.
+
+```
+</ul>
   
 
 </ul>
