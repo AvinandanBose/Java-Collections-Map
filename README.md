@@ -306,9 +306,30 @@ until all entries have been processed or the action throws an exception.
   
 ```Syntax
 
+Syntax: get(key: Key)
+
 Returns the value to which the specified key is mapped, 
 or null if this map contains no mapping for the key.
 
+```
+
+<h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/mapmethods7.java"> 5.getOrDefault</h3>
+
+```Syntax
+
+Syntax: getOrDefault(key: Key , defaultValue:Value)
+
+Returns the value to which the specified key is mapped, 
+or defaultValue if this map contains no mapping for the key.
+
+i.e.,getOrDefault(key:"One" , defaultValue:1)
+then it will return the value for the key : "One"
+Or, it will return the value for the value : 1
+
+Most priority given or first search is Key for Value .
+If not found , then it searches for defaultValue for value.
+
+That is if "One" is not found then it searches for 1.
 ```
 
 </ul>
