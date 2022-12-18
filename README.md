@@ -300,9 +300,17 @@ Performs the given action for each entry in this map
 until all entries have been processed or the action throws an exception.
 
 ```
-</ul>
 
 
+<h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/mapmethods6.java"> 5.get </h3>
   
+```Syntax
+
+Returns the value to which the specified key is mapped, 
+or null if this map contains no mapping for the key.
+
+```
+
+</ul>
 
 </ul>
