@@ -15,11 +15,13 @@ public class mapmethods7 {
         map.forEach((String key, Integer value) -> {
             System.out.println(key + ":" + value);
         });
-
-        int val=  map.getOrDefault("Six", 6);
+        int val = map.getOrDefault("Six", 6);
         System.out.println("Value :" + val);
+        
+        int val1=  map.getOrDefault("Six", 7);
+        System.out.println("Value :" + val1);
 
-        System.out.println(map.getOrDefault("Five", 5));
+        System.out.println(map.getOrDefault("Seven", 6));
 
     }
     
