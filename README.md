@@ -286,7 +286,7 @@ Returns true if this map contains a mapping for the specified key.
 
 ```
 
-<h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/mapmethods4.java"> 4.containsKey </h3>
+<h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/mapmethods4.java"> 4.containsValue </h3>
 
 ```Syntax
 Returns true if this map maps one or more keys to the specified value.
