@@ -292,7 +292,17 @@ Returns true if this map contains a mapping for the specified key.
 Returns true if this map maps one or more keys to the specified value.
 
 ```
+
+<h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/mapmethods5.java"> 5.forEach </h3>
+
+```Syntax
+Performs the given action for each entry in this map 
+until all entries have been processed or the action throws an exception.
+
+```
 </ul>
+
+
   
 
 </ul>
