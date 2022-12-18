@@ -277,6 +277,14 @@ Returns a shallow copy of the HashMap instance provided for cloning
 but the keys and values themselves are not cloned.
 
 ```
+
+
+<h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/mapmethods3.java"> 3.containsKey </h3>
+
+```Syntax
+Returns true if this map contains a mapping for the specified key.
+
+```
 </ul>
   
 
