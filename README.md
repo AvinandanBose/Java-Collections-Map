@@ -404,7 +404,7 @@ Replaces the entry for the specified key only if currently mapped to the specifi
 It replaces old value with new value.
 ```
 
-<h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/mapmethods15.java"> 15.ReplaceAll(BiFunction)</h3>
+<h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/mapmethods15.java"> 15.ReplaceAll(BiFunction function)</h3>
 
 ```Syntax
 Replaces each entry's value with the result of invoking the given function,
