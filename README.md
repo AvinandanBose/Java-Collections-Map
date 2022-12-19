@@ -471,6 +471,17 @@ enters it into this map unless null.
 If the mapping function returns null, no mapping is recorded.
 ```
 
+<h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/mapmethods21.java"> 21.computeIfPresent(key:Key, BiFunction function)</h3>
+
+
+```Syntax
+If the value for the specified key is present and non-null, 
+attempts to compute a new mapping given the key 
+and its current mapped value.
+
+If the remapping function returns null, the mapping is removed.
+```
+
 </ul>
 
 </ul>
