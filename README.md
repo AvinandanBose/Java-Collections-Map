@@ -347,7 +347,7 @@ Returns a Set view of the keys contained in this map.
 The set is backed by the map, 
 so changes to the map are reflected in the set, and vice-versa.
 
-Noted:
+Note:
 As Set<K> keySet()→ Is a Function that returns Set,
 Hence, it call all those functions that Set contains,
 Such as:
@@ -365,6 +365,16 @@ Such as:
 →containsAll()
 ...etc.
 ```
+
+
+<h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/mapmethods10.java"> 10.Put</h3>
+
+```Syntax
+
+Associates the specified value with the specified key in this map. 
+If the map previously contained a mapping for the key, the old value is replaced.
+```
+
 </ul>
 
 </ul>
