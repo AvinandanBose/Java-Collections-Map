@@ -53,6 +53,11 @@ public class mapmethods17 {
         System.out.println(" ");
       
        System.out.println(map.values());
-        
+
+       //Clear
+       map.values().clear();
+
+        System.out.println("Map:"+ map);
+
     }
 }
