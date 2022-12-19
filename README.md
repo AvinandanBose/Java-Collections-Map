@@ -372,9 +372,18 @@ Such as:
 ```Syntax
 
 Associates the specified value with the specified key in this map. 
-If the map previously contained a mapping for the key, the old value is replaced.
+If the map previously contained a mapping for the key, 
+the old value is replaced.
 ```
 
+<h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/mapmethods11.java"> 11.PutAll</h3>
+
+```Syntax
+
+Copies all of the mappings from the specified map to this map. 
+These mappings will replace any mappings that this map had ,
+for any of the keys currently in the specified map.
+```
 </ul>
 
 </ul>
