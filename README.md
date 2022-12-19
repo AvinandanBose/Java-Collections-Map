@@ -390,6 +390,12 @@ for any of the keys currently in the specified map.
 ```Syntax
 Removes the mapping for the specified key from this map if present.
 ```
+
+<h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/mapmethods13.java"> 13.Remove(key: Key, value:Value)</h3>
+
+```Syntax
+Removes the entry for the specified key only if it is currently mapped to the specified value.
+```
 </ul>
 
 </ul>
