@@ -417,6 +417,31 @@ the function throws an exception.
 ```Syntax
 Returns the number of key-value mappings in this map.
 ```
+
+<h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/mapmethods17.java"> 17.values()</h3>
+
+```Syntax
+Returns a Collection view of the values contained in this map.
+
+Note:
+Iterator.remove
+Iterator.hasNext()
+Iterator.next()
+Collection.remove, 
+Collection.removeAll, 
+Collection.removeIf,
+Collection.retainAll and 
+Collection.clear 
+
+like selected operations is performed,
+as it returns a Collection.
+
+Except:
+
+It does not support the add or addAll operations.
+```
+
+
 </ul>
 
 </ul>
