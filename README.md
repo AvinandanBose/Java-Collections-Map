@@ -411,6 +411,12 @@ Replaces each entry's value with the result of invoking the given function,
 on that entry until all entries have been processed or 
 the function throws an exception.
 ```
+
+<h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/mapmethods16.java"> 16.Size()</h3>
+
+```Syntax
+Returns the number of key-value mappings in this map.
+```
 </ul>
 
 </ul>
