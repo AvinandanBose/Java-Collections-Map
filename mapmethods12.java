@@ -10,6 +10,7 @@ public class mapmethods12 {
         map.put("f", 6);
         System.out.println("Map:" + map);
         map.remove("a");
+        System.out.println("Map:" + map);
        
     }  
 }
