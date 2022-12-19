@@ -396,6 +396,13 @@ Removes the mapping for the specified key from this map if present.
 ```Syntax
 Removes the entry for the specified key only if it is currently mapped to the specified value.
 ```
+
+<h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/mapmethods14.java"> 13.Replace(key: Key, oldValue:Value, newValue:Value)</h3>
+
+```Syntax
+Replaces the entry for the specified key only if currently mapped to the specified value.
+It replaces old value with new value.
+```
 </ul>
 
 </ul>
