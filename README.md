@@ -459,6 +459,18 @@ Attempts to compute a mapping for the specified key and
 its current mapped value (or null if there is no current mapping).
 ```
 
+<h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/mapmethods20.java"> 20.computeIfAbsent(key:Key, MappingFunction function)</h3>
+
+
+```Syntax
+If the specified key is not already associated with a value 
+(or is mapped to null), attempts to compute its value,
+using the given mapping function and
+enters it into this map unless null.
+
+If the mapping function returns null, no mapping is recorded.
+```
+
 </ul>
 
 </ul>
