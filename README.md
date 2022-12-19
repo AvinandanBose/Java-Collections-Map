@@ -482,6 +482,150 @@ and its current mapped value.
 If the remapping function returns null, the mapping is removed.
 ```
 
+<table>
+ <tr>
+    <th>Methods</th>
+    <th>Does This</th>
+    
+   
+</tr> 
+<tr>
+  <td > Clear</td>
+  <td >It removes all of the mappings from the map.</td> 
+</tr>
+<tr>
+  <td >Clone</td>
+  <td >It gets a copy of this HashMap instance</td> 
+  
+</tr>
+<tr>
+  <td >containsKey</td>
+  <td >Returns true if this map contains a mapping for the specified key.</td> 
+</tr>
+<tr>
+  <td >containsValue</td>
+  <td >Returns true if this map maps one or more keys to the specified value.</td> 
+</tr>
+
+<tr>
+  <td >forEach</td>
+  <td >Performs the given action for each entry in this map 
+until all entries have been processed or the action throws an exception.</td> 
+</tr>
+
+<tr>
+  <td >get(key: Key)</td>
+  <td >Returns the value to which the specified key is mapped, 
+or null if this map contains no mapping for the key.</td> 
+</tr>
+
+
+<tr>
+  <td >getOrDefault(key: Key , defaultValue:Value)</td>
+  <td >Returns the value to which the specified key is mapped, 
+or defaultValue if this map contains no mapping for the key.</td> 
+</tr>
+
+
+<tr>
+  <td >isEmpty</td>
+  <td >Returns true if this map contains no key-value mappings.</td> 
+</tr>
+
+<tr>
+  <td >KeySet</td>
+  <td >Returns a Set view of the keys contained in this map. 
+The set is backed by the map, 
+so changes to the map are reflected in the set, and vice-versa.</td> 
+</tr>
+
+<tr>
+  <td >Put</td>
+  <td >Associates the specified value with the specified key in this map. 
+If the map previously contained a mapping for the key, 
+the old value is replaced.</td> 
+</tr>
+
+<tr>
+  <td >PutAll</td>
+  <td > Copies all of the mappings from the specified map to this map. 
+These mappings will replace any mappings that this map had ,
+for any of the keys currently in the specified map.</td> 
+</tr>
+
+<tr>
+  <td >Remove(key: Key)</td>
+  <td > Removes the mapping for the specified key from this map if present.</td> 
+</tr>
+
+<tr>
+  <td >Remove(key: Key, value:Value)</td>
+  <td > Removes the entry for the specified key only if it is currently mapped to the specified value.
+</td> 
+
+<tr>
+  <td >Replace(key: Key, oldValue:Value, newValue:Value)</td>
+  <td > Replaces the entry for the specified key only if currently mapped to the specified value.
+It replaces old value with new value.
+</td>
+</tr>
+
+<tr>
+  <td >ReplaceAll(BiFunction function)</td>
+  <td > Replaces each entry's value with the result of invoking the given function,
+on that entry until all entries have been processed or 
+the function throws an exception.
+</td>
+</tr>
+
+<tr>
+  <td >Size()</td>
+  <td > Returns the number of key-value mappings in this map.
+</td>
+</tr>
+
+<tr>
+  <td >values()</td>
+  <td > Returns a Collection view of the values contained in this map.
+</td>
+</tr>
+
+<tr>
+  <td >putIfAbsent()</td>
+  <td > If the specified key is not already associated with a value ,
+then associates it with the given value .
+</td>
+</tr>
+
+<tr>
+  <td >compute(key:Key,BiFunction function)</td>
+  <td > Attempts to compute a mapping for the specified key and 
+its current mapped value (or null if there is no current mapping).
+</td>
+</tr>
+
+<tr>
+  <td >computeIfAbsent(key:Key, MappingFunction function)</td>
+  <td > If the specified key is not already associated with a value 
+(or is mapped to null), attempts to compute its value,
+using the given mapping function and
+enters it into this map unless null.
+
+If the mapping function returns null, no mapping is recorded.
+</td>
+</tr>
+
+<tr>
+  <td >computeIfPresent(key:Key, BiFunction function)</td>
+  <td >If the value for the specified key is present and non-null, 
+attempts to compute a new mapping given the key 
+and its current mapped value.
+
+If the remapping function returns null, the mapping is removed.
+</td>
+</tr>
+
+</table>
 </ul>
 
 </ul>
