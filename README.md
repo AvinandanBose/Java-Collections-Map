@@ -451,6 +451,13 @@ If the specified key is not already associated with a value,
 and now the new value mapped with the new key is NULL , 
 then it will return null. 
 ```
+<h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/mapmethods19.java"> 19.compute(BiFunction function)</h3>
+
+
+```Syntax
+Attempts to compute a mapping for the specified key and 
+its current mapped value (or null if there is no current mapping).
+```
 
 </ul>
 
