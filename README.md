@@ -441,6 +441,16 @@ Except:
 It does not support the add or addAll operations.
 ```
 
+<h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/mapmethods18.java"> 18.putIfAbsent()</h3>
+
+```Syntax
+If the specified key is not already associated with a value ,
+then associates it with the given value .
+
+If the specified key is not already associated with a value,
+and now the new value mapped with the new key is NULL , 
+then it will return null. 
+```
 
 </ul>
 
