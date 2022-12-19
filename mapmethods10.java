@@ -9,7 +9,7 @@ public class mapmethods10 {
         map.put("d", 4);
         map.put("e", 5);
         map.put("f", 6);
-        System.out.println("Before clear:" + map);
+        System.out.println("Map:" + map);
     }
     
 }
