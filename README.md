@@ -384,6 +384,12 @@ Copies all of the mappings from the specified map to this map.
 These mappings will replace any mappings that this map had ,
 for any of the keys currently in the specified map.
 ```
+
+<h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/mapmethods12.java"> 12.Remove(key: Key)</h3>
+
+```Syntax
+Removes the mapping for the specified key from this map if present.
+```
 </ul>
 
 </ul>
