@@ -17,7 +17,8 @@ public class AbstractMapMethods1 {
         map1.put("f", 6);
         Boolean b = map.equals(map1);
         System.out.println("Equals:" + b);
-  
+        Boolean c = map1.entrySet().equals(map.entrySet()); 
+        System.out.println("Equals:" + c);
     }
     
 }
