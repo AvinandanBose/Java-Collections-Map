@@ -538,6 +538,12 @@ or removes if the result is null.
 This method may be of use when combining multiple mapped values for a key.
 ```
 
+<h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/mapmethods24.java"> 24.Replace(key: Key, value:Value)</h3>
+
+```Syntax
+Replaces the entry for the specified key only if it is currently mapped to some value.
+```
+
 <table>
  <tr>
     <th>Methods</th>
@@ -700,6 +706,12 @@ Otherwise, replaces the associated value with the results of the given remapping
 or removes if the result is null. 
 
 This method may be of use when combining multiple mapped values for a key.
+</td>
+</tr>
+
+<tr>
+  <td >24.Replace(key:Key, value:Value)</td>
+  <td >Replaces the entry for the specified key only if it is currently mapped to some value.
 </td>
 </tr>
 
