@@ -515,6 +515,18 @@ Such as:
 It does not support the add or addAll operations.
 ```
 
+<h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/mapmethods23.java"> 22.merge(key:Key, value:Value, BiFunction remappingFunction)</h3>
+
+
+```Syntax
+If the specified key is not already associated with a value
+or is associated with null, associates it with the given non-null value. 
+Otherwise, replaces the associated value with the results of the given remapping function, 
+or removes if the result is null. 
+
+This method may be of use when combining multiple mapped values for a key.
+```
+
 <table>
  <tr>
     <th>Methods</th>
@@ -666,6 +678,17 @@ If the remapping function returns null, the mapping is removed.
 The set is backed by the map, 
 so changes to the map are reflected in the set, 
 and vice-versa. If the map is modified while an iteration over the set is in progress (except through the iterator's own remove operation, or through the setValue operation on a map entry returned by the iterator) the results of the iteration are undefined. The set supports element removal, which removes the corresponding mapping from the map, via the Iterator.remove, Set.remove, removeAll, retainAll and clear operations.It does not support the add or addAll operations.
+</td>
+</tr>
+
+<tr>
+  <td >23.merge(key:Key, value:Value, BiFunction remappingFunction)</td>
+  <td >If the specified key is not already associated with a value
+or is associated with null, associates it with the given non-null value. 
+Otherwise, replaces the associated value with the results of the given remapping function, 
+or removes if the result is null. 
+
+This method may be of use when combining multiple mapped values for a key.
 </td>
 </tr>
 
