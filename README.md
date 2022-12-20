@@ -250,10 +250,21 @@ It contains the key-value pair and a link to the next node.
 
 Next: Link to the next node.
 
+It is represented as:  Node<K,V> next.
+
+Where K represents Key and V represents Value.
+
+Rehashing: It is the process of doubling the capacity of the HashMap ,
+after it reaches its Threshold. In java, HashMap continues to 
+rehash(by default) in the following sequence – 2^4, 2^5, 2^6, 2^7, …. so on. 
+
 
 
 
 ```
+
+![node_hash_map](https://user-images.githubusercontent.com/38869235/208721084-f55b0f8d-15b0-4e81-a90a-919f77b66851.png)
+
 
 
 <h2> </h2>
@@ -703,7 +714,8 @@ This method may be of use when combining multiple mapped values for a key.
 Compares the specified object with this map for equality. 
 Returns true if the given object is also a map and the two maps represent the same mappings. 
 
-More formally, two maps m1 and m2 represent the same mappings if m1.entrySet().equals(m2.entrySet()).
+More formally, two maps m1 and m2 represent the same mappings,
+if m1.entrySet().equals(m2.entrySet()).
 ```
 
 <h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/AbstractMapMethods2.java"> 2.toString()</h3>
