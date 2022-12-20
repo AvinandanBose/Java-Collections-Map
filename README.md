@@ -758,4 +758,6 @@ Returns true if the given object is also a map and the two maps represent the sa
 </tr>
 </table>
 </ul>
+<h3><i><ins>Note:</ins></i> Map interface →java.util.Map contains: equals(), forEach(), getOrDefault(), hashCode(), putIfAbsent(), remove(), replace(), replaceAll() 
+functions inherited by HashMap() have same actions in program . </h3>
 </ul>
