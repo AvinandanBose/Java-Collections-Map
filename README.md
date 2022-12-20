@@ -695,4 +695,55 @@ This method may be of use when combining multiple mapped values for a key.
 </table>
 </ul>
 <h2 align="Center">Methods inherited from class java.util.AbstractMap </h2>
+<ul>
+
+<h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/AbstractMapMethods1.java"> 1.equals()</h3>
+
+```Syntax
+Compares the specified object with this map for equality. 
+Returns true if the given object is also a map and the two maps represent the same mappings. 
+
+More formally, two maps m1 and m2 represent the same mappings if m1.entrySet().equals(m2.entrySet()).
+```
+
+<h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/AbstractMapMethods2.java"> 2.toString()</h3>
+
+```Syntax
+Returns a string representation of this map. 
+```
+
+<h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/AbstractMapMethods3.java"> 3.hashCode()</h3>
+
+```Syntax
+Returns the hash code value for this map. 
+```
+
+<table>
+ <tr>
+    <th>Methods</th>
+    <th>Does This</th>
+    
+   
+</tr> 
+
+<tr>
+  <td >1.equals()</td>
+  <td >Compares the specified object with this map for equality. 
+Returns true if the given object is also a map and the two maps represent the same mappings. 
+</td>
+</tr>
+
+<tr>
+  <td >toString()</td>
+  <td >Returns a string representation of this map. 
+</td>
+</tr>
+
+<tr>
+  <td >hashCode()</td>
+  <td >Returns the hash code value for this map. 
+</td>
+</tr>
+</table>
+</ul>
 </ul>
