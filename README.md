@@ -364,6 +364,8 @@ Such as:
 →contains()
 →containsAll()
 ...etc.
+
+It does not support the add or addAll operations.
 ```
 
 
@@ -482,6 +484,37 @@ and its current mapped value.
 If the remapping function returns null, the mapping is removed.
 ```
 
+
+<h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/mapmethods22.java"> 22.entrySet()</h3>
+
+
+```Syntax
+Returns a Set view of the mappings contained in this map. 
+The set is backed by the map, 
+so changes to the map are reflected in the set, 
+and vice-versa. 
+
+
+As entrySet()→ Is a Function that returns Set,
+Hence, it call all those functions that Set contains,
+Such as:
+→forEach
+→toArray()
+→remove()
+→removeIf()
+→retainAll()
+→removeAll()
+→Stream()
+→ParallelStream()
+→spliterator()
+→iterator()
+→contains()
+→containsAll()
+...etc.
+
+It does not support the add or addAll operations.
+```
+
 <table>
  <tr>
     <th>Methods</th>
@@ -536,7 +569,9 @@ or defaultValue if this map contains no mapping for the key.</td>
   <td >9.KeySet</td>
   <td >Returns a Set view of the keys contained in this map. 
 The set is backed by the map, 
-so changes to the map are reflected in the set, and vice-versa.</td> 
+so changes to the map are reflected in the set, and vice-versa.If the map is modified while an iteration over the set is in progress (except through the iterator's own remove operation), the results of the iteration are undefined. The set supports element removal, which removes the corresponding mapping from the map, via the Iterator.remove, Set.remove, removeAll, retainAll, and clear operations.
+It does not support the add or addAll operations.
+</td> 
 </tr>
 
 <tr>
@@ -622,6 +657,15 @@ attempts to compute a new mapping given the key
 and its current mapped value.
 
 If the remapping function returns null, the mapping is removed.
+</td>
+</tr>
+
+<tr>
+  <td >22.entrySet()</td>
+  <td >Returns a Set view of the mappings contained in this map. 
+The set is backed by the map, 
+so changes to the map are reflected in the set, 
+and vice-versa. If the map is modified while an iteration over the set is in progress (except through the iterator's own remove operation, or through the setValue operation on a map entry returned by the iterator) the results of the iteration are undefined. The set supports element removal, which removes the corresponding mapping from the map, via the Iterator.remove, Set.remove, removeAll, retainAll and clear operations.It does not support the add or addAll operations.
 </td>
 </tr>
 
