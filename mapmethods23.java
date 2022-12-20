@@ -21,6 +21,9 @@ public class mapmethods23 {
 
         map.forEach((key, value) -> map.merge(key, value, (v1, v2) -> v1 + v2));
         System.out.println(map);
+
+        map.merge("f", 24, (v1, v2) -> null); //removes the entry
+        System.out.println(map);
        
     }
     
