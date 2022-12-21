@@ -777,7 +777,7 @@ functions inherited by HashMap() have same actions in program . </h3>
 <h1> </h1>
 <h1 align="Center"> Division of Abstract Map </h1>
 
-<u>
+<ul>
 
 ```mermaid
  
@@ -792,13 +792,24 @@ functions inherited by HashMap() have same actions in program . </h3>
     AbstractMap-->|extends| ConcurrentSkipListMap;
     HashMap-->|extends| LinkedHashMap; 
  ```
- </u> 
+ </ul> 
  
 <h1> </h1>
 
 <h1 align="Center"> Linked Hash Map </h1>
 
-<u>
+<ul>
+
+```mermaid
+
+sequenceDiagram
+    
+  
+  java.util.Map->>java.util.HashMap:implements 
+  java.util.HashMap->>java.util.LinkedHashMap:extends
+  
+  
+```
 
 </ul>
 
