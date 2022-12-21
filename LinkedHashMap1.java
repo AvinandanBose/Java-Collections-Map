@@ -211,6 +211,21 @@ public class LinkedHashMap1 {
         System.out.println("Map:" + map);
         System.out.println(" ");
 
+        //equals
+        Boolean b = map.equals(map1);
+        System.out.println("Equals / Not:" + b);
+        System.out.println(" ");
+        //hashCode
+        int h = map.hashCode();
+        System.out.println("HashCode:" + h);
+        System.out.println(" ");
+
+        //toString
+        String s = map.toString();
+        System.out.println("ToString:" + s);
+        System.out.println(" ");
+
+
     }
 
 }
