@@ -841,7 +841,9 @@ public class LinkedHashMap<K,​V> extends HashMap<K,​V> implements Map<K,​V
 <li> <h3> 5.It may have one null key and multiple null values.</h3> </li>
 <li> <h3> 6.It is the same as HashMap with an additional feature that it maintains insertion order. For example, when we run the code with a HashMap, we get a different order of elements.</h3> </li>
  <h3 align="Center"> <i>That is, It first take elements according to their hash, </i></h3> 
-<h3 align="Center"> <i> Then if any insertion occurs it inserts them as linked list.</i></h3> 
+<h3 align="Center"> <i> Then if any insertion occurs it inserts them as (doubly)linked list.</i></h3> 
 
+<h2> </h2>
+<h1 align="Center">Methods of LinkedHashMap </h1>
 </ul>
 
