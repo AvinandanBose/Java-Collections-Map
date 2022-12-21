@@ -811,5 +811,37 @@ sequenceDiagram
   
 ```
 
+<li> <h3> 1. A LinkedHashMap is an extension of the HashMap class and it implements the Map interface. </h3> </li>
+
+<h3 align="Center">
+
+```Syntax
+
+public class LinkedHashMap<K,​V> extends HashMap<K,​V> implements Map<K,​V>
+
+```
+
+</h3>
+
+<li> <h3> 2.The implementation of the LinkedHashMap is very similar to a doubly-linked list. Therefore, each node of the LinkedHashMap is represented as: </h3> </li>
+
+![Screenshot (197)](https://user-images.githubusercontent.com/38869235/208919283-fb2e1253-4e47-430b-a3a3-4a6522687238.png)
+
+<ul>
+<li> <h3><ins><i>Hash</i></ins>: All the input keys are converted into a hash which is a shorter form of the key so that the search and insertion are faster.</h3> </li>
+<li> <h3><ins><i>Key</i></ins>: Since this class extends HashMap, the data is stored in the form of a key-value pair. Therefore, this parameter is the key to the data.</h3> </li>
+<li> <h3><ins><i>Value</i></ins>: For every key, there is a value associated with it. This parameter stores the value of the keys. Due to generics, this value can be of any form.</h3> </li>
+<li> <h3><ins><i>Next</i></ins>: Since the LinkedHashMap stores the insertion order, this contains the address to the next node of the LinkedHashMap.</h3> </li>
+<li> <h3><ins><i>Previous</i></ins>: This parameter contains the address to the previous node of the LinkedHashMap.</h3> </li>
+
+</ul>
+
+<li> <h3> 3.The implementation of LinkedHashMap is not synchronized. </h3> </li>
+<li> <h3> 4.It contains only unique elements.</h3> </li>
+<li> <h3> 5.It may have one null key and multiple null values.</h3> </li>
+<li> <h3> 6.It is the same as HashMap with an additional feature that it maintains insertion order. For example, when we run the code with a HashMap, we get a different order of elements.</h3> </li>
+ <h3 align="Center"> <i>That is, It first take elements according to their hash, </i></h3> 
+<h3 align="Center"> <i> Then if any insertion occurs it inserts them as linked list.</i></h3> 
+
 </ul>
 
