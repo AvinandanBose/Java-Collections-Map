@@ -796,7 +796,7 @@ functions inherited by HashMap() have same actions in program . </h3>
  
 <h1> </h1>
 
-<h1 align="Center"> Identity Hash Map </h1>
+<h1 align="Center"> Linked Hash Map </h1>
 
 <u>
 
