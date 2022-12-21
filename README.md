@@ -887,3 +887,34 @@ Size > 3 = {h=8, i=9, j=10}
 </ul>
 </ul>
 
+ 
+<h1> </h1>
+<h1 align="Center"> Identity Hash Map </h1>
+
+<ul>
+
+```mermaid
+
+sequenceDiagram
+    
+  
+  java.util.Map->>java.util.AbstractMap:implements 
+  java.util.AbstractMap->>java.util.IdentityHashMap:extends
+  
+  
+```
+
+<li> <h3> 1. A IdentityHashMap is an extension of the AbstractMap class and it implements the Map interface. </h3> </li>
+
+<h3 align="Center">
+
+```Syntax
+
+public class IdentityHashMap<K,​V> extends AbstractMap<K,​V> implements Map<K,​V>
+
+```
+
+</h3>
+
+</ul>
+
