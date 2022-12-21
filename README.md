@@ -914,7 +914,8 @@ public class IdentityHashMap<K,​V> extends AbstractMap<K,​V> implements Map<
 
 ```
 
-</h3>
-
+<h1 align="Center">Methods of IdentityHashMap </h1>
+<ul>
+<li><h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/IdentityHashMap1.java"> 1. All HashMap and AbstractMap Functions in IdentityHashMap</h3></li>
 </ul>
-
+</ul>
