@@ -845,5 +845,8 @@ public class LinkedHashMap<K,​V> extends HashMap<K,​V> implements Map<K,​V
 
 <h2> </h2>
 <h1 align="Center">Methods of LinkedHashMap </h1>
+<ul>
+<li><h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/LinkedHashMap1.java"> 1. All HashMap and AbstractMap Functions in LinkedHashMap</h3></li>
+</ul>
 </ul>
 
