@@ -847,6 +847,43 @@ public class LinkedHashMap<K,​V> extends HashMap<K,​V> implements Map<K,​V
 <h1 align="Center">Methods of LinkedHashMap </h1>
 <ul>
 <li><h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/LinkedHashMap1.java"> 1. All HashMap and AbstractMap Functions in LinkedHashMap</h3></li>
+
+<h3> New Method : </h3>
+<table>
+ <tr>
+    <th>Methods</th>
+    <th>Does This</th>
+    
+   
+</tr> 
+
+<tr>
+  <td >removeEldestEntry()</td>
+  <td >It is used keep a track of whether the map removes any eldest entry from the map. So each time a new element is added to the LinkedHashMap, the eldest entry is removed from the map. This method is generally invoked after the addition of the elements into the map by the use of put() and putall() method.
+</td>
+</tr>
+
+</table>
+<li><h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/LinkedHashMap2.java"> 2. removeEldestEntry()</h3></li>
+
+```Syntax
+
+It is used keep a track of whether the map removes any eldest entry from the map. 
+So each time a new element is added to the LinkedHashMap, the eldest entry is removed from the map. 
+This method is generally invoked after the addition of the elements into the map,
+by the use of put() and putall() method.
+
+Eg:
+
+If Map = {a=1, b=2, c=3, d=4, e=5, f=6, g=7, h=8, i=9, j=10}
+
+Then, removeEldestEntry :
+Size < 1 or Size ==0  → {a=1, b=2, c=3, d=4, e=5, f=6, g=7, h=8, i=9, j=10}
+Size > 1 = {j=10}
+Size > 2 = {i=9, j=10}
+Size > 3 = {h=8, i=9, j=10}
+..... etc.
+```
 </ul>
 </ul>
 
