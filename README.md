@@ -773,3 +773,32 @@ Returns true if the given object is also a map and the two maps represent the sa
 <h3><i><ins>Note:</ins></i> Map interface →java.util.Map contains: equals(), forEach(), getOrDefault(), hashCode(), putIfAbsent(), remove(), replace(), replaceAll() 
 functions inherited by HashMap() have same actions in program . </h3>
 </ul>
+
+<h1> </h1>
+<h1 align="Center"> Division of Abstract Map </h1>
+
+<u>
+
+```mermaid
+ 
+ graph TD;
+    Map-->|implements| AbstractMap;
+    AbstractMap-->|extends| HashMap;
+    AbstractMap-->|extends| IdentityHashMap;
+    AbstractMap-->|extends| WeakHashMap;
+    AbstractMap-->|extends| TreeMap;
+    AbstractMap-->|extends| EnumMap;
+    AbstractMap-->|extends| ConcurrentHashMap;
+    AbstractMap-->|extends| ConcurrentSkipListMap;
+    HashMap-->|extends| LinkedHashMap; 
+ ```
+ </u> 
+ 
+<h1> </h1>
+
+<h1 align="Center"> Identity Hash Map </h1>
+
+<u>
+
+</ul>
+
