@@ -844,6 +844,12 @@ public class LinkedHashMap<K,​V> extends HashMap<K,​V> implements Map<K,​V
 <h3 align="Center"> <i> Then if any insertion occurs it inserts them as (doubly)linked list.</i></h3> 
 
 <h2> </h2>
+<h1 align="Center">Constructors of LinkedHashMap </h1>
+<ul>
+
+</ul>
+
+<h2> </h2>
 <h1 align="Center">Methods of LinkedHashMap </h1>
 <ul>
 <li><h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/LinkedHashMap1.java"> 1. All HashMap and AbstractMap Functions in LinkedHashMap</h3></li>
