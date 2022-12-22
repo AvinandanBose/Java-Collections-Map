@@ -122,6 +122,7 @@ public class IdentityHashMap1 {
         map.putAll(map1);
         System.out.println("Map:" + map);
 
+      //Iterator and Values throws ConcurrentModificationException
         try{
 
             Iterator<Integer> itr = map.values().iterator();
