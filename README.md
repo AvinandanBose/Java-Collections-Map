@@ -846,6 +846,79 @@ public class LinkedHashMap<K,​V> extends HashMap<K,​V> implements Map<K,​V
 <h2> </h2>
 <h1 align="Center">Constructors of LinkedHashMap </h1>
 <ul>
+<li><h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/constructLinkedHashMap.java"> 1.LinkedHashMap()</h3></li>
+
+```Syntax
+
+It is used to construct a default LinkedHashMap.
+    
+```
+<li><h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/constructLinkedHashMap1.java"> 2.LinkedHashMap(int capacity)</h3></li>
+
+```Syntax
+
+It is used to initialize a LinkedHashMap with the given capacity.
+    
+```
+
+<li><h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/constructLinkedHashMap2.java"> 3.LinkedHashMap(int capacity, float loadFactor)</h3></li>
+
+```Syntax
+
+It is used to initialize both the capacity and the load factor.
+    
+```
+<li><h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/constructLinkedHashMap3.java"> 4.LinkedHashMap(int capacity, float loadFactor, boolean accessOrder)</h3></li>
+
+```Syntax
+
+It is used to initialize both the capacity and the load factor with specified ordering mode.
+    
+```
+
+<li><h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/constructLinkedHashMap4.java"> 5.LinkedHashMap(Map<? extends K,? extends V> m)</h3></li>
+
+```Syntax
+
+It is used to initialize the LinkedHashMap with the elements from the given Map class m.
+    
+```
+
+<table>
+ <tr>
+    <th>Constructor</th>
+    <th>Description</th>
+       
+</tr> 
+
+<tr>
+  <td >LinkedHashMap()</td>
+  <td >It is used to construct a default LinkedHashMap.</td>
+</tr>
+
+
+<tr>
+  <td >LinkedHashMap(int capacity)</td>
+  <td >It is used to initialize a LinkedHashMap with the given capacity.</td>
+</tr>
+
+<tr>
+  <td >LinkedHashMap(int capacity, float loadFactor)</td>
+  <td >It is used to initialize both the capacity and the load factor.</td>
+</tr>
+
+<tr>
+  <td >LinkedHashMap(int capacity, float loadFactor, boolean accessOrder)</td>
+  <td >It is used to initialize both the capacity and the load factor with specified ordering mode.</td>
+</tr>
+
+<tr>
+  <td >LinkedHashMap(Map<? extends K,? extends V> m)</td>
+  <td >It is used to initialize the LinkedHashMap with the elements from the given Map class m.</td>
+</tr>
+
+</table>
+
 
 </ul>
 
