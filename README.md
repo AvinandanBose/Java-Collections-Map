@@ -1063,6 +1063,35 @@ Constructs a new identity hash map containing the keys-value mappings in the spe
     
 ```
 
+<table>
+ <tr>
+    <th>Constructor</th>
+    <th>Does This</th>
+    
+   
+</tr> 
+
+<tr>
+  <td >IdentityHashMap()</td>
+  <td >Constructs a new, empty identity hash map with a default expected maximum size (21).</td>
+</tr>
+<tr>
+  <td >IdentityHashMap(int ExpectedMaxSize)</td>
+  <td >It creates a new and empty identity hash map with the given specified expected maximum size.
+Constructs a new, empty map with the specified expected maximum size. 
+Putting more than the expected number of key-value mappings into the map ,
+may cause the internal data structure to grow, which may be somewhat time-consuming.</td>
+</tr>
+
+<tr>
+  <td >IdentityHashMap(Map m)</td>
+  <td >It creates a new identity hash map with the key-value pairs given in the specified map.
+
+Constructs a new identity hash map containing the keys-value mappings in the specified map.</td>
+</tr>
+
+</table>
+
 </ul>
 <h2></h2>
 <h2 align="Center">Methods of IdentityHashMap </h2>
