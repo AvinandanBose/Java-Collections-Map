@@ -844,7 +844,7 @@ public class LinkedHashMap<K,​V> extends HashMap<K,​V> implements Map<K,​V
 <h3 align="Center"> <i> Then if any insertion occurs it inserts them as (doubly)linked list.</i></h3> 
 
 <h2> </h2>
-<h1 align="Center">Constructors of LinkedHashMap </h1>
+<h2 align="Center">Constructors of LinkedHashMap </h2>
 <ul>
 <li><h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/constructLinkedHashMap.java"> 1.LinkedHashMap()</h3></li>
 
@@ -922,8 +922,9 @@ It is used to initialize the LinkedHashMap with the elements from the given Map 
 
 </ul>
 
+
 <h2> </h2>
-<h1 align="Center">Methods of LinkedHashMap </h1>
+<h2 align="Center">Methods of LinkedHashMap </h2>
 <ul>
 <li><h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/LinkedHashMap1.java"> 1. All HashMap and AbstractMap Functions in LinkedHashMap</h3></li>
 
@@ -966,7 +967,15 @@ Size > 3 = {h=8, i=9, j=10}
 </ul>
 </ul>
 
- 
+<h2> </h2>
+<h2 align="Center">Synchronization of LinkedHashMap </h2>
+<ul>
+<li> <h3> 1.The implementation of LinkedHashMap is not synchronized. </h3> </li>
+<li> <h3>2.If multiple threads access a linked hash map concurrently, and at least one of the threads modifies the map structurally, it must be synchronized externally.This is typically accomplished by synchronizing on some object that naturally encapsulates the map. </h3> </li>
+<li> <h3>3. If no such object exists, the map should be “wrapped” using the <i>Collections.synchronizedMap </i> method  . This is best done at creation time, to prevent accidental unsynchronized access to the map. </h3> </li>
+
+</ul>
+
 <h1> </h1>
 <h1 align="Center"> Identity Hash Map </h1>
 
