@@ -851,6 +851,9 @@ public class LinkedHashMap<K,​V> extends HashMap<K,​V> implements Map<K,​V
 ```Syntax
 
 It is used to construct a default LinkedHashMap.
+
+Constructs an empty insertion-ordered LinkedHashMap instance ,
+with the default initial capacity (16) and load factor (0.75).
     
 ```
 <li><h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/constructLinkedHashMap1.java"> 2.LinkedHashMap(int capacity)</h3></li>
@@ -858,6 +861,9 @@ It is used to construct a default LinkedHashMap.
 ```Syntax
 
 It is used to initialize a LinkedHashMap with the given capacity.
+
+Constructs an empty insertion-ordered LinkedHashMap instance ,
+with the specified initial capacity and a default load factor (0.75).
     
 ```
 
@@ -866,6 +872,9 @@ It is used to initialize a LinkedHashMap with the given capacity.
 ```Syntax
 
 It is used to initialize both the capacity and the load factor.
+
+Constructs an empty insertion-ordered LinkedHashMap instance,
+with the specified initial capacity and load factor.
     
 ```
 <li><h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/constructLinkedHashMap3.java"> 4.LinkedHashMap(int capacity, float loadFactor, boolean accessOrder)</h3></li>
@@ -873,6 +882,9 @@ It is used to initialize both the capacity and the load factor.
 ```Syntax
 
 It is used to initialize both the capacity and the load factor with specified ordering mode.
+
+Constructs an empty LinkedHashMap instance ,
+with the specified initial capacity, load factor and ordering mode.
     
 ```
 
@@ -881,6 +893,11 @@ It is used to initialize both the capacity and the load factor with specified or
 ```Syntax
 
 It is used to initialize the LinkedHashMap with the elements from the given Map class m.
+
+Constructs an insertion-ordered LinkedHashMap instance ,
+with the same mappings as the specified map. 
+The LinkedHashMap instance is created with a default load factor (0.75) 
+and an initial capacity sufficient to hold the mappings in the specified map.
     
 ```
 
@@ -893,28 +910,35 @@ It is used to initialize the LinkedHashMap with the elements from the given Map 
 
 <tr>
   <td >LinkedHashMap()</td>
-  <td >It is used to construct a default LinkedHashMap.</td>
+  <td >It is used to construct a default LinkedHashMap. Constructs an empty insertion-ordered LinkedHashMap instance ,
+with the default initial capacity (16) and load factor (0.75).</td>
 </tr>
 
 
 <tr>
   <td >LinkedHashMap(int capacity)</td>
-  <td >It is used to initialize a LinkedHashMap with the given capacity.</td>
+  <td >It is used to initialize a LinkedHashMap with the given capacity.Constructs an empty insertion-ordered LinkedHashMap instance ,
+with the specified initial capacity and a default load factor (0.75).</td>
 </tr>
 
 <tr>
   <td >LinkedHashMap(int capacity, float loadFactor)</td>
-  <td >It is used to initialize both the capacity and the load factor.</td>
+  <td >It is used to initialize both the capacity and the load factor.Constructs an empty insertion-ordered LinkedHashMap instance,
+with the specified initial capacity and load factor.</td>
 </tr>
 
 <tr>
   <td >LinkedHashMap(int capacity, float loadFactor, boolean accessOrder)</td>
-  <td >It is used to initialize both the capacity and the load factor with specified ordering mode.</td>
+  <td >It is used to initialize both the capacity and the load factor with specified ordering mode.Constructs an empty LinkedHashMap instance ,
+with the specified initial capacity, load factor and ordering mode.</td>
 </tr>
 
 <tr>
   <td >LinkedHashMap(Map<? extends K,? extends V> m)</td>
-  <td >It is used to initialize the LinkedHashMap with the elements from the given Map class m.</td>
+  <td >It is used to initialize the LinkedHashMap with the elements from the given Map class m.Constructs an insertion-ordered LinkedHashMap instance ,
+with the same mappings as the specified map. 
+The LinkedHashMap instance is created with a default load factor (0.75) 
+and an initial capacity sufficient to hold the mappings in the specified map.</td>
 </tr>
 
 </table>
@@ -1011,6 +1035,13 @@ public class IdentityHashMap<K,​V> extends AbstractMap<K,​V> implements Map<
 <h2></h2>
 <h2 align="Center">Constructors of IdentityHashMap </h2>
 <ul>
+
+<li><h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/constructIdentityHashMap.java"> 1.LinkedHashMap()</h3></li>
+
+```Syntax
+Constructs a new, empty identity hash map with a default expected maximum size (21).
+    
+```
 
 </ul>
 <h2></h2>
