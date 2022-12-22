@@ -997,6 +997,13 @@ sequenceDiagram
 ```
 
 <li> <h3> 1. A IdentityHashMap is an extension of the AbstractMap class and it implements the Map interface. </h3> </li>
+<li> <h3> 2. It is not synchronized and must be synchronized externally. </h3> </li>
+<li> <h3> 3. It uses reference equality rather than using the equals() method. It uses the == operator. </h3> </li>
+<li> <h3> 4. Iterators are fail-fast, throw ConcurrentModificationException in an attempt to modify while iterating. 
+
+ConcurrentModificationException exception may be thrown by methods that have detected concurrent modification of an object when such modification is not permissible.
+
+</h3> </li>
 
 <h3 align="Center">
 
