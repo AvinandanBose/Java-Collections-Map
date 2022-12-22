@@ -1008,8 +1008,13 @@ sequenceDiagram
 public class IdentityHashMap<K,​V> extends AbstractMap<K,​V> implements Map<K,​V>
 
 ```
+<h2></h2>
+<h2 align="Center">Constructors of IdentityHashMap </h2>
+<ul>
 
-<h1 align="Center">Methods of IdentityHashMap </h1>
+</ul>
+<h2></h2>
+<h2 align="Center">Methods of IdentityHashMap </h2>
 <ul>
 <li><h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/IdentityHashMap1.java"> 1. All HashMap and AbstractMap Functions in IdentityHashMap</h3></li>
 </ul>
