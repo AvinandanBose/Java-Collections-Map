@@ -1036,10 +1036,30 @@ public class IdentityHashMap<K,​V> extends AbstractMap<K,​V> implements Map<
 <h2 align="Center">Constructors of IdentityHashMap </h2>
 <ul>
 
-<li><h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/constructIdentityHashMap.java"> 1.LinkedHashMap()</h3></li>
+<li><h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/constructIdentityHashMap.java"> 1.IdentityHashMap()</h3></li>
 
 ```Syntax
 Constructs a new, empty identity hash map with a default expected maximum size (21).
+    
+```
+
+<li><h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/constructIdentityHashMap1.java"> 2.IdentityHashMap(int ExpectedMaxSize)</h3></li>
+
+```Syntax
+It creates a new and empty identity hash map with the given specified expected maximum size.
+
+Constructs a new, empty map with the specified expected maximum size. 
+Putting more than the expected number of key-value mappings into the map ,
+may cause the internal data structure to grow, which may be somewhat time-consuming.
+    
+```
+
+<li><h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/constructIdentityHashMap2.java"> 3.IdentityHashMap(Map m)</h3></li>
+
+```Syntax
+It creates a new identity hash map with the key-value pairs given in the specified map.
+
+Constructs a new identity hash map containing the keys-value mappings in the specified map.
     
 ```
 
