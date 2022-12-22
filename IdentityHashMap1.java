@@ -1,3 +1,4 @@
+import java.util.ConcurrentModificationException;
 import java.util.IdentityHashMap;
 import java.util.Iterator;
 public class IdentityHashMap1 {
@@ -120,7 +121,10 @@ public class IdentityHashMap1 {
         System.out.println("Map:" + map);
         map.putAll(map1);
         System.out.println("Map:" + map);
-        Iterator<Integer> itr = map.values().iterator();
+
+        try{
+
+            Iterator<Integer> itr = map.values().iterator();
         while (itr.hasNext()) {
             System.out.println(itr.next());
         }
@@ -131,6 +135,12 @@ public class IdentityHashMap1 {
                 itr.remove();
             }
         }
+        }catch(ConcurrentModificationException e){
+            e.printStackTrace();
+            System.out.println(e);
+            System.out.println(" ");
+        }
+        
         System.out.println("Map:" + map);
 
         // putIfAbsent
@@ -221,6 +231,8 @@ public class IdentityHashMap1 {
         String s = map.toString();
         System.out.println("ToString:" + s);
         System.out.println(" ");
+
+       
 
         
 
