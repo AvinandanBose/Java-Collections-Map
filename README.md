@@ -1180,3 +1180,6 @@ It can be achieved by synchronizing on any object that encapsulate the map. If s
 
 </ul>
 </ul>
+
+<h1></h1>
+<h1 align="Center">Weak Hash Map </h1>
