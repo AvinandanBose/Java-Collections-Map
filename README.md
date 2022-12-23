@@ -1100,6 +1100,68 @@ Constructs a new identity hash map containing the keys-value mappings in the spe
 <li><h3> 2. Difference between HashMap and Identity HashMap.</h3></li>
 <ul>
 <li><h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/IdentityHashMap2.java">  Difference between HashMap and Identity HashMap</h3></li>
+
+```Syntax
+
+For Hash Map:
+
+map.put("a", 1);
+
+a is a String constant and 1 is Integer constant.
+
+map.put(new String("a"), 2);
+
+Here a is an object of String and 2 is an Integer constant.
+
+But in HashMap it check key as :
+
+map.put("a", 1).equals(map.put(new String("a"), 1));
+
+i.e., it treats constant and object is equal as Keys are same i.e. "a".
+
+i.e. "a".equals("a")
+
+Which returns true , where as:
+
+For Identity Hash Map:
+
+map1.put("a", 1).equals(map1.put(new String("a"), 1))
+
+Here it treats constant and object are different i.e.
+
+"a" not equal to {new String("a")}
+
+i.e. it uses:
+
+"a" == {new String("a")} which is false
+
+Hence it creates : {a=1,a=1} map
+
+
+Now in Identity Hash Map: 
+
+ map1.put("a", 2); will update,
+ 1st Key which have String constant ,
+ 
+ i.e. : {a=2,a=1}
+ 
+map1.put(new String("a"), 2); will update,
+2nd Key which have String object ,
+
+ i.e. : {a=2,a=2}
+ 
+ While for HashMap:
+ map.put("a", 1);
+ = {a=1}
+ map.put(new String("a"),2}
+ =  {a=2}
+ map.put("a",3}
+ =  {a=3}
+ 
+ .... etc
+ 
+ This is the differnce between Hash Map and Identity Map.
+```
 </ul>
 </ul>
 </ul>
