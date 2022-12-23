@@ -1164,4 +1164,15 @@ map1.put(new String("a"), 2); will update,
 ```
 </ul>
 </ul>
+<h2></h2>
+<h2 align="Center">Synchronized IdentityHashMap </h2>
+<ul>
+<h3>
+When more than one threads access the identity hash map concurrently, and at least one of the threads structurally modifies the map, it is necessary to synchronize that map externally. (Structural modification of map is to add or delete one or more key value mappings. If we just change the value associated with a key that an instance contains already is not structural modification.)
+</h3>
+
+<h3>
+It can be achieved by synchronizing on any object that encapsulate the map. If such object doesn't exist, map should be wrapped with the help of Collections.synchronizedMap() method. The correct time to do this is at the time of creation, in order to prevent unsynchronized access to map.
+</h3>
+</ul>
 </ul>
