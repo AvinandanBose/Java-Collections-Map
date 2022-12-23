@@ -1173,6 +1173,10 @@ When more than one threads access the identity hash map concurrently, and at lea
 
 <h3>
 It can be achieved by synchronizing on any object that encapsulate the map. If such object doesn't exist, map should be wrapped with the help of Collections.synchronizedMap() method. The correct time to do this is at the time of creation, in order to prevent unsynchronized access to map.
+
+<ul>
+<li><h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/synchronizedIdentityHashMap.java"> Synchronized Identity HashMap</h3></li>
+</ul>
 </h3>
 </ul>
 </ul>
