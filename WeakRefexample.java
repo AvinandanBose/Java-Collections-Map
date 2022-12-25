@@ -14,7 +14,7 @@ public class WeakRefexample {
         exceptions obj = new exceptions();
         obj.print();
 
-        // Weak Reference has type class[exceptions] of Reference Object[obj]
+        // Weak Reference has explicit type class[exceptions] of Reference Object[obj]
         WeakReference<exceptions> weak = new WeakReference<>(obj); 
 
         obj = null;
