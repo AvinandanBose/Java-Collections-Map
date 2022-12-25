@@ -1255,7 +1255,7 @@ public class example {
 <h3><i>2.Weak Reference:</i></h3>
 <ul>
 <li><h3>1. This type of reference is used in <i><ins>WeakHashMap</ins></i> to reference the entry objects . </h3></li>
-<li><h3>2. If JVM detects an object with only weak references (i.e. no strong or soft references linked to any object object), this object will be marked for garbage collection. </h3></li>
+<li><h3>2. If JVM detects an object with only weak references (i.e. no strong or soft references linked to any object), this object will be marked for garbage collection. </h3></li>
 <li><h3>3. To create such references <i><ins>java.lang.ref.WeakReference</ins></i> class is used. </h3></li>
 <li><h3>4. Weak Reference Objects are not the default type/class of Reference Object. They are explicitly specified while using them.</h3></li>
 
@@ -1276,7 +1276,7 @@ public class WeakRefexample {
         exceptions obj = new exceptions();
         obj.print();
 
-        // Weak Reference has type class[exceptions] of Reference Object[obj]
+        // Weak Reference has explicit type class[exceptions] of Reference Object[obj]
         WeakReference<exceptions> weak = new WeakReference<>(obj); 
 
         obj = null;
