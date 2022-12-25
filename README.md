@@ -1016,8 +1016,8 @@ sequenceDiagram
   
   java.util.Map->>java.util.AbstractMap:implements 
   java.util.AbstractMap->>java.util.IdentityHashMap:extends
-  
-  
+  java.io.Serializable->>java.util.IdentityHashMap:implements 
+  java.lang.Cloneable->>java.util.IdentityHashMap:implements 
 ```
 
 <li> <h3> 1. A IdentityHashMap is an extension of the AbstractMap class and it implements the Map interface. </h3> </li>
@@ -1029,9 +1029,11 @@ sequenceDiagram
 
 ```Syntax
 
-public class IdentityHashMap<K,​V> extends AbstractMap<K,​V> implements Map<K,​V>
+public class IdentityHashMap<K,​V> extends AbstractMap<K,​V> implements Map<K,​V> 
+,Serializable, Cloneable 
 
 ```
+</h3>
 <h2></h2>
 <h2 align="Center">Constructors of IdentityHashMap </h2>
 <ul>
@@ -1183,7 +1185,30 @@ It can be achieved by synchronizing on any object that encapsulate the map. If s
 
 <h1></h1>
 <h1 align="Center">Weak Hash Map </h1>
+
 <ul>
+
+```mermaid
+
+sequenceDiagram
+    
+  
+  java.util.Map->>java.util.AbstractMap:implements 
+  java.util.AbstractMap->>java.util.WeakHashMap:extends
+  
+  
+```
+
+<h3 align="Center">
+
+```Syntax
+
+public class WeakHashMap < K , V > extends AbstractMap< K , V > implements Map < K , V >
+
+```
+
+</h3>
+
 <li><h3>1. <i><ins>WeakHashMap</ins></i> is an implementation of the Map interface, that stores only weak references to its keys. </h3></li>
 <li><h3>2. Storing only weak references allows a key-value pair to be garbage-collected when its key is no longer referenced outside of the WeakHashMap. </h3></li>
 <li><h3>3. <i><ins>WeakHashMap</ins></i>  does not implement <i><ins>Cloneable interface</ins></i>, hence it doesnot have <i><ins>clone()</ins></i> functionality. </h3></li>
