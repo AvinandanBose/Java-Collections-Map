@@ -1326,4 +1326,6 @@ public class WeakRefexample {
 <li><h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/WeakRefexample.java"> Weak Reference Example</h3></li>
 </ul>
 </ul>
+<h2></h2>
+<h2 align="Center">Constructors of WeakHashMap </h2>
 </ul>
