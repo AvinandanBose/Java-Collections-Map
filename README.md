@@ -1191,4 +1191,63 @@ It can be achieved by synchronizing on any object that encapsulate the map. If s
 
 
 <li><h3>4. In <i><ins>WeakHashmap</ins></i>, When a key is discarded then its entry is automatically removed from the map, in other words, garbage collected. </h3></li>
+
+<h2> </h2>
+<h2 align="Center"> <i>WeakReference Vs Strong Reference[on Reference to Hash Map and Weak Map]</i> </h2>
+<ul>
+<h3><i>1.Strong Reference:</i></h3>
+
+```Syntax
+
+public class example {
+    public static void main(String[] args) {
+        example obj = new example();
+        obj = null;
+        System.gc();
+    }
+    
+    
+}
+
+```
+
+<h3><i>Here "obj" object has strong reference to the instance of class "example" .</i></h3>
+<h3><i>Hence Not eligible for garbage collection until:</i></h3>
+
+
+```Syntax
+
+obj = null 
+
+```
+<h3><i>i.e. The object is garbage collected only when the variable which was strongly referenced points to null.</i></h3>
+<h3><i>As 'obj' object is no longer referencing to the instance of class: "example".</i></h3>
+<h3><i><ins>Best example:</ins></i></h3>
+
+```Syntax
+
+class ex{
+    public void finalize(){
+        System.out.println("Finalize method called");
+    }
+}
+public class example {
+    public static void main(String[] args) {
+        ex obj = new ex();
+        obj.finalize();
+        obj = null;
+        System.gc();//Garbage Collector
+        obj.finalize();//will not call finalize method and throws Null Pointer Exception
+    }
+    
+    
+}
+
+```
+<ul>
+<li><h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/StrongRefexample.java"> Strong Reference Example</h3></li>
+</ul>
+<h3><i><ins>In HashMap, key objects have strong references. </ins></i></h3>
+
+</ul>
 </ul>
