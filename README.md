@@ -1203,7 +1203,7 @@ sequenceDiagram
 
 ```Syntax
 
-public class WeakHashMap < K , V > extends AbstractMap< K , V > implements Map < K , V >
+public class WeakHashMap<K,V> extends AbstractMap<K,V> implements Map<K,V>
 
 ```
 
