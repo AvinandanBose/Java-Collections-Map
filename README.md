@@ -1407,4 +1407,8 @@ with the same mappings as the specified Map.</td>
 </tr>
 </table>
 </ul>
+<h2></h2>
+<h2 align="Center">Methods of WeakHashMap </h2>
+<ul>
+</ul>
 </ul>
