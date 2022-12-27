@@ -1410,5 +1410,7 @@ with the same mappings as the specified Map.</td>
 <h2></h2>
 <h2 align="Center">Methods of WeakHashMap </h2>
 <ul>
+<li><h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/weakHashMap1.java"> 1.All Weak HashMap Methods</h3></li>
+
 </ul>
 </ul>
