@@ -1328,4 +1328,46 @@ public class WeakRefexample {
 </ul>
 <h2></h2>
 <h2 align="Center">Constructors of WeakHashMap </h2>
+<ul>
+
+<li><h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/constructWeakHashMap.java"> 1.WeakHashMap()</h3></li>
+
+```Syntax
+
+It is used to construct a default constructor of WeakHashMap.
+
+This constructor constructs a new, 
+empty WeakHashMap with the default initial capacity (16) 
+and the default load factor (0.75).
+    
+```
+<li><h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/constructWeakHashMap1.java"> 2.WeakHashMap(int initialCapacity)</h3></li>
+
+```Syntax
+
+This constructor constructs a new, 
+empty WeakHashMap with the given 
+initial capacity and 
+the default load factor, which is 0.75.
+    
+```
+
+<li><h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/constructWeakHashMap2.java"> 3.WeakHashMap(int initialCapacity, float loadFactor)</h3></li>
+
+```Syntax
+
+This constructor constructs a new, empty WeakHashMap 
+with the given initial capacity and the given load factor.
+    
+```
+
+<li><h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/constructWeakHashMap3.java"> 4.WeakHashMap(Map m)</h3></li>
+
+```Syntax
+
+This constructor constructs a new WeakHashMap ,
+with the same mappings as the specified Map.
+    
+```
+</ul>
 </ul>
