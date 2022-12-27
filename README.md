@@ -1413,5 +1413,89 @@ with the same mappings as the specified Map.</td>
 <li><h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/weakHashMap1.java"> 1.All Weak HashMap Methods</h3></li>
 <li><h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/weakhashmap2.java"> 2. Weak HashMap Vs Hash Map</h3></li>
 
+```Syntax
+Consider a Class:
+
+class demo{
+    @Override
+    public String toString() {
+        return "demo";
+    }
+    public void finalize(){
+        System.out.println("Finalize method called");
+    }
+
+}
+
+Now:
+
+class weakhashmap2{
+ public static void main(String[] args){
+  WeakHashMap<Object, Integer> map = new WeakHashMap<>();
+  demo d = new demo();
+  map.put(d, 1);
+   
+   Now:
+   
+   : Object is assigned to null :
+   
+   d = null;
+   
+   : And , Grabage Collector is called :
+   
+    System.gc();
+    
+    : Which will empty the Map as it is a Weak Reference :
+    : As, Weak Reference is cleared by gc :
+    
+    Next:
+    We input Key as d and an integer 1 in the map:
+    map.put(d, 1);
+    we know d has already assigned to null hence the output: Map:{null=1}
+    
+    Now we create another object say :
+    demo d2 = new demo();
+    map.put(d2, 2);
+    
+    So output will be: Map:{null=1,  demo=2}
+    
+    : Hence it signifies the WeakReference of Key, Value pair in Weak HashMap. :
+    
+    : But in Hash Map : 
+    
+    HashMap<Object, Integer> m = new HashMap<>();
+    demo d1 = new demo();
+    m.put(d1, 1);
+    
+    :Output: Map = {demo=1}
+    
+    d1 = null;//Object is referenced to null.
+    System.gc();//garbage collector is called.
+    
+    :And again if map is called:
+    :It will put Object → d1 and Integer→ 1 : 
+    :As HashMap is strongly referenced to Object → d1 and Integer→ 1:
+    
+    System.out.println( m);
+    
+    :Output →  {demo=1}:
+    
+     Now we create another object say :
+     demo d3 = new demo();
+     m.put(d3, 2);
+     System.out.println( m);
+      
+     :Output: Map = {demo=1, demo=2}
+     
+     :Note → d1,d2,d3 are different Objects of demo class :
+     :And are reffered to here as different keys : 
+     :For both HashMap and WeakHashMap : 
+     
+     
+  }
+}
+   
+
+```
 </ul>
 </ul>
