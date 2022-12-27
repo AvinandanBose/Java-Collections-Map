@@ -1369,5 +1369,42 @@ This constructor constructs a new WeakHashMap ,
 with the same mappings as the specified Map.
     
 ```
+
+<table>
+ <tr>
+    <th>Constructor</th>
+    <th>Does This</th>
+    
+   
+</tr> 
+<tr>
+  <td >WeakHashMap()</td>
+  <td >It is used to construct a default constructor of WeakHashMap.This constructor constructs a new, 
+empty WeakHashMap with the default initial capacity (16) 
+and the default load factor (0.75).</td>
+</tr>
+
+<tr>
+  <td >WeakHashMap(int initialCapacity)</td>
+  <td >This constructor constructs a new, 
+empty WeakHashMap with the given 
+initial capacity and 
+the default load factor, which is 0.75.</td>
+</tr>
+
+
+<tr>
+  <td >WeakHashMap(int initialCapacity, float loadFactor)</td>
+  <td >This constructor constructs a new, empty WeakHashMap 
+with the given initial capacity and the given load factor.</td>
+</tr>
+
+
+<tr>
+  <td >WeakHashMap(Map m)</td>
+  <td >This constructor constructs a new WeakHashMap ,
+with the same mappings as the specified Map.</td>
+</tr>
+</table>
 </ul>
 </ul>
