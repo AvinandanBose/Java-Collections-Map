@@ -1501,3 +1501,15 @@ class weakhashmap2{
 </ul>
 <h1></h1>
 <h1 align="Center">Tree Map</h1> 
+
+<ul>
+<li> <h3>1. The TreeMap in Java is used to implement Map interface . </h3></li>
+<li> <h3>2. The TreeMap in Java is used to implement  NavigableMap interface . </h3></li>
+<li> <h3>3. The TreeMap in Java is used to extend the abstract class :  <i>"AbstractMap"</i> . </h3></li>
+<li> <h3>4.TreeMap in Java does not allow null keys (like Map) and thus a NullPointerException is thrown.</h3></li>
+<li> <h3>5.Multiple null values can be associated with different keys in Tree Map.</h3></li>
+<li> <h3>6.TreeMap contains only unique elements.</h3></li>
+<li> <h3>7.TreeMap is non synchronized.</h3></li>
+<li> <h3>TreeMap maintains ascending order. As Tree Map implements <i>" Navigable Map" </i> and Navigable Map extends Sorted Map.
+Hence tree map maintains sorted structure of map i.e. in ascending order.</h3></li>
+<ul>
