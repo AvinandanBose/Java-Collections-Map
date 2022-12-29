@@ -1522,7 +1522,8 @@ sequenceDiagram
 
 ```Syntax
 
-public class TreeMap<K,V> extends AbstractMap<K,V>implements NavigableMap<K,V>,Cloneable,Serializable
+public class TreeMap<K,V> extends AbstractMap<K,V>
+                          implements NavigableMap<K,V>,Cloneable,Serializable
 
 public interface NavigableMap<K,V> extends SortedMap<K,V>
 
