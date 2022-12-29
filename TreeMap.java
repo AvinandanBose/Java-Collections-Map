@@ -33,8 +33,15 @@ class TreeMap1 {
 
         // Unsopported Operation Exception
         Map.Entry<Integer, String> f = tree_map.firstEntry();
-        f.setValue("My Value");
         System.out.println("First Entry: " + f);
+        Map.Entry<Integer, String> f1 = tree_map.lastEntry();
+        System.out.println("Last Entry: " + f1);
+        System.out.println(" " );
+        f.setValue("My Value");
+        System.out.println("After Change First Entry: " + f);
+     
+        f.setValue("My Value");
+        System.out.println("After Change Last Entry: " + f1);
         
     }
 
