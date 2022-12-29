@@ -1542,4 +1542,8 @@ public interface SortedMap<K,V> extends Map<K,V>
 <li> <h3>7.TreeMap is non synchronized.</h3></li>
 <li> <h3>8.TreeMap maintains ascending order. As Tree Map implements <i>" Navigable Map" </i> and Navigable Map extends Sorted Map.
 Hence tree map maintains sorted structure of map i.e. in ascending order.</h3></li>
+<li> <h3>9.<i>" Entry pairs " </i> returned by the methods in this class and its views represent snapshots of mappings at the time they were produced. <i>" Entry.SetValue "</i>  is only supported when we try to change every specific values of the keys through a loop , But do not support the <i>" Entry.setValue "</i> method for individual entries.And they throw <i> "Unsupported Operation Exception" .</i> </h3></li>
+<ul>
+<li><h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/TreeMap.java">Entry.SetValue in TreeMap → Eg</h3></li>
+</ul>
 <ul>
