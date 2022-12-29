@@ -1518,6 +1518,20 @@ sequenceDiagram
   java.lang.Cloneable->>java.util.TreeMap:implements 
 ```
 
+<h3 align="Center">
+
+```Syntax
+
+public class TreeMap<K,V> extends AbstractMap<K,V>implements NavigableMap<K,V>,Cloneable,Serializable
+
+public interface NavigableMap<K,V> extends SortedMap<K,V>
+
+public interface SortedMap<K,V> extends Map<K,V>
+
+```
+
+</h3>
+
 <li> <h3>1. The TreeMap in Java is used to implement Map interface . </h3></li>
 <li> <h3>2. The TreeMap in Java is used to implement  NavigableMap interface . </h3></li>
 <li> <h3>3. The TreeMap in Java is used to extend the abstract class :  <i>"AbstractMap"</i> . </h3></li>
