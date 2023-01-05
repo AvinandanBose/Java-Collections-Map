@@ -1687,6 +1687,13 @@ Hence Result is in descending order.
 
 <li><h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/TreeMap4.java"> 3.TreeMap(Map<? extends K,? extends V> m)</h3></li>
 
+```Syntax
+
+It is used to initialize a treemap with the entries from object of Map, 
+which will be sorted using the natural order of the keys.
+
+```
+
 </ul>
 
 </ul>
