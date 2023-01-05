@@ -1625,6 +1625,59 @@ Hence Result is in  ascending order.
 
 
 <li><h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/TreeMap3.java"> 2.b.TreeMap(Comparator<? super K> comparator)→Eg:2</h3></li>
+
+```Syntax
+
+Acc. to above eg:
+
+TreeMap2(no:1, name:"one", value:1)
+
+o1 and o2 are two object of TreeMap2,
+
+Therefore Comparison:
+
+o2.value - o1.value,
+i.e,1st Diff: 1-1 = 0
+
+TreeMap2(no:2, name:"two", value:2)
+
+Therefore Comparison:
+
+2nd Difference: 1-2 = -1
+
+TreeMap2(no:3, name:"three", value:3)
+
+o2.value: 1 - o1.value: 3 = -2
+
+o2.value: 2 - o1.value: 1 = -1
+
+TreeMap2(no:4, name:"four", value:4)
+
+o2.value: 2 - o1.value: 4 = -2
+
+o2.value: 3 - o1.value: 4 = -1
+
+Similary:
+TreeMap2(no:5, name:"five", value:5)
+
+o2.value: 2 - o2.value: 5 = -3
+
+o2.value: 3 - o2.value: 5 = -2
+
+o2.value: 4 - o2.value: 5 = -1
+
+
+....etc.
+
+Hence:
+
+if we see the comparison:
+
+-5 -4 -3 -2 -1 0 in descending order.
+
+Hence Result is in descending order.
+
+```
 </ul>
 
 </ul>
