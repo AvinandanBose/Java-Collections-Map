@@ -1546,4 +1546,7 @@ Hence tree map maintains sorted structure of map i.e. in ascending order.</h3></
 <ul>
 <li><h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/TreeMap.java">Entry.SetValue in TreeMap → Eg</h3></li>
 </ul>
+
+<h2></h2>
+<h2 align="Center">Constructors of WeakHashMap </h2>
 <ul>
