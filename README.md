@@ -1715,6 +1715,76 @@ And : TreeMap implements NavigableMap
 
 ```
 
+<table>
+ <tr>
+    <th>Constructor</th>
+    <th>Does This</th>
+    
+   
+</tr> 
+
+<tr>
+    <td>1.TreeMap()</td>
+    <td>
+
+It is used to construct a default constructor of TreeMap.
+
+It is used to construct an empty tree map,
+that will be sorted using the natural order of its key.
+
+</td>
+      
+</tr> 
+
+<tr>
+    <td>2.TreeMap(Comparator<? super K> comparator)</td>
+    <td>
+
+It is used to construct an empty tree-based map,
+that will be sorted using the comparator. 
+
+</td>
+      
+</tr> 
+
+<tr>
+    <td>3.TreeMap(Map<? extends K,? extends V> m)</td>
+    <td>
+
+It is used to initialize a treemap with the entries from object of Map, 
+which will be sorted using the natural order of the keys.
+
+</td>
+      
+</tr>
+
+<tr>
+    <td>4.TreeMap(SortedMap<K,? extends V> m)</td>
+    <td>
+
+It is used to initialize a treemap with the entries from object of SortedMap, 
+which will be sorted using the natural order of the keys.
+
+</td>
+      
+</tr>
+
+<tr>
+    <td>5.TreeMap(NavigableMap<K,? extends V> m)</td>
+    <td>
+
+It is used to initialize a treemap with the entries from object of NavigableMap, 
+which will be sorted using the natural order of the keys.
+
+Note :  NavigableMap extends SortedMap,
+And : TreeMap implements NavigableMap.
+
+</td>
+      
+</tr>
+
+</table>
+
 </ul>
 
 </ul>
