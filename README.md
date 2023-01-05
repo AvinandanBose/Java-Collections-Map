@@ -1548,5 +1548,5 @@ Hence tree map maintains sorted structure of map i.e. in ascending order.</h3></
 </ul>
 
 <h2></h2>
-<h2 align="Center">Constructors of WeakHashMap </h2>
+<h2 align="Center">Constructors of TreeMap </h2>
 <ul>
