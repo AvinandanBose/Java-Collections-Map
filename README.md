@@ -1550,3 +1550,14 @@ Hence tree map maintains sorted structure of map i.e. in ascending order.</h3></
 <h2></h2>
 <h2 align="Center">Constructors of TreeMap </h2>
 <ul>
+<li><h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/TreeMap1.java"> 1.TreeMap()</h3></li>
+
+```Syntax
+It is used to construct a default constructor of TreeMap.
+
+It is used to construct an empty tree map,
+that will be sorted using the natural order of its key.
+    
+```
+</ul>
+</ul>
