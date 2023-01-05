@@ -1559,5 +1559,18 @@ It is used to construct an empty tree map,
 that will be sorted using the natural order of its key.
     
 ```
+<h3>2. TreeMap(Comparator<? super K> comparator) </h3>
+
+```Syntax
+It is used to construct an empty tree-based map,
+that will be sorted using the comparator. 
+    
+```
+
+<ul>
+<li><h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/TreeMap2.java"> 2.a.TreeMap(Comparator<? super K> comparator)→Eg:1</h3></li>
+<li><h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/TreeMap3.java"> 2.b.TreeMap(Comparator<? super K> comparator)→Eg:2</h3></li>
+</ul>
+
 </ul>
 </ul>
