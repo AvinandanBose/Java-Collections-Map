@@ -1703,6 +1703,18 @@ which will be sorted using the natural order of the keys.
 
 ```
 
+<li><h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/TreeMap6.java"> 5.TreeMap(NavigableMap<K,? extends V> m)</h3></li>
+
+```Syntax
+
+It is used to initialize a treemap with the entries from object of NavigableMap, 
+which will be sorted using the natural order of the keys.
+
+Note :  NavigableMap extends SortedMap
+And : TreeMap implements NavigableMap
+
+```
+
 </ul>
 
 </ul>
