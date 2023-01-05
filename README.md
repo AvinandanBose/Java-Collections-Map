@@ -1694,6 +1694,15 @@ which will be sorted using the natural order of the keys.
 
 ```
 
+<li><h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/TreeMap5.java"> 4.TreeMap(SortedMap<K,? extends V> m)</h3></li>
+
+```Syntax
+
+It is used to initialize a treemap with the entries from object of SortedMap, 
+which will be sorted using the natural order of the keys.
+
+```
+
 </ul>
 
 </ul>
