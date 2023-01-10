@@ -1786,5 +1786,10 @@ And : TreeMap implements NavigableMap.
 </table>
 
 </ul>
-
+<h2></h2>
+<h2 align="Center">Methods of TreeMap </h2>
+<ul>
+<li><h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/TreeMapMethods.java"> 1.TreeMap Methods</h3></li>
+<h3><ins><i>Note:</ins> These methods are already part of WeakHashMap , IdentityHashMap and HashMap .</i> </h3>
+<ul>
 </ul>
