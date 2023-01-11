@@ -1793,6 +1793,15 @@ And : TreeMap implements NavigableMap.
 <h3><ins><i>Note:</ins> These methods are already part of WeakHashMap , IdentityHashMap and HashMap .</i> </h3>
 
 <h2>New Methods for TreeMap </h2>
+<ul>
+<li><h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/TreeMapMethods2.java"> 1.First Key</h3></li>
+
+```Syntax
+Returns the first (lowest) key currently in this map.
+
+```
+
+</ul>
 
 <ul>
 </ul>
