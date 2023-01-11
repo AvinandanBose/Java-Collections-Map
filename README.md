@@ -1812,10 +1812,10 @@ Returns a view of the portion of this map whose keys are strictly less than toKe
 headMap(toKey:Key, boolean inclusive:true/false) : 
 
 if true:
-Returns a view of the portion of this map whose keys are equal to toKey, if inclusive is true.
+Returns a view of the portion of this map whose keys are equal to toKey,if inclusive is true.
 
 if false:
-Returns a view of the portion of this map whose keys are less than toKey, if inclusive is true.
+Returns a view of the portion of this map whose keys are less than toKey,if inclusive is true.
 
 ```
 
