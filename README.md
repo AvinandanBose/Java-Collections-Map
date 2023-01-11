@@ -1818,6 +1818,12 @@ if false:
 Returns a view of the portion of this map whose keys are less than toKey,if inclusive is true.
 
 ```
+<li><h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/TreeMapMethods4.java"> 3.Last Key</h3></li>
+
+```Syntax
+Returns the last (highest) key currently in this map.
+
+```
 
 </ul>
 
