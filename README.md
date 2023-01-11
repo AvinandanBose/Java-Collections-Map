@@ -1801,6 +1801,24 @@ Returns the first (lowest) key currently in this map.
 
 ```
 
+<li><h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/TreeMapMethods3.java"> 2.Head Map</h3></li>
+
+```Syntax
+Returns a view of the portion of this map whose keys are strictly less than toKey.
+
+headMap(toKey:Key) : 
+Returns a view of the portion of this map whose keys are strictly less than toKey.
+
+headMap(toKey:Key, boolean inclusive:true/false) : 
+
+if true:
+Returns a view of the portion of this map whose keys are equal to toKey, if inclusive is true.
+
+if false:
+Returns a view of the portion of this map whose keys are less than toKey, if inclusive is true.
+
+```
+
 </ul>
 
 <ul>
