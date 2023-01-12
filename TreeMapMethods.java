@@ -1,4 +1,3 @@
-import java.util.ConcurrentModificationException;
 import java.util.Iterator;
 import java.util.TreeMap;
 
@@ -6,49 +5,47 @@ class TreeMapMethods {
     public static void main(String[] args) {
         TreeMap<Integer, String> tree_map = new TreeMap<>();
 
-        //Put
+        // Put
         tree_map.put(1, "one");
         tree_map.put(2, "two");
         tree_map.put(3, "three");
         tree_map.put(4, "four");
         System.out.println("TreeMap: " + tree_map);
 
-        //Clone
+        // Clone
         TreeMap<Integer, String> tree_map_clone = new TreeMap<>();
         tree_map_clone = (TreeMap<Integer, String>) tree_map.clone();
         System.out.println("TreeMap Clone: " + tree_map_clone);
 
-        //ContainsKey
-        Boolean b =  tree_map.containsKey(1);
+        // ContainsKey
+        Boolean b = tree_map.containsKey(1);
         System.out.println("TreeMap ContainsKey: " + b);
 
-        //ContainsValue
+        // ContainsValue
         Boolean c = tree_map.containsValue("one");
         System.out.println("TreeMap ContainsValue: " + c);
 
-        //forEach
+        // forEach
         tree_map.forEach((k, v) -> System.out.println("Key: " + k + " Value: " + v));
-        
-        //get
+
+        // get
         String g = tree_map.get(1);
         System.out.println("TreeMap Get: " + g);
         String g2 = tree_map.get(4);
         System.out.println("TreeMap Get: " + g2);
 
-        //getOrDefault
+        // getOrDefault
         String gd = tree_map.getOrDefault(1, "one");
         System.out.println("TreeMap GetOrDefault: " + gd);
         String gd2 = tree_map.getOrDefault(4, "four");
         System.out.println("TreeMap GetOrDefault: " + gd2);
 
-        //isEmpty
+        // isEmpty
         Boolean isEmpty = tree_map.isEmpty();
         System.out.println("TreeMap isEmpty: " + isEmpty);
 
-
-
-        //keySet
-        //++++++++++++++++++++++++++++++++++++++++++++
+        // keySet
+        // ++++++++++++++++++++++++++++++++++++++++++++
         System.out.println("TreeMap keySet: " + tree_map.keySet());
 
         // keySet().forEach()
@@ -88,7 +85,6 @@ class TreeMapMethods {
         tree_map.putAll(tree_map_clone);
         System.out.println("TreeMap putAll: " + tree_map);
 
-
         // keySet().clear()
         tree_map.keySet().clear();
         System.out.println("TreeMap keySet clear: " + tree_map.keySet());
@@ -96,50 +92,50 @@ class TreeMapMethods {
         tree_map.putAll(tree_map_clone);
         System.out.println("TreeMap putAll: " + tree_map);
 
-        //keySet().contains()
+        // keySet().contains()
         Boolean keySetContains = tree_map.keySet().contains(1);
         System.out.println("TreeMap keySet contains: " + keySetContains);
 
-        //keySet().containsAll()
+        // keySet().containsAll()
         Boolean keySetContainsAll = tree_map.keySet().containsAll(tree_map_clone.keySet());
         System.out.println("TreeMap keySet containsAll: " + keySetContainsAll);
 
-        //keySet().equals()
+        // keySet().equals()
         Boolean keySetEquals = tree_map.keySet().equals(tree_map_clone.keySet());
         System.out.println("TreeMap keySet equals: " + keySetEquals);
-        
-        //.....etc. of all Set operations except add() and addAll()
-        //+++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-        //putAll
+        // .....etc. of all Set operations except add() and addAll()
+        // +++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+        // putAll
         tree_map.putAll(tree_map_clone);
         System.out.println("TreeMap putAll: " + tree_map);
 
-        //remove(key:Key)
+        // remove(key:Key)
         tree_map.remove(1);
         System.out.println("TreeMap remove: " + tree_map);
 
-        //remove(key:Key, value:Value)
+        // remove(key:Key, value:Value)
         tree_map.remove(2, "two");
         System.out.println("TreeMap remove: " + tree_map);
 
-        //replace(key:Key, oldValue: Value , newValue: NewValue)
-        tree_map.replace(3,"three", "Three");
+        // replace(key:Key, oldValue: Value , newValue: NewValue)
+        tree_map.replace(3, "three", "Three");
         System.out.println("TreeMap replace: " + tree_map);
 
         tree_map.putAll(tree_map_clone);
 
-        //replaceAll
+        // replaceAll
 
-        tree_map.replaceAll((k,v)->v+"Value");
+        tree_map.replaceAll((k, v) -> v + "Value");
         System.out.println("TreeMap replaceAll: " + tree_map);
 
-        //size
+        // size
 
-        System.out.println("Size of the map:" + tree_map.size() );
+        System.out.println("Size of the map:" + tree_map.size());
 
-        //Values
-        //++++++++++++++++++++++++++++++++++++++++++++++++++//
+        // Values
+        // ++++++++++++++++++++++++++++++++++++++++++++++++++//
         tree_map.values().forEach(System.out::println);
         System.out.println(" ");
         tree_map.values().forEach((v) -> System.out.println(v));
@@ -157,7 +153,6 @@ class TreeMapMethods {
         System.out.println(" ");
 
         tree_map.putAll(tree_map_clone);
-      
 
         // removeIf
         tree_map.values().removeIf((v) -> v == "two");
@@ -166,7 +161,7 @@ class TreeMapMethods {
         System.out.println(" ");
         // retainAll
         TreeMap<Integer, String> map1 = new TreeMap<>();
-        map1.put(1,"one");
+        map1.put(1, "one");
         map1.put(2, "two");
         map1.put(3, "three");
         map1.put(4, "four");
@@ -197,16 +192,17 @@ class TreeMapMethods {
 
         // Iterator in map.values()→TreeMap
         Iterator<String> itr = tree_map.values().iterator();
-        try{
-            
-        while (itr.hasNext()) {
-            System.out.println(itr.next());
+        try {
+
+            while (itr.hasNext()) {
+                System.out.println(itr.next());
+            }
+
+        } catch (Exception e) {
+            System.out.println("Exception: " + e);
+            e.printStackTrace();
         }
 
-        }catch(ConcurrentModificationException e){
-            System.out.println("ConcurrentModificationException");
-        }
-        
         System.out.println(" ");
         // Iterator remove
         itr = tree_map.values().iterator();
@@ -218,8 +214,7 @@ class TreeMapMethods {
         System.out.println("Map:" + tree_map);
         System.out.println(" ");
 
-
-        //++++++++++++++++++++++++++++++++++++++++++++++++//
+        // ++++++++++++++++++++++++++++++++++++++++++++++++//
 
         tree_map.putAll(tree_map_clone);
         System.out.println(" ");
@@ -232,21 +227,21 @@ class TreeMapMethods {
         System.out.println("Map:" + tree_map);
         System.out.println(" ");
 
-        //Compute
-        tree_map.compute(1, (k,v)->v+"Value");
+        // Compute
+        tree_map.compute(1, (k, v) -> v + "Value");
         System.out.println(" ");
         System.out.println("Map:" + tree_map);
         System.out.println(" ");
 
         // computeIfAbsent
 
-        tree_map.computeIfAbsent(7, (k)->"seven");
+        tree_map.computeIfAbsent(7, (k) -> "seven");
         System.out.println(" ");
         System.out.println("Map:" + tree_map);
         System.out.println(" ");
 
         // computeIfPresent
-        tree_map.computeIfPresent(2, (k,v)->v+"Value");
+        tree_map.computeIfPresent(2, (k, v) -> v + "Value");
         System.out.println(" ");
         System.out.println("Map:" + tree_map);
         System.out.println(" ");
@@ -256,7 +251,6 @@ class TreeMapMethods {
         System.out.println(tree_map);
         tree_map.merge(7, "g", (v1, v2) -> v2);
         System.out.println(tree_map);
-        
 
         tree_map.forEach((key, value) -> tree_map.merge(key, value, (v1, v2) -> v1 + v2));
         System.out.println(tree_map);
@@ -264,17 +258,16 @@ class TreeMapMethods {
         tree_map.merge(7, "gg", (v1, v2) -> null); // removes the entry
         System.out.println(tree_map);
 
-        //replace(key:Key, value:Value)
+        // replace(key:Key, value:Value)
         tree_map.replace(1, "one");
         System.out.println(tree_map);
 
-        //replace(key:Key, oldValue: Value , newValue: NewValue)[Re-created]
+        // replace(key:Key, oldValue: Value , newValue: NewValue)[Re-created]
         tree_map.replace(1, "one", "oneValue");
         System.out.println(tree_map);
 
-
-        //EntrySet
-        //++++++++++++++++++++++++++++++++++++++++++++++++++//
+        // EntrySet
+        // ++++++++++++++++++++++++++++++++++++++++++++++++++//
         System.out.println(tree_map.entrySet());
 
         // entrySet().forEach()
@@ -307,7 +300,7 @@ class TreeMapMethods {
         tree_map.entrySet().removeAll(tree_map_clone.entrySet());
         System.out.println("After removeAll:" + tree_map);
 
-        //++++++++++++++++++++++++++++++++++++++++++++++++++//
+        // ++++++++++++++++++++++++++++++++++++++++++++++++++//
         tree_map.putAll(tree_map_clone);
 
         // equals
