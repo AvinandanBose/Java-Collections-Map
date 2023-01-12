@@ -1513,9 +1513,14 @@ class weakhashmap2{
 <ul>
 <li> <h3>Comparator() - Example</h3></li>
 <ul>
-<li><h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/SortedMap1.java"> 1.Comparator - Eg (1)</h3></li>
-<li><h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/SortedMap2.java"> 2.Comparator - Eg (2)</h3></li>
+<li><h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/SortedMap1.java"> 1.Comparator - Eg (1)</a></h3></li>
+<li><h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/SortedMap2.java"> 2.Comparator - Eg (2)</a></h3></li>
 </ul>
+<li><h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/SortedMap3.java"> 3.FirstKey()</a></h3></li>
+<li><h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/SortedMap4.java"> 4.LastKey()</a></h3></li>
+<li><h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/SortedMap5.java"> 5.HeapMap(toKey:Key)</a></h3></li>
+<li><h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/SortedMap6.java"> 6.TailMap(fromKey:Key)</a></h3></li>
+<li><h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/SortedMap7.java"> 7.SubMap(fromKey:Key, toKey:Key)</a></h3></li>
 </ul>
 </ul>
 <h1></h1>
