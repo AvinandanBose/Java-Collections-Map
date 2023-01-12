@@ -1505,7 +1505,7 @@ class weakhashmap2{
 
 </ul>
 <h1></h1>
-<h1 align="Center">C.Sorted Map - Interface</h1>
+<h1 align="Center">C.  Sorted Map - Interface</h1>
 
 <ul>
 
