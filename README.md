@@ -1,7 +1,7 @@
 # JavaUtilMap
 Here is all about Map of Java
 
-<h1>1. AbstractMap </h1>
+<h1>1. AbstractMap[Abstract Class] </h1>
 <ul>
 <li> <h3> 1. Every class of Java is inherited  from <i> java.lang.Object </i>  </h3></li>
 <li> <h3> 2. The <i> AbstractMap </i> class is the base class of the map classes in Java.</h3></li>
@@ -69,7 +69,7 @@ public abstract class AbstractMap<K,V> extends Object, implements Map<K,V>
 
 </ul>
 
-<h1>2. Map Interface </h1>
+<h1 align ="center">A. Map Interface </h1>
 
 <ul>
 <li><h3>1. A <i> map</i> stores data in Key/Value pairs much like an array.</h3></li>
@@ -1500,12 +1500,12 @@ class weakhashmap2{
 </ul>
 </ul>
 <h1></h1>
-<h1 align="Center">Navigable Map - Interface</h1>
+<h1 align="Center">B.Navigable Map - Interface</h1>
 <ul>
 
 </ul>
 <h1></h1>
-<h1 align="Center">Sorted Map - Interface</h1>
+<h1 align="Center">C.Sorted Map - Interface</h1>
 
 <ul>
 
