@@ -69,7 +69,7 @@ public abstract class AbstractMap<K,V> extends Object, implements Map<K,V>
 
 </ul>
 
-<h1 align ="center">A. Map Interface </h1>
+<h1 align ="center">A. Map - Interface </h1>
 
 <ul>
 <li><h3>1. A <i> map</i> stores data in Key/Value pairs much like an array.</h3></li>
