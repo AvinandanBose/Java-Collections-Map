@@ -1508,6 +1508,15 @@ class weakhashmap2{
 (elements can be traversed in sorted order of keys). </h3></li>
 
 <li> <h3>The class that implements this interface is TreeMap.</h3></li>
+<h2></h2>
+<h2 align="Center">Methods of Sorted Map - Interface</h2>
+<ul>
+<li> <h3>Comparator() - Example</h3></li>
+<ul>
+<li><h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/SortedMap1.java"> 1.Comparator - Eg (1)</h3></li>
+<li><h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/SortedMap2.java"> 2.Comparator - Eg (2)</h3></li>
+</ul>
+</ul>
 </ul>
 <h1></h1>
 <h1 align="Center">C.Navigable Map - Interface</h1>
