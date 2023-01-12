@@ -1500,12 +1500,12 @@ class weakhashmap2{
 </ul>
 </ul>
 <h1></h1>
-<h1 align="Center">B.Navigable Map - Interface</h1>
+<h1 align="Center">B.Sorted Map - Interface</h1>
 <ul>
 
 </ul>
 <h1></h1>
-<h1 align="Center">C.  Sorted Map - Interface</h1>
+<h1 align="Center">C.Navigable Map - Interface</h1>
 
 <ul>
 
