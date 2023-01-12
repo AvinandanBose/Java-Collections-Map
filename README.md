@@ -1501,6 +1501,18 @@ class weakhashmap2{
 </ul>
 <h1></h1>
 <h1 align="Center">B.Sorted Map - Interface</h1>
+
+<h3 align="center">
+
+```Syntax
+
+public interface SortedMap<K, V> extends Map<K, V>
+
+```
+
+</h3>
+
+
 <ul>
 <li> <h3> SortedMap is an interface in the collection framework. </h3></li>
 
@@ -1511,7 +1523,7 @@ class weakhashmap2{
 <h2></h2>
 <h2 align="Center">Methods of Sorted Map - Interface</h2>
 <ul>
-<li> <h3>Comparator() - Example</h3></li>
+<li> <h3>1.Comparator() - Example</h3></li>
 <ul>
 <li><h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/SortedMap1.java"> 1.Comparator - Eg (1)</a></h3></li>
 <li><h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/SortedMap2.java"> 2.Comparator - Eg (2)</a></h3></li>
@@ -1527,21 +1539,21 @@ or null if this map uses the natural ordering of its keys.
 
 ```
 </ul>
-<li><h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/SortedMap3.java"> 3.FirstKey()</a></h3></li>
+<li><h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/SortedMap3.java"> 2.FirstKey()</a></h3></li>
 
 ```Syntax
 Returns the first (lowest) key currently in this map.
 
 ```
 
-<li><h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/SortedMap4.java"> 4.LastKey()</a></h3></li>
+<li><h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/SortedMap4.java"> 3.LastKey()</a></h3></li>
 
 ```Syntax
 Returns the last (highest) key currently in this map.
 
 ```
 
-<li><h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/SortedMap5.java"> 5.HeapMap(toKey:Key)</a></h3></li>
+<li><h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/SortedMap5.java"> 4.HeapMap(toKey:Key)</a></h3></li>
 
 ```Syntax
 
@@ -1550,7 +1562,7 @@ Returns a view of the portion of this map whose keys are strictly less than toKe
 
 ```
 
-<li><h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/SortedMap6.java"> 6.TailMap(fromKey:Key)</a></h3></li>
+<li><h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/SortedMap6.java"> 5.TailMap(fromKey:Key)</a></h3></li>
 
 ```Syntax
 
@@ -1558,7 +1570,7 @@ tailMap(fromKey:Key) :
 Returns a view of the portion of this map whose keys are greater than and equal to fromKey.
 
 ```
-<li><h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/SortedMap7.java"> 7.SubMap(fromKey:Key, toKey:Key)</a></h3></li>
+<li><h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/SortedMap7.java"> 6.SubMap(fromKey:Key, toKey:Key)</a></h3></li>
 
 ```Syntax
 
@@ -1567,8 +1579,84 @@ i.e. including fromKey and to toKey, exclusive i.e. excluding toKey.
 
 ```
 
+<table>
+ <tr>
+    <th>Methods</th>
+    <th>Does This</th>
+    
+   
+</tr> 
+
+<tr>
+    <td>1.Comparator()</td>
+    <td>
+
+A comparison function, which imposes a total ordering on some collection of objects. 
+Comparators can also be used to control the order of  sorted maps .
+Here,It returns the comparator used to order the keys in this map, 
+or null if this map uses the natural ordering of its keys.
+
+</td>
+      
+</tr> 
+
+<tr>
+    <td>2.FirstKey()</td>
+    <td>
+
+Returns the first (lowest) key currently in this map.
+
+</td>
+      
+</tr> 
+
+<tr>
+    <td>3.LastKey()</td>
+    <td>
+
+Returns the last (highest) key currently in this map.
+
+</td>
+      
+</tr>
+
+<tr>
+    <td>4.HeapMap(toKey:Key)</td>
+    <td>
+
+Returns a view of the portion of this map whose keys are strictly less than toKey.
+
+</td>
+      
+</tr>
+
+<tr>
+    <td>5.TailMap(fromKey:Key)</td>
+    <td>
+
+Returns a view of the portion of this map whose keys are greater than and equal to fromKey.
+
+</td>
+      
+</tr>
+
+
+<tr>
+    <td>6.SubMap(fromKey:Key, toKey:Key)</td>
+    <td>
+
+Returns a view of the portion of this map whose keys range from fromKey, inclusive, 
+i.e. including fromKey and to toKey, exclusive i.e. excluding toKey.
+
+</td>
+      
+</tr>
+
+</table>
+
 </ul>
 </ul>
+
 <h1></h1>
 <h1 align="Center">C.Navigable Map - Interface</h1>
 
