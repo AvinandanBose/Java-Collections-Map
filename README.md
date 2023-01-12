@@ -1502,7 +1502,12 @@ class weakhashmap2{
 <h1></h1>
 <h1 align="Center">B.Sorted Map - Interface</h1>
 <ul>
+<li> <h3> SortedMap is an interface in the collection framework. </h3></li>
 
+<li> <h3>This interface extends the Map interface and provides a total ordering of its elements ,
+(elements can be traversed in sorted order of keys). </h3></li>
+
+<li> <h3>The class that implements this interface is TreeMap.</h3></li>
 </ul>
 <h1></h1>
 <h1 align="Center">C.Navigable Map - Interface</h1>
