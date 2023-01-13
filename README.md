@@ -1717,6 +1717,66 @@ via the Iterator.remove, Set.remove, removeAll, retainAll, and clear operations.
 
 ```
 
+<li><h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/NavigableMap4.java"> 4.descendingMap</a></h3></li>
+
+```Syntax
+Returns a reverse order view of the mappings contained in this map. 
+
+```
+
+<li><h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/NavigableMap5.java"> 5.firstEntry</a></h3></li>
+
+```Syntax
+Returns a key-value mapping associated with the least key in this map, 
+or null if the map is empty.
+
+```
+
+<li><h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/NavigableMap6.java"> 6.floorEntry</a></h3></li>
+
+```Syntax
+Returns a key-value mapping associated with the greatest key less than 
+or equal to the given key, or null if there is no such key.
+
+```
+
+<li><h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/NavigableMap7.java"> 7.floorKey</a></h3></li>
+
+```Syntax
+Returns the greatest key less than or equal to the given key,
+or null if there is no such key.
+
+```
+
+<li><h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/NavigableMap8.java"> 8.headMap(K toKey, boolean inclusive)</a></h3></li>
+
+```Syntax
+Returns a view of the portion of this map whose keys are less than 
+(or equal to, if inclusive is true) toKey.
+
+if true:
+Returns a view of the portion of this map whose keys are equal to toKey,if inclusive is true.
+
+if false:
+Returns a view of the portion of this map whose keys are less than toKey,if inclusive is false.
+
+```
+
+<li><h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/NavigableMap9.java"> 9.higherEntry</a></h3></li>
+
+```Syntax
+Returns a key-value mapping associated with the least key strictly greater than the given key,
+or null if there is no such key.
+
+```
+
+<li><h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/NavigableMap10.java"> 10.higherKey</a></h3></li>
+
+```Syntax
+Returns the least key strictly greater than the given key, or null if there is no such key.
+
+```
+
 </ul>
 </ul>
 
