@@ -1815,6 +1815,44 @@ via the Iterator.remove, Set.remove, removeAll, retainAll, and clear operations.
 
 ```
 
+<li><h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/NavigableMap15.java"> 15.pollFirstEntry</a></h3></li>
+
+```Syntax
+
+Removes and returns a key-value mapping associated with the least key in this map, 
+or null if the map is empty.
+
+```
+
+<li><h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/NavigableMap16.java"> 16.pollLastEntry</a></h3></li>
+
+```Syntax
+
+Removes and returns a key-value mapping associated with the greatest key in this map, 
+or null if the map is empty.
+
+```
+
+
+<li><h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/NavigableMap17.java"> 17.SubMap( fromKey:Key, boolean fromInclusive:true/false, toKey:Key, boolean toInclusive:true/false)</a></h3></li>
+
+```Syntax
+
+Returns a view of the portion of this map whose keys range from fromKey to toKey. 
+If fromKey and toKey are equal, the returned map is empty 
+unless fromInclusive and toInclusive are both true.
+
+```
+
+<li><h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/NavigableMap18.java"> 18.tailMap(fromKey :Key, boolean inclusive: true/false)</a></h3></li>
+
+```Syntax
+
+Returns a view of the portion of this map whose keys are greater than, 
+(or equal to, if inclusive is true) fromKey.
+
+```
+
 </ul>
 </ul>
 
