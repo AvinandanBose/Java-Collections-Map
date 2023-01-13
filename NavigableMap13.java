@@ -11,11 +11,11 @@ public class NavigableMap13 {
         map.put(5.6f, 1);
         map.put(6.8f, 3);
         System.out.println("Map:" + map);
-        System.out.println("lowerEntry:" + map.lowerKey(3.0f));
+        System.out.println("lowerKey:" + map.lowerKey(3.0f));
         // i.e. if less than 3.4f then it returns Key:2.6f  (LowerKey)
-        System.out.println("lowerEntry:" + map.lowerKey(4.3f));
+        System.out.println("lowerKey:" + map.lowerKey(4.3f));
         // i.e. if equal to 4.3f then it returns Key:3.4f  (LowerKey)
-        System.out.println("lowerEntry:" + map.lowerKey(1.8f));
+        System.out.println("lowerKey:" + map.lowerKey(1.8f));
         // i.e. if equal to 1.8f then it returns null -- No LowerKey
         
     }
