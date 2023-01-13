@@ -2149,38 +2149,7 @@ And : TreeMap implements NavigableMap.
 <li><h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/TreeMapMethods.java"> 1.TreeMap Methods</h3></li>
 <h3><ins><i>Note:</ins> These methods are already part of WeakHashMap , IdentityHashMap and HashMap .</i> </h3>
 
-<h2>New Methods for TreeMap </h2>
-<ul>
-<li><h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/TreeMapMethods2.java"> 1.First Key</h3></li>
 
-```Syntax
-Returns the first (lowest) key currently in this map.
-
-```
-
-<li><h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/TreeMapMethods3.java"> 2.Head Map</h3></li>
-
-```Syntax
-Returns a view of the portion of this map whose keys are strictly less than toKey.
-
-headMap(toKey:Key) : 
-Returns a view of the portion of this map whose keys are strictly less than toKey.
-
-headMap(toKey:Key, boolean inclusive:true/false) : 
-
-if true:
-Returns a view of the portion of this map whose keys are equal to toKey,if inclusive is true.
-
-if false:
-Returns a view of the portion of this map whose keys are less than toKey,if inclusive is true.
-
-```
-<li><h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/TreeMapMethods4.java"> 3.Last Key</h3></li>
-
-```Syntax
-Returns the last (highest) key currently in this map.
-
-```
 
 </ul>
 
