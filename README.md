@@ -1679,7 +1679,7 @@ public interface SortedMap<K, V> extends Map<K, V>
 <li> <h3>A NavigableMap can be easily accessed and traversed in either ascending or descending key order. </h3></li>
 
 <li> <h3>It belongs to java.util package and It is an extension of SortedMap which provides convenient navigation methods.</h3></li>
-<li> <h3>As it extends Sorted Map , hence methods of all Sorted Map interface can be accessed by Sorted Map .</h3></li>
+<li> <h3>As it extends Sorted Map , hence methods of all Sorted Map interface can be accessed by Navigable Map .</h3></li>
 <li> <h3>These Navigation Methods  are discussed below.</h3></li>
 </ul>
 
