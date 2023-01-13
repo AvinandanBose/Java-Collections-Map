@@ -1654,15 +1654,33 @@ i.e. including fromKey and to toKey, exclusive i.e. excluding toKey.
 
 </table>
 
+<h3> <i> <ins>Note: </ins> SortedMap interface extends Map interface , hence it also inherits all functions from Map interface. </i></h3>
 </ul>
 </ul>
 
 <h1></h1>
 <h1 align="Center">C.Navigable Map - Interface</h1>
 
+<h3 align="center">
+
+```Syntax
+
+public interface NavigableMap<K,V> extends SortedMap<K,V>
+
+public interface SortedMap<K, V> extends Map<K, V>
+
+```
+
+</h3>
+
 <ul>
+<li> <h3> The NavigableMap interface is a member of the Java Collection Framework. </h3></li>
 
+<li> <h3>A NavigableMap can be easily accessed and traversed in either ascending or descending key order. </h3></li>
 
+<li> <h3>It belongs to java.util package and It is an extension of SortedMap which provides convenient navigation methods.</h3></li>
+<li> <h3>As it extends Sorted Map , hence methods of all Sorted Map interface can be accessed by Sorted Map .</h3></li>
+<li> <h3>These Navigation Methods  are discussed below.</h3></li>
 </ul>
 
 <h1></h1>
