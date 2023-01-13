@@ -1553,7 +1553,7 @@ Returns the last (highest) key currently in this map.
 
 ```
 
-<li><h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/SortedMap5.java"> 4.HeapMap(toKey:Key)</a></h3></li>
+<li><h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/SortedMap5.java"> 4.HeadMap(toKey:Key)</a></h3></li>
 
 ```Syntax
 
@@ -1621,7 +1621,7 @@ Returns the last (highest) key currently in this map.
 </tr>
 
 <tr>
-    <td>4.HeapMap(toKey:Key)</td>
+    <td>4.HeadMap(toKey:Key)</td>
     <td>
 
 Returns a view of the portion of this map whose keys are strictly less than toKey.
