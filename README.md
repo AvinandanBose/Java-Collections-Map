@@ -1681,6 +1681,43 @@ public interface SortedMap<K, V> extends Map<K, V>
 <li> <h3>It belongs to java.util package and It is an extension of SortedMap which provides convenient navigation methods.</h3></li>
 <li> <h3>As it extends Sorted Map , hence methods of all Sorted Map interface can be accessed by Navigable Map .</h3></li>
 <li> <h3>These Navigation Methods  are discussed below.</h3></li>
+
+<h2></h2>
+<h2 align="center" > Methods of Navigable Map </h2>
+<ul>
+
+<li><h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/NavigableMap1.java"> 1.ceilingEntry</a></h3></li>
+
+```Syntax
+Returns a key-value mapping associated with the least key greater than 
+or equal to the given key, or null if there is no such key.
+
+```
+
+<li><h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/NavigableMap2.java"> 2.ceilingKey</a></h3></li>
+
+```Syntax
+Returns the least key greater than or equal to the given key, 
+or null if there is no such key.
+
+```
+
+<li><h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/NavigableMap3.java"> 3.descendingKeySet</a></h3></li>
+
+```Syntax
+Returns a reverse order NavigableSet view of the keys contained in this map.
+The set's iterator returns the keys in descending order. 
+The set is backed by the map, so changes to the map are reflected in the set, and vice-versa. 
+If the map is modified while an iteration over the set is in progress 
+(except through the iterator's own remove operation), the results of the iteration are undefined. 
+The set supports element removal, which removes the corresponding mapping from the map, 
+via the Iterator.remove, Set.remove, removeAll, retainAll, and clear operations. 
+
+:It does not support the add or addAll operations:
+
+```
+
+</ul>
 </ul>
 
 <h1></h1>
