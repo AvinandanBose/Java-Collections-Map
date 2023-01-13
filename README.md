@@ -1777,6 +1777,44 @@ Returns the least key strictly greater than the given key, or null if there is n
 
 ```
 
+<li><h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/NavigableMap11.java"> 11.lastEntry</a></h3></li>
+
+```Syntax
+Returns a key-value mapping associated with the greatest key in this map, 
+or null if the map is empty.
+
+```
+
+<li><h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/NavigableMap12.java"> 12.lowerEntry</a></h3></li>
+
+```Syntax
+Returns a key-value mapping associated with the greatest key strictly less than the given key, 
+or null if there is no such key.
+
+```
+
+<li><h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/NavigableMap13.java"> 13.lowerKey</a></h3></li>
+
+```Syntax
+Returns the greatest key strictly less than the given key, or null if there is no such key.
+
+```
+
+<li><h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/NavigableMap14.java"> 14.navigableKeySet</a></h3></li>
+
+```Syntax
+
+Returns a NavigableSet view of the keys contained in this map. 
+The set's iterator returns the keys in ascending order. 
+The set is backed by the map, so changes to the map are reflected in the set, and vice-versa. 
+The set supports element removal, which removes the corresponding mapping from the map, 
+via the Iterator.remove, Set.remove, removeAll, retainAll, and clear operations. 
+
+
+:It does not support the add or addAll operations:
+
+```
+
 </ul>
 </ul>
 
