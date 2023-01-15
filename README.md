@@ -1853,6 +1853,210 @@ Returns a view of the portion of this map whose keys are greater than,
 
 ```
 
+<table>
+ <tr>
+    <th>Methods</th>
+    <th>Does This</th>
+    
+</tr> 
+<tr>
+  <td >1.ceilingEntry</td>
+  <td >
+Returns a key-value mapping associated with the least key greater than 
+or equal to the given key, or null if there is no such key.
+
+</td> 
+  
+</tr>
+<tr>
+  <td >2.ceilingKey</td>
+  <td >
+Returns the least key greater than or equal to the given key, 
+or null if there is no such key.
+</td> 
+</tr>
+<tr>
+  <td >3.descendingKeySet</td>
+  <td >
+
+Returns a reverse order NavigableSet view of the keys contained in this map.
+The set's iterator returns the keys in descending order. 
+The set is backed by the map, so changes to the map are reflected in the set, and vice-versa. 
+If the map is modified while an iteration over the set is in progress 
+(except through the iterator's own remove operation), the results of the iteration are undefined. 
+The set supports element removal, which removes the corresponding mapping from the map, 
+via the Iterator.remove, Set.remove, removeAll, retainAll, and clear operations. 
+It does not support the add or addAll operations.
+
+</td> 
+  
+</tr>
+<tr>
+  <td>4.descendingMap</td>
+
+<td>
+Returns a reverse order view of the mappings contained in this map.
+
+</td>
+ 
+</tr>
+
+<tr>
+  <td>5.firstEntry</td>
+
+<td>
+Returns a key-value mapping associated with the least key in this map, 
+or null if the map is empty.
+
+</td>
+ 
+</tr>
+
+<tr>
+  <td>6.floorEntry</td>
+
+<td>
+Returns a key-value mapping associated with the greatest key less than 
+or equal to the given key, or null if there is no such key.
+
+</td>
+ 
+</tr>
+
+<tr>
+  <td>7.floorKey</td>
+
+<td>
+Returns the greatest key less than or equal to the given key,
+or null if there is no such key.
+</td>
+ 
+</tr>
+
+
+<tr>
+  <td>8.headMap(K toKey, boolean inclusive)</td>
+
+<td>
+Returns a view of the portion of this map whose keys are less than 
+(or equal to, if inclusive is true) toKey.
+
+if true:
+Returns a view of the portion of this map whose keys are equal to toKey,if inclusive is true.
+
+if false:
+Returns a view of the portion of this map whose keys are less than toKey,if inclusive is false.
+</td>
+ 
+</tr>
+
+<tr>
+  <td>9.higherEntry</td>
+
+<td>
+Returns a key-value mapping associated with the least key strictly greater than the given key,
+or null if there is no such key.
+</td>
+ 
+</tr>
+
+<tr>
+  <td>10.higherKey</td>
+
+<td>
+Returns the least key strictly greater than the given key, or null if there is no such key.
+</td>
+ 
+</tr>
+
+<tr>
+  <td>11.lastEntry</td>
+
+<td>
+Returns a key-value mapping associated with the greatest key in this map, 
+or null if the map is empty.
+</td>
+ 
+</tr>
+
+<tr>
+  <td>12.lowerEntry</td>
+
+<td>
+Returns a key-value mapping associated with the greatest key strictly less than the given key, 
+or null if there is no such key.
+</td>
+ 
+</tr>
+
+<tr>
+  <td>13.lowerKey</td>
+
+<td>
+Returns the greatest key strictly less than the given key, or null if there is no such key.
+</td>
+ 
+</tr>
+
+<tr>
+  <td>14.navigableKeySet</td>
+
+<td>
+Returns a NavigableSet view of the keys contained in this map. 
+The set's iterator returns the keys in ascending order. 
+The set is backed by the map, so changes to the map are reflected in the set, and vice-versa. 
+The set supports element removal, which removes the corresponding mapping from the map, 
+via the Iterator.remove, Set.remove, removeAll, retainAll, and clear operations. 
+It does not support the add or addAll operations.
+</td>
+ 
+</tr>
+
+<tr>
+  <td>15.pollFirstEntry</td>
+
+<td>
+Removes and returns a key-value mapping associated with the least key in this map, 
+or null if the map is empty.
+</td>
+ 
+</tr>
+
+<tr>
+  <td>16.pollLastEntry</td>
+
+<td>
+Removes and returns a key-value mapping associated with the greatest key in this map, 
+or null if the map is empty.
+</td>
+ 
+</tr>
+
+
+<tr>
+  <td>17.SubMap( fromKey:Key, boolean fromInclusive:true/false, toKey:Key, boolean toInclusive:true/false)</td>
+
+<td>
+Returns a view of the portion of this map whose keys range from fromKey to toKey. 
+If fromKey and toKey are equal, the returned map is empty 
+unless fromInclusive and toInclusive are both true.
+</td>
+ 
+</tr>
+
+
+<tr>
+  <td>18.tailMap(fromKey :Key, boolean inclusive: true/false)</td>
+
+<td>
+Returns a view of the portion of this map whose keys are greater than, 
+(or equal to, if inclusive is true) fromKey.
+</td>
+ 
+</tr>
+</table>
+
+
 </ul>
 </ul>
 
