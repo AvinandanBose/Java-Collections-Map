@@ -2356,8 +2356,49 @@ And : TreeMap implements NavigableMap.
 <li><h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/TreeMapMethods2.java"> 2.TreeMap Methods[Sorted Map Interface Methods]</h3></li>
 <h3><ins><i>Note:</ins> These methods are already part of Sorted Map Interface Methods, as TreeMap implements NavigableMap and NavigableMap extends SortedMap .</i> </h3>
 
+<li><h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/TreeMapMethods3.java"> 3.TreeMap Methods[Navigable Map Interface Methods]</h3></li>
 
+```Syntax
+Suppose we have descendingKeySet() or navigableKeySet() functions:
 
+Then:
+
+The Set that will be produced by those function can be reserved in Set variable/object.
+
+1. Set<Type> set_var = TreeMap.navigableKeySet();
+
+2. Set<Type> set_var = TreeMap.descendingKeySet();
+
+Similary for Entry say, lastEntry() or pollFirstEntry():
+
+Then: 
+
+It calls for Maps.Entry and reserves such entries under its variable/object.
+
+i.e. 
+Import java.util.Map.Entry;
+Entry<Type1, Type2> entry_var = TreeMap.pollLastEntry();
+
+or:
+Map.Entry <Type1, Type2> entry_var = TreeMap.pollLastEntry();
+
+Similary for tailMap() or subMap() type Functions:
+
+They are always stored under the Map object/variable.
+
+i.e.
+
+ Map<Type1, Type2> map_var = TreeMap.tailMap(fromKey:Key, inclusive: true/false);
+ 
+ If we want to store any key object then it can be store under it's type varibale:
+ 
+ Eg:
+ TreeMap<Float, String> treeMap = new TreeMap<>();
+ Float float_var = treeMap.lowerKey(4.0f);
+
+```
+
+<h3><ins><i>Note:</ins> These methods are already part of Navigable Map Interface Methods, as TreeMap implements NavigableMap  .</i> </h3>
 </ul>
 
 </ul>
