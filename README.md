@@ -2353,6 +2353,9 @@ And : TreeMap implements NavigableMap.
 <li><h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/TreeMapMethods.java"> 1.TreeMap Methods</h3></li>
 <h3><ins><i>Note:</ins> These methods are already part of WeakHashMap , IdentityHashMap and HashMap .</i> </h3>
 
+<li><h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/TreeMapMethods2.java"> 2.TreeMap Methods[Sorted Map Interface Methods]</h3></li>
+<h3><ins><i>Note:</ins> These methods are already part of Sorted Map Interface Methods, as TreeMap implements NavigableMap and NavigableMap extends SortedMap .</i> </h3>
+
 
 
 </ul>
