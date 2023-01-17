@@ -2454,4 +2454,33 @@ public abstract class AbstractMap<K,V> extends Object, implements Map<K,V>
 <h2></h2>
 <h2 align="Center"> Constructors of EnumMap</h2>
 
+<ul>
+<li><h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/EnumMapConst1.java"> EnumMap(Class keyType)</h3></li>
+
+```Syntax
+
+Creates an empty enum map with the specified key type.
+
+```
+
+<li><h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/EnumMapConst2.java"> EnumMap(EnumMap m)</h3></li>
+
+
+```Syntax
+
+Creates an enum map with the same key type as the specified enum map,
+initially containing the same mappings (if any).
+
+```
+
+<li><h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/EnumMapConst3.java"> EnumMap(Map m)</h3></li>
+
+```Syntax
+
+It is used to create an enum map initialized from the specified map.
+
+```
+
+</ul>
+
 </ul>
