@@ -2416,6 +2416,19 @@ The implementation of a TreeMap is not synchronized. This means that if multiple
 </ul>
 <h1></h1>
 <h1 align="Center">Enum Map </h1>
+
+```mermaid
+
+sequenceDiagram
+
+  java.util.EnumMap->>java.util.AbstractMap:extends 
+  java.util.EnumMap->>java.io.Serializable:implements
+  java.util.EnumMap->>java.io.Cloneable:implements
+  java.util.AbstractMap->>java.util.Map:implements
+  java.util.AbstractMap->>java.lang.Object:extends
+
+```
+
 <ul>
 <li> <h3>1. EnumMap class is a member of the Java Collections Framework .</h3></li>
 <li> <h3>2. EnumMap extends AbstractMap and AbstractMap (abstract class) implement Map Interface.</h3></li>
