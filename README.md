@@ -2429,6 +2429,17 @@ sequenceDiagram
 
 ```
 
+<h3 align="Center">
+
+```Syntax
+
+public class EnumMap<K extends Enum<K>,​V> extends AbstractMap<K,​V> implements Serializable, Cloneable
+
+public abstract class AbstractMap<K,V> extends Object, implements Map<K,V>
+
+```
+</h3>
+
 <ul>
 <li> <h3>1. EnumMap class is a member of the Java Collections Framework .</h3></li>
 <li> <h3>2. EnumMap extends AbstractMap and AbstractMap (abstract class) implement Map Interface.</h3></li>
