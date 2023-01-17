@@ -2414,3 +2414,5 @@ The implementation of a TreeMap is not synchronized. This means that if multiple
 </ul>
 </ul>
 </ul>
+<h1></h1>
+<h1 align="Center">Enum Map </h1>
