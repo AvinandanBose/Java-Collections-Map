@@ -2407,7 +2407,8 @@ i.e.
 <h2 align="Center">Synchronization of TreeMap </h2>
 <ul>
 <h3>
-The implementation of a TreeMap is not synchronized. This means that if multiple threads access a tree set concurrently, and at least one of the threads modifies the set, it must be synchronized externally. This is typically accomplished by using the <i><ins>Collections.synchronizedSortedMap</ins></i> method.
+The implementation of a TreeMap is not synchronized. This means that if multiple threads access a tree set concurrently, and at least one of the threads modifies the set, it must be synchronized externally. This is typically accomplished by using the <i><ins>Collections.synchronizedSortedMap</ins></i> method. Also it can be locked by <i><ins>synchronized()</ins></i> method and all such map objects can execute synchronized in a single thread.
 </h3>
+
 </ul>
 </ul>
