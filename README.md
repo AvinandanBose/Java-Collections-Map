@@ -2433,7 +2433,9 @@ sequenceDiagram
 
 ```Syntax
 
-public class EnumMap<K extends Enum<K>,​V> extends AbstractMap<K,​V> implements Serializable, Cloneable
+public class EnumMap<K extends Enum<K>,​V> 
+                    extends AbstractMap<K,​V> 
+                    implements Serializable, Cloneable
 
 public abstract class AbstractMap<K,V> extends Object, implements Map<K,V>
 
