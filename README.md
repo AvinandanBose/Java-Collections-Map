@@ -2416,3 +2416,12 @@ The implementation of a TreeMap is not synchronized. This means that if multiple
 </ul>
 <h1></h1>
 <h1 align="Center">Enum Map </h1>
+<ul>
+<li> <h3>1. EnumMap class is a member of the Java Collections Framework .</h3></li>
+<li> <h3>2. EnumMap extends AbstractMap and AbstractMap (abstract class) implement Map Interface.</h3></li>
+<li> <h3>3. EnumMap doesn’t allow null key and throws NullPointerException .</h3></li>
+<li> <h3>4. All keys of each EnumMap instance must be keys of a single enum(enumeration) type.</h3></li>
+<li> <h3>5.It’s a high-performance map implementation, much faster than HashMap.</h3></li>
+<li> <h3>6.<i><ins>Iterators</ins></i> returned by the collection views are weakly consistent: they will never throw <i><ins>ConcurrentModificationException</ins></i> and they may or may not show the effects of any modifications to the map that occur while the iteration is in progress.</h3></li>
+<li> <h3>7.EnumMap is internally represented as arrays. This representation is extremely compact and efficient.</h3></li>
+</ul>
