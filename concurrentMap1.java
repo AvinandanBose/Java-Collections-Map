@@ -143,10 +143,17 @@ public class concurrentMap1 {
         System.out.println(" ");
 
         // keySet
-        Set<Map.Entry<String, String>> set = map.entrySet();
+        Set< String> set = map.keySet();
         System.out.println("Set: " + set);
+        System.out.println(" ");
+        
+        //entrySet
         Set<Entry<String, String>> set1 = map.entrySet();
         System.out.println("Set: " + set1);
+        Set<Map.Entry<String, String>> set2 = map.entrySet();
+        System.out.println("Set: " + set2);
+        System.out.println(" ");
+       
         
         //equals
         Boolean e = map.equals(map1);
