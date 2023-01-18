@@ -795,6 +795,7 @@ functions inherited by HashMap() have same actions in program . </h3>
     ConcurrentMap-->|extends| Map;
     Map-->|extends| SortedMap;
     SortedMap-->|extends| NavigableMap;
+    TreeMap-->|implements| NavigableMap;
     ConcurrentNavigableMap-->|extends| ConcurrentMap;
     ConcurrentNavigableMap-->|extends| NavigableMap;
  ```
