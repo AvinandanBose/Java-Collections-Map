@@ -2581,4 +2581,10 @@ public interface ConcurrentMap<K,V> extends Map<K,V>
 <li><h3> 4. ConcurrentMap interface present in <i><ins>java.util.concurrent package</ins></i> . </h3></li>
 <li><h3> 5. It extends the Map interface in Java. </h3></li>
 <li><h3> 6. ConcurrentMap is known as a synchronized Map. </h3></li>
+
+<h2></h2>
+<h2 align="Center"> Methods of ConcurrentMap Interface</h2>
+<ul>
+
+</ul>
 </ul>
