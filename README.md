@@ -2586,5 +2586,30 @@ public interface ConcurrentMap<K,V> extends Map<K,V>
 <h2 align="Center"> Methods of ConcurrentMap Interface</h2>
 <ul>
 
+<li><h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/concurrentMap1.java">Methods of ConcurrentMap Interface</h3></li>
+
+```Syntax
+
+Note:
+
+For having all the entries of a Map as a Set:
+
+We have entrySet() function:
+
+It can be stored in Set's variable /object by:
+
+Either:
+
+Set<Map.Entry<keyType, valueType>> set_var = Map.entrySet();
+
+Or:
+
+import java.util.Map.Entry;
+
+Set<Entry<keyType, valueType>> set_var = Map.entrySet();
+
+
+```
+<h3><ins><i>Note:</ins> These methods are already discussed earlier.</i> </h3>
 </ul>
 </ul>
