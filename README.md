@@ -2529,4 +2529,7 @@ initially containing the same mappings (if any).
 
 </ul>
 
+<h2></h2>
+<h2 align="Center">Methods of EnumMap</h2>
+
 </ul>
