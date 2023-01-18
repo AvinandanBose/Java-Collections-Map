@@ -2531,5 +2531,22 @@ initially containing the same mappings (if any).
 
 <h2></h2>
 <h2 align="Center">Methods of EnumMap</h2>
+<ul>
+<li><h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/EnumMapMethods.java">Methods of EnumMap</h3></li>
+
+```Syntax
+
+Note : 
+
+Map.values() returns a Collection , 
+Hence the return value can be stored in object/variable of Collection.
+
+import java.util.Collection;
+Collection<Type> col_var =Map.values() ;
+
+```
+<h3><ins><i>Note:</ins> These methods are already discussed earlier.</i> </h3>
+
+</ul>
 
 </ul>
