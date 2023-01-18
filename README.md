@@ -2556,6 +2556,29 @@ Collection<Type> col_var =Map.values() ;
 <h1></h1>
 <h1 align="Center">D.ConcurrentMap -Interface</h1>
 
-<ul>
+```mermaid
 
+sequenceDiagram
+
+  java.util.concurrent.ConcurrentMap->>java.util.Map:extends 
+  
+```
+
+<h3 align="Center">
+
+```Syntax
+
+public interface ConcurrentMap<K,V> extends Map<K,V>
+
+```
+
+</h3>
+
+<ul>
+<li><h3> 1. ConcurrentMap is an interface and it is a member of the Java Collections Framework . </h3></li>
+<li><h3> 2. It is introduced in JDK 1.5 . </h3></li>
+<li><h3> 3. It represents a Map that is capable of handling concurrent access to the Map,without affecting the consistency of entries in a map . </h3></li>
+<li><h3> 4. ConcurrentMap interface present in <i><ins>java.util.concurrent package</ins></i> . </h3></li>
+<li><h3> 5. It extends the Map interface in Java. </h3></li>
+<li><h3> 6. ConcurrentMap is known as a synchronized Map. </h3></li>
 </ul>
