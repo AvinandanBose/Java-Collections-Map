@@ -791,6 +791,8 @@ functions inherited by HashMap() have same actions in program . </h3>
     AbstractMap-->|extends| ConcurrentHashMap;
     AbstractMap-->|extends| ConcurrentSkipListMap;
     AbstractMap-->|extends| Object;
+    ConcurrentHashMap-->|implements| ConcurrentMap;
+    ConcurrentSkipListMap-->|implements| ConcurrentNavigableMap;
     HashMap-->|extends| LinkedHashMap; 
     ConcurrentMap-->|extends| Map;
     Map-->|extends| SortedMap;
