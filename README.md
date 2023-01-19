@@ -2747,7 +2747,34 @@ public abstract class AbstractMap<K,V> extends Object implements Map<K,V>
 
 ![1_U3oE8gg95rTulEJQGG10GQ](https://user-images.githubusercontent.com/38869235/213486273-c66acf6a-c65c-435e-bec7-abd6ebcef0d5.jpg)
 
+<h3><i><ins>Size of Segment  Calculation</ins></i></h3>
 
 
+<h3><i><ins>Concurrency-Level</ins></i>: It is the number of threads concurrently updating the map.</h3>
+
+<h3><i><ins>Segment in ConcurrentHashMap</ins></i> : In ConcurrentHashMap, the Object is divided into a number of segments according to the concurrency level.Each Segment has an Array of HashMap.</h3>
+ 
+<h3><i>[Segment Size = 2^x >=(initialCapacity / concurrencyLevel)]</i></h3>
+
+
+<h3>
+If concurrency level = 10
+
+Segment Size = 2^x >= 10
+
+if x= 3 then  2^3 >= 10
+		 = 8>=10 (Wrong)
+
+Then,
+
+x= 4 then  2^4 >= 10
+           = 16>=10 (Right)
+
+Hence Segment Size = 16
+
+</h3>
+
+<h2></h2>
+<h2 align="Center">Constructors of ConcurrentHashMap </h2>
 
 </ul>
