@@ -2719,9 +2719,9 @@ public abstract class AbstractMap<K,V> extends Object implements Map<K,V>
 
 <li><h3>2.The ConcurrentHashMap belongs to java.util.concurrent package.</h3></li>
 
-<li><h3>3.The ConcurrentHashMap class is thread-safe i.e. multiple threads can operate on a single object without any complications.</h3></li>
+<li><h3>3.The ConcurrentHashMap class is thread-safe i.e. multiple threads can operate on a single object without any complications i.e <i> <ins>Synchronization </ins> </i>.</h3></li>
 
-<li><h3><i>4.Hashtable is thread safe but give poor performance in multi-threading.Hashmap can solve performance issue by giving parallel access to multiple threads reading hashmap simultaneously but Hashmap is not thread safe, hence ConcurrentHashMap is introduced in JDK 1.5. ConcurrentHashMap creates an array  and each index of this array represents a HashMap. And Hashtable and HashMap both uses array and linkedlist as the data structure to store the data. Hence ,we can say, the underlined data structure for ConcurrentHashMap is Hashtable. </i></h3></li>
+<li><h3><i>4.Hashtable is thread safe but give poor performance in multi-threading.Hashmap can solve performance issue by giving parallel access to multiple threads reading hashmap simultaneously but Hashmap is not thread safe, hence ConcurrentHashMap is introduced in JDK 1.5. ConcurrentHashMap is thread safe ,it creates an array  and each index of this array represents a HashMap. And Hashtable and HashMap both uses array and linkedlist as the data structure to store the data. Hence ,we can say, the underlined data structure for ConcurrentHashMap is Hashtable. </i></h3></li>
 
 <li><h3>5.The default concurrency-level of ConcurrentHashMap is 16.</h3></li>
 
@@ -2736,5 +2736,7 @@ public abstract class AbstractMap<K,V> extends Object implements Map<K,V>
 <li><h3>10.In ConcurrentHashMap class is designed for use in concurrent data access,i.e. accessing data at same time.</h3></li>
 
 <li><h3>11.Inserting null objects is not possible in ConcurrentHashMap as a key or value.</h3></li>
+
+<li><h3>12.The ConcurrentHashMap doesn’t throw a ConcurrentModificationException if one thread tries to modify it while another is iterating over it.</h3></li>
 
 </ul>
