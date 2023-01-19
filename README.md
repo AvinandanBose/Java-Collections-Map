@@ -2739,4 +2739,15 @@ public abstract class AbstractMap<K,V> extends Object implements Map<K,V>
 
 <li><h3>12.The ConcurrentHashMap doesn’t throw a ConcurrentModificationException if one thread tries to modify it while another is iterating over it.</h3></li>
 
+<h3><i> <ins>ConcurrentHashMap</ins> </i></h3>
+
+![1_N2ZCdgWnzlrWXczTvfvPFQ](https://user-images.githubusercontent.com/38869235/213485078-2c76b7f8-9ae8-4ffd-a6ab-e119049d64fa.png)
+
+<h3><i> <ins>In More Details</ins> </i></h3>
+
+![1_U3oE8gg95rTulEJQGG10GQ](https://user-images.githubusercontent.com/38869235/213486273-c66acf6a-c65c-435e-bec7-abd6ebcef0d5.jpg)
+
+
+
+
 </ul>
