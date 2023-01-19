@@ -2651,7 +2651,9 @@ sequenceDiagram
 
 ```Syntax
 
-public interface ConcurrentNavigableMap<K,V> extends ConcurrentMap<K,V>, NavigableMap<K,V>
+public interface ConcurrentNavigableMap<K,V> extends ConcurrentMap<K,V>
+                                                 , NavigableMap<K,V>
+                                                 
 public interface ConcurrentMap<K,V> extends Map<K,V>
 public interface NavigableMap<K,V> extends SortedMap<K,V>
 public interface SortedMap<K, V> extends Map<K, V>
