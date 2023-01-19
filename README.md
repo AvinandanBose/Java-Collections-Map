@@ -2642,7 +2642,7 @@ sequenceDiagram
 
   java.util.concurrent.ConcurrentNavigableMap->>java.util.ConcurrentMap:extends
   java.util.concurrent.ConcurrentNavigableMap->>java.util.NavigableMap:extends
-   java.util.concurrent.ConcurrentMap->>java.util.Map:extends 
+  java.util.concurrent.ConcurrentMap->>java.util.Map:extends 
   java.util.NavigableMap->>java.util.SortedMap:extends 
   java.util.SortedMap->>java.util.Map:extends
   
@@ -2679,4 +2679,62 @@ public interface SortedMap<K, V> extends Map<K, V>
 <li><h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/concurrentNavigableMap1.java">Methods of ConcurrentNavigableMap Interface</h3></li>
 </ul>
 <h3><ins><i>Note:</ins> The methods of  ConcurrentNavigableMap Interface are inherited from SortedMap interface,,Map Interface,NavigableMap Interface and ConcurrentMap Interface.Hence some of them are discussed above.</i> </h3>
+</ul>
+
+<h1></h1>
+<h1 align="Center">ConcurrentHashMap </h1>
+
+
+```mermaid
+
+sequenceDiagram
+
+  java.util.concurrent.ConcurrentHashMap->>java.util.AbstractMap:extends 
+  java.util.concurrent.ConcurrentHashMap->>java.util.concurrent.ConcurrentMap:implements
+  java.util.concurrent.ConcurrentHashMap->>java.io.Serializable:implements
+  java.util.concurrent.ConcurrentMap->>java.util.Map:extends 
+  java.util.AbstractMap->>java.util.Map:implements
+  java.util.AbstractMap->>java.lang.Object:extends
+
+```
+
+<h3 align="Center">
+
+```Syntax
+
+public class ConcurrentHashMap<K,​V> extends AbstractMap<K,​V> 
+                                    implements ConcurrentMap<K,​V>, Serializable
+                               
+public interface ConcurrentMap<K,V> extends Map<K,V>
+
+public abstract class AbstractMap<K,V> extends Object implements Map<K,V>
+
+```
+
+</h3>
+
+<ul>
+
+<li><h3>1.The ConcurrentHashMap class is introduced in JDK 1.5 . </h3></li>
+
+<li><h3>2.The ConcurrentHashMap belongs to java.util.concurrent package.</h3></li>
+
+<li><h3>3.The ConcurrentHashMap class is thread-safe i.e. multiple threads can operate on a single object without any complications.</h3></li>
+
+<li><h3><i>4.Hashtable is thread safe but give poor performance in multi-threading.Hashmap can solve performance issue by giving parallel access to multiple threads reading hashmap simultaneously but Hashmap is not thread safe, hence ConcurrentHashMap is introduced in JDK 1.5. ConcurrentHashMap creates an array  and each index of this array represents a HashMap. And Hashtable and HashMap both uses array and linkedlist as the data structure to store the data. Hence ,we can say, the underlined data structure for ConcurrentHashMap is Hashtable. </i></h3></li>
+
+<li><h3>5.The default concurrency-level of ConcurrentHashMap is 16.</h3></li>
+
+<li><h3>6.In ConcurrentHashMap, the Object is divided into a number of segments according to the concurrency level.</h3></li>
+
+<li><h3>7.In ConcurrentHashMap, at a time any number of threads can perform retrieval operation.</h3></li> 
+
+<li><h3>8.In ConcurrentHashMap, to have a update in the object, the thread must lock the particular segment in which the thread wants to operate. This type of locking mechanism is known as <i><ins>Segment locking or bucket locking</ins></i>. Hence at a time, 16 update operations can be performed by threads as  default concurrency-level of ConcurrentHashMap is 16.</h3></li>
+
+<li><h3>9.In ConcurrentHashMap, the higher the concurrency level, the more threads can access its buckets at once.</h3></li>
+
+<li><h3>10.In ConcurrentHashMap class is designed for use in concurrent data access,i.e. accessing data at same time.</h3></li>
+
+<li><h3>11.Inserting null objects is not possible in ConcurrentHashMap as a key or value.</h3></li>
+
 </ul>
