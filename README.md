@@ -1511,6 +1511,14 @@ class weakhashmap2{
 <h1></h1>
 <h1 align="Center">B.Sorted Map - Interface</h1>
 
+```mermaid
+
+sequenceDiagram
+
+  java.util.SortedMap->>java.util.Map:extends
+  
+```
+
 <h3 align="center">
 
 ```Syntax
@@ -1669,6 +1677,16 @@ i.e. including fromKey and to toKey, exclusive i.e. excluding toKey.
 
 <h1></h1>
 <h1 align="Center">C.Navigable Map - Interface</h1>
+
+```mermaid
+
+sequenceDiagram
+
+  java.util.NavigableMap->>java.util.SortedMap:extends 
+  java.util.SortedMap->>java.util.Map:extends
+  
+```
+
 
 <h3 align="center">
 
@@ -2616,6 +2634,36 @@ Set<Entry<keyType, valueType>> set_var = Map.entrySet();
 
 <h1></h1>
 <h1 align="Center">E.ConcurrentNavigableMap Interface</h1>
-<ul>
 
+```mermaid
+
+sequenceDiagram
+
+  java.util.concurrent.ConcurrentNavigableMap->>java.util.ConcurrentMap:extends
+  java.util.concurrent.ConcurrentNavigableMap->>java.util.NavigableMap:extends
+   java.util.concurrent.ConcurrentMap->>java.util.Map:extends 
+  java.util.NavigableMap->>java.util.SortedMap:extends 
+  java.util.SortedMap->>java.util.Map:extends
+  
+```
+
+<h3 align="Center">
+
+```Syntax
+
+public interface ConcurrentNavigableMap<K,V> extends ConcurrentMap<K,V>, NavigableMap<K,V>
+public interface ConcurrentMap<K,V> extends Map<K,V>
+public interface NavigableMap<K,V> extends SortedMap<K,V>
+public interface SortedMap<K, V> extends Map<K, V>
+
+
+```
+
+</h3>
+
+<ul>
+<li><h3> 1. The ConcurrentNavigableMap interface is a member of the Java Collection Framework . </h3></li>
+<li><h3> 2. It extends from the NavigableMap interface and ConcurrentMap interface . </h3></li>
+<li><h3> 3. The ConcurrentNavigableMap provides thread-safe access to map elements along with providing convenient navigation methods . </h3></li>
+<li><h3> 4. It belongs to java.util.concurrent package . </h3></li>
 </ul>
