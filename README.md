@@ -2672,4 +2672,11 @@ public interface SortedMap<K, V> extends Map<K, V>
 <li><h3> 5. ConcurrentNavigableMap is SubInterface of ConcurrentMap interface . </h3></li>
 <li><h3> 6. ConcurrentNavigableMap is also Synchronized , like ConcurrentMap interface . </h3></li>
 <li><h3> 7. ConcurrentNavigableMap is implemented by ConcurrentSkipListMap class. </h3></li>
+
+<h2></h2>
+<h2 align="Center">Methods of ConcurrentNavigableMap </h2>
+<ul>
+<li><h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/concurrentNavigableMap1.java">Methods of ConcurrentNavigableMap Interface</h3></li>
+</ul>
+<h3><ins><i>Note:</ins> The methods of  ConcurrentNavigableMap Interface are inherited from SortedMap interface,,Map Interface,NavigableMap Interface and ConcurrentMap Interface.Hence some of them are discussed above.</i> </h3>
 </ul>
