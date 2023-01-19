@@ -2668,6 +2668,6 @@ public interface SortedMap<K, V> extends Map<K, V>
 <li><h3> 2. It extends from the NavigableMap interface and ConcurrentMap interface . </h3></li>
 <li><h3> 3. The ConcurrentNavigableMap provides thread-safe access to map elements along with providing convenient navigation methods . </h3></li>
 <li><h3> 4. It belongs to java.util.concurrent package . </h3></li>
-<li><h3> 5. It is subinterface of ConcurrentMap interface . </h3></li>
-<li><h3> 6. It is also Synchronous , like ConcurrentMap interface . </h3></li>
+<li><h3> 5. It is SubInterface of ConcurrentMap interface . </h3></li>
+<li><h3> 6. It is also Synchronized , like ConcurrentMap interface . </h3></li>
 </ul>
