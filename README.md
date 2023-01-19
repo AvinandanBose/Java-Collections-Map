@@ -2594,11 +2594,12 @@ public interface ConcurrentMap<K,V> extends Map<K,V>
 
 <ul>
 <li><h3> 1. ConcurrentMap is an interface and it is a member of the Java Collections Framework . </h3></li>
-<li><h3> 2. It is introduced in JDK 1.5 . </h3></li>
-<li><h3> 3. It represents a Map that is capable of handling concurrent access to the Map,without affecting the consistency of entries in a map . </h3></li>
+<li><h3> 2. ConcurrentMap is introduced in JDK 1.5 . </h3></li>
+<li><h3> 3. ConcurrentMap represents a Map that is capable of handling concurrent access to the Map,without affecting the consistency of entries in a map . </h3></li>
 <li><h3> 4. ConcurrentMap interface present in <i><ins>java.util.concurrent package</ins></i> . </h3></li>
-<li><h3> 5. It extends the Map interface in Java. </h3></li>
+<li><h3> 5. ConcurrentMap extends the Map interface in Java. </h3></li>
 <li><h3> 6. ConcurrentMap is known as a synchronized Map. </h3></li>
+<li><h3> 7. ConcurrentMap is implemented by ConcurrentSkipListMap and ConcurrentHashMap classes. </h3></li>
 
 <h2></h2>
 <h2 align="Center"> Methods of ConcurrentMap Interface</h2>
@@ -2665,9 +2666,10 @@ public interface SortedMap<K, V> extends Map<K, V>
 
 <ul>
 <li><h3> 1. The ConcurrentNavigableMap interface is a member of the Java Collection Framework . </h3></li>
-<li><h3> 2. It extends from the NavigableMap interface and ConcurrentMap interface . </h3></li>
+<li><h3> 2. ConcurrentNavigableMap extends from the NavigableMap interface and ConcurrentMap interface . </h3></li>
 <li><h3> 3. The ConcurrentNavigableMap provides thread-safe access to map elements along with providing convenient navigation methods . </h3></li>
-<li><h3> 4. It belongs to java.util.concurrent package . </h3></li>
-<li><h3> 5. It is SubInterface of ConcurrentMap interface . </h3></li>
-<li><h3> 6. It is also Synchronized , like ConcurrentMap interface . </h3></li>
+<li><h3> 4. ConcurrentNavigableMap belongs to <i><ins>java.util.concurrent package</ins></i>. </h3></li>
+<li><h3> 5. ConcurrentNavigableMap is SubInterface of ConcurrentMap interface . </h3></li>
+<li><h3> 6. ConcurrentNavigableMap is also Synchronized , like ConcurrentMap interface . </h3></li>
+<li><h3> 7. ConcurrentNavigableMap is implemented by ConcurrentSkipListMap class. </h3></li>
 </ul>
