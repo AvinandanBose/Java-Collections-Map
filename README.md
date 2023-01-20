@@ -2866,5 +2866,24 @@ creating a deep copy of the map would be difficult to implement .
 
 <h3><i><ins>New Methods of ConcurrentHashMap </ins></i></h3>
 
+<ul>
+<li><h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/ConcurrentHashMapMethods2.java">2. forEach​(long parallelismThreshold, BiFunction<? super K,​? super V,​? extends U> transformer, Consumer<? super U> action) </h3></li>
+
+```Syntax
+
+The parallelismThreshold : 
+It sets the number of items at which operations in a map begin to run concurrently.
+It determines whether bulk operations would be executed sequentially or in parallel.
+
+BiFunction: Represents a function that accepts two arguments and returns a result.
+
+Transformer: The transformer transforms the data before sending it to the Consumer.
+
+Consumer: It represents a functional interface which accepts 
+a single input argument and returns no result
+
+```
+</ul>
+
 </ul>
 </ul>
