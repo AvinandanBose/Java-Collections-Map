@@ -2850,7 +2850,12 @@ Creates a new map with the same mappings as the given map.
 <h2></h2>
 <h2 align="Center">Methods of ConcurrentHashMap </h2>
 <ul>
+<li><h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/ConcurrentHashMapMethods1.java">1. ConcurrentHashMap -- Methods</h3></li>
+<h3><i><ins> Note: </ins>Here methods discussed are inherited from ConcurrentMap,AbstractMap,Map interfaces.</i></h3>
 
+```Syntax
+
+```
 
 </ul>
 </ul>
