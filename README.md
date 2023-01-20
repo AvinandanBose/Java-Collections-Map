@@ -2846,4 +2846,11 @@ Creates a new map with the same mappings as the given map.
 
 ```
 </ul>
+
+<h2></h2>
+<h2 align="Center">Methods of ConcurrentHashMap </h2>
+<ul>
+
+
+</ul>
 </ul>
