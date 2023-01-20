@@ -2864,5 +2864,7 @@ creating a deep copy of the map would be difficult to implement .
 
 ```
 
+<h3><i><ins>New Methods of ConcurrentHashMap </ins></i></h3>
+
 </ul>
 </ul>
