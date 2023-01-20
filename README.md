@@ -2784,6 +2784,16 @@ Hence Segment Size = 16
 Creates a new, empty map with a default initial capacity (16), 
 load factor (0.75) and concurrencyLevel (16)
 
+Initial Capacity: Number of elements initially that a map can have. 
+if the capacity of this map is 10. It means that it can store 10 entries.
+
+LoadFactor : 
+The load factor is the measure that decides when to increase the capacity of the Map.
+It’s a threshold, used to control resizing of the Map.
+
+Concurrency-Level: It is the number of threads concurrently updating the map.
+The implementation performs internal sizing to try to accommodate this many threads.
+
 ```
 
 </ul>
