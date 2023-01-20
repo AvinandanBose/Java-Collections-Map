@@ -2855,6 +2855,13 @@ Creates a new map with the same mappings as the given map.
 
 ```Syntax
 
+Note: Clone() method is not implemented by ConcurrentHashMap.
+It belongs to Abstract Map which is not visible to the class.
+If called then it throws exception : CloneNotSupportedException.
+There is a reason why Clone() method not implemented in ConcurrentHashMap.
+The reason is : ConcurrentHashMap is Thread Safe and 
+creating a deep copy of the map would be difficult to implement .
+
 ```
 
 </ul>
