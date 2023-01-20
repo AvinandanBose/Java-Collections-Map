@@ -2883,6 +2883,69 @@ Consumer: It represents a functional interface which accepts
 a single input argument and returns no result
 
 ```
+
+<li><h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/ConcurrentHashMapMethods3.java">3. keySet​(V mappedValue) </h3></li>
+
+```Syntax
+
+Returns a Set view of the keys in this map, 
+using the given common mapped value for any additions 
+(i.e., Collection.add and Collection.addAll(Collection)). 
+This is of course only appropriate if it is acceptable ,
+to use the same value for all additions from this view.
+
+Which means if a Set's object is set to Map's keyset with 
+its Mapped Value and if we continue to add with
+Collection.add () function through set the , added
+values will be refered as "Keys" of the map , automatically
+gets added to Map as "Keys" gets mapped with the given Value.
+
+Suppose we create an empty ConcurrentHashMap:
+
+ConcurrentHashMap<String, String> map = new ConcurrentHashMap<>();
+
+Set<String> set = map.keySet("1");
+set.add("one");
+System.out.println("Map:" + map);
+
+Output:
+
+Map:{one=1}
+
+Similarly,
+
+set = map.keySet("2");
+set.add("two");
+
+System.out.println("Map:" + map);
+
+Output:
+
+Map:{one=1, two=2}
+
+....ETC.
+
+Same for set.addAll() Functionality ,but here ,
+
+Different keys will be assigned to Same Values.
+
+Set<String> set2 =new HashSet<>();
+set2.add("three");
+set2.add("four");
+set.addAll(set2);
+System.out.println("Map:" + map);
+
+Output:
+
+Map:{one=1, two=2, three=2, four=2}
+
+As last mapped value was 2.
+ 
+ 
+
+
+```
+
 </ul>
 
 </ul>
