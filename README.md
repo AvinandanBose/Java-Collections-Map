@@ -2795,6 +2795,55 @@ Concurrency-Level: It is the number of threads concurrently updating the map.
 The implementation performs internal sizing to try to accommodate this many threads.
 
 ```
+<li><h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/constructConcurrentHashMap1.java">2. ConcurrentHashMap(initialCapacity)</h3></li>
 
+```Syntax
+
+Creates a new, empty map with an initial table size,
+accommodating the specified number of elements,
+without the need to dynamically resize.
+
+That is: Creates a new, 
+empty map with the specified initial capacity, 
+and with default load factor (0.75) and concurrencyLevel (16)
+
+```
+
+<li><h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/constructConcurrentHashMap2.java">3. ConcurrentHashMap(initialCapacity,loadFactor)</h3></li>
+
+```Syntax
+
+Creates a new empty map ,
+with an initial table size based on the given number of elements (initialCapacity) 
+and initial table density (loadFactor).
+
+That is: Creates a new empty map ,
+with the specified initial capacity and 
+load factor and with the default concurrencyLevel (16).
+
+```
+
+<li><h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/constructConcurrentHashMap3.java">4. ConcurrentHashMap(initialCapacity,loadFactor,concurrencyLevel)</h3></li>
+
+```Syntax
+
+Creates a new, empty map with an initial table size,
+based on the given number of elements (initialCapacity), 
+table density (loadFactor), a
+nd number of concurrently updating threads (concurrencyLevel).
+
+That is: Creates a new, empty map 
+with the specified initial capacity, 
+load factor, and concurrency level
+
+```
+
+<li><h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/constructConcurrentHashMap4.java">5. ConcurrentHashMap(Map m)</h3></li>
+
+```Syntax
+
+Creates a new map with the same mappings as the given map.
+
+```
 </ul>
 </ul>
