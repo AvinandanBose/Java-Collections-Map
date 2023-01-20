@@ -2776,5 +2776,15 @@ Hence Segment Size = 16
 
 <h2></h2>
 <h2 align="Center">Constructors of ConcurrentHashMap </h2>
+<ul>
+<li><h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/constructConcurrentHashMap.java">1. ConcurrentHashMap()</h3></li>
 
+```Syntax
+
+Creates a new, empty map with a default initial capacity (16), 
+load factor (0.75) and concurrencyLevel (16)
+
+```
+
+</ul>
 </ul>
