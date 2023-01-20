@@ -1,3 +1,4 @@
+import java.util.HashSet;
 import java.util.Set;
 import java.util.concurrent.ConcurrentHashMap;
 
@@ -5,7 +6,7 @@ public class ConcurrentHashMapMethods3 {
 
     public static void main(String[] args) throws Exception {
         ConcurrentHashMap<String, String> map = new ConcurrentHashMap<>();
-        
+
         Set<String> set = map.keySet("1");
         set.add("one");
         set = map.keySet("2");
@@ -17,6 +18,7 @@ public class ConcurrentHashMapMethods3 {
         System.out.println("Set:" + set);
         System.out.println("Map:" + map);
 
+
         ConcurrentHashMap<String, String> map2 = new ConcurrentHashMap<>();
         map2.put("one", "1");
         map2.put("two", "2");
@@ -25,6 +27,14 @@ public class ConcurrentHashMapMethods3 {
         
         Set<String> set2 = map2.keySet();
         System.out.println("Set2:" + set2);
+
+        Set<String> set3 =new HashSet<>();
+        set3.add("five");
+        set3.add("six");
+        set.addAll(set3);
+        System.out.println("Set:" + set);
+        System.out.println("Map:" + map);
+        
 
 
         
