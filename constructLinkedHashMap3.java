@@ -9,5 +9,7 @@ public class constructLinkedHashMap3 {
          map.put("e", 5);
          map.put("f", 6);
          System.out.println(map);
+
+       
     }
 }
