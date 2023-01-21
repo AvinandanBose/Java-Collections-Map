@@ -3078,6 +3078,16 @@ the actual count may differ ,
 if there are concurrent insertions or removals.
 
 ```
+
+<li><h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/ConcurrentHashMapMethods5.java">12. newKeySet() </h3></li>
+
+```Syntax
+
+Creates a new Set backed by a ConcurrentHashMap,
+from the given type to Boolean.TRUE.
+
+```
+
 </ul>
 
 </ul>
