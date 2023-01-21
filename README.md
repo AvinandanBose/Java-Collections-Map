@@ -3087,6 +3087,14 @@ Creates a new Set backed by a ConcurrentHashMap,
 from the given type to Boolean.TRUE.
 
 ```
+<li><h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/ConcurrentHashMapMethods6.java">13. newKeySet(int initialCapacity) </h3></li>
+
+```Syntax
+
+Creates a new Set backed by a ConcurrentHashMap,
+from the given type to Boolean.TRUE.
+
+```
 
 </ul>
 
