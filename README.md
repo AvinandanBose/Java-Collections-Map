@@ -2871,6 +2871,8 @@ creating a deep copy of the map would be difficult to implement .
 
 ```Syntax
 
+Performs the given action for each non-null transformation of each (key, value).
+
 The parallelismThreshold : 
 It sets the number of items at which operations in a map begin to run concurrently.
 It determines whether bulk operations would be executed sequentially or in parallel.
