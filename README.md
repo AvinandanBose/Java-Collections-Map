@@ -3064,6 +3064,20 @@ As last mapped value was 2.
 
 ```
 
+<li><h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/ConcurrentHashMapMethods4.java">11. MappingCount </h3></li>
+
+```Syntax
+
+Returns the number of mappings. 
+
+This method should be used instead of size . The reason is, 
+a ConcurrentHashMap may contain more mappings,
+than can be represented as an int. 
+The value returned is an estimate; 
+the actual count may differ ,
+if there are concurrent insertions or removals.
+
+```
 </ul>
 
 </ul>
