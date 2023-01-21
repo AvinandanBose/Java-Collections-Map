@@ -2936,6 +2936,40 @@ a single input argument and produces no result.
 
 ```
 
+<li><h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/ConcurrentHashMapMethods10.java">6. forEachKey​(long parallelismThreshold, Consumer<? super K> action) </h3></li>
+
+```Syntax
+
+Performs the given action for each non-null transformation of each entry.
+
+The parallelismThreshold : 
+It sets the number of items at which operations in a map begin to run concurrently.
+It determines whether bulk operations would be executed sequentially or in parallel.
+
+Consumer: It represents a functional interface which accepts 
+a single input argument and produces no result.
+
+```
+
+<li><h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/ConcurrentHashMapMethods11.java">7. forEachKey​(long parallelismThreshold, Function<? super K,​? extends U> transformer, Consumer<? super U> action) </h3></li>
+
+```Syntax
+
+Performs the given action for each non-null transformation of each key.
+
+The parallelismThreshold : 
+It sets the number of items at which operations in a map begin to run concurrently.
+It determines whether bulk operations would be executed sequentially or in parallel.
+
+Function: It takes one argument and produces a result.
+
+Transformer: The transformer transforms the data before sending it to the Consumer.
+
+Consumer: It represents a functional interface which accepts 
+a single input argument and produces no result.
+
+```
+
 <li><h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/ConcurrentHashMapMethods3.java">3. keySet​(V mappedValue) </h3></li>
 
 ```Syntax
