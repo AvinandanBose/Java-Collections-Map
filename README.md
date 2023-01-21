@@ -2875,12 +2875,12 @@ The parallelismThreshold :
 It sets the number of items at which operations in a map begin to run concurrently.
 It determines whether bulk operations would be executed sequentially or in parallel.
 
-BiFunction: Represents a function that accepts two arguments and returns a result.
+BiFunction: Represents a function that accepts two arguments and produces a result.
 
 Transformer: The transformer transforms the data before sending it to the Consumer.
 
 Consumer: It represents a functional interface which accepts 
-a single input argument and returns no result
+a single input argument and produces no result.
 
 ```
 
