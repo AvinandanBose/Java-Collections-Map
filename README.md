@@ -2884,6 +2884,14 @@ a single input argument and produces no result.
 
 ```
 
+<li><h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/ConcurrentHashMapMethods7.java">3. forEach​(long parallelismThreshold, BiConsumer<? super K,​? super V> action) </h3></li>
+
+```Syntax
+
+Performs the given action for each (key, value).
+
+```
+
 <li><h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/ConcurrentHashMapMethods3.java">3. keySet​(V mappedValue) </h3></li>
 
 ```Syntax
