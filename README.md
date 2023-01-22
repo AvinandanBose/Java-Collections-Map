@@ -3107,6 +3107,14 @@ to combine values, or null if none.
 
 ```
 
+<li><h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/ConcurrentHashMapMethods15.java">15. reduceEntries​(long parallelismThreshold, BiFunction<Map.Entry<K,​V>,​Map.Entry<K,​V>,​? extends Map.Entry<K,​V>> reducer) </h3></li>
+
+```Syntax
+
+Returns the result of accumulating all entries using the given reducer to combine values, or null if none.
+
+```
+
 </ul>
 
 </ul>
