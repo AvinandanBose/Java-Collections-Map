@@ -3185,6 +3185,17 @@ Returns the result of accumulating the given transformation,
 and the given basis as an identity value.
 
 ```
+
+<li><h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/ConcurrentHashMapMethods23.java">23. reduceKeysToInt​(long parallelismThreshold, ToIntFunction<? super K> transformer, int basis, IntBinaryOperator reducer)</h3></li>
+
+```Syntax
+
+Returns the result of accumulating the given transformation,
+of all keys using the given reducer to combine values, 
+and the given basis as an identity value.
+
+```
+
 </ul>
 
 </ul>
