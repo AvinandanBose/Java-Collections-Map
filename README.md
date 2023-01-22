@@ -3156,7 +3156,15 @@ of all entries using the given reducer to combine values,
 and the given basis as an identity value.
 
 ```
+<li><h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/ConcurrentHashMapMethods20.java">20. reduceKeys​(long parallelismThreshold, BiFunction<? super K,​? super K,​? extends K> reducer)</h3></li>
 
+```Syntax
+
+Returns the result of accumulating all keys ,
+using the given reducer to combine values, 
+or null if none.
+
+```
 </ul>
 
 </ul>
