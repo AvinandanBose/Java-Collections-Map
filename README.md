@@ -3147,6 +3147,16 @@ and the given basis as an identity value.
 
 ```
 
+<li><h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/ConcurrentHashMapMethods19.java">19. reduceEntriesToLong​(long parallelismThreshold, ToLongFunction<Map.Entry<K,​V>> transformer, long basis, LongBinaryOperator reducer)</h3></li>
+
+```Syntax
+
+Returns the result of accumulating the given transformation,
+of all entries using the given reducer to combine values, 
+and the given basis as an identity value.
+
+```
+
 </ul>
 
 </ul>
