@@ -3095,6 +3095,17 @@ Creates a new Set backed by a ConcurrentHashMap,
 from the given type to Boolean.TRUE.
 
 ```
+<li><h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/ConcurrentHashMapMethods14.java">14. reduce​(long parallelismThreshold, BiFunction<? super K,​? super V,​? extends U> transformer, BiFunction<? super U,​? super U,​? extends U> reducer) </h3></li>
+
+```Syntax
+
+Returns the result of accumulating the given transformation ,
+of all (key, value) pairs using the given reducer ,
+to combine values, or null if none.
+
+:Description of the Code is inside:
+
+```
 
 </ul>
 
