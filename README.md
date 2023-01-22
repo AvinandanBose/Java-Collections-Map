@@ -3111,7 +3111,8 @@ to combine values, or null if none.
 
 ```Syntax
 
-Returns the result of accumulating all entries using the given reducer to combine values, or null if none.
+Returns the result of accumulating all entries ,
+using the given reducer to combine values, or null if none.
 
 ```
 
