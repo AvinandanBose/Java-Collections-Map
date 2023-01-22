@@ -3126,6 +3126,17 @@ or null if none.
 
 ```
 
+<li><h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/ConcurrentHashMapMethods17.java">17. reduceEntriesToDouble​(long parallelismThreshold, ToDoubleFunction<Map.Entry<K,​V>> transformer, double basis, DoubleBinaryOperator reducer)</h3></li>
+
+
+```Syntax
+
+Returns the result of accumulating the given transformation ,
+of all entries using the given reducer to combine values, 
+and the given basis as an identity value.
+
+```
+
 </ul>
 
 </ul>
