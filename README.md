@@ -3285,6 +3285,56 @@ the given basis as an identity value.
 
 ```
 
+<li><h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/ConcurrentHashMapMethods33.java">33.search​(long parallelismThreshold, BiFunction<? super K,​? super V,​? extends U> searchFunction)</h3></li>
+
+```Syntax
+
+Returns a non-null result from applying the given,
+search function on each (key, value), or null if none. 
+Upon success, further element processing is suppressed ,
+and the results of any other parallel invocations ,
+of the search function are ignored.
+
+```
+
+<li><h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/ConcurrentHashMapMethods34.java">34.searchEntries​(long parallelismThreshold, Function<Map.Entry<K,​V>,​? extends U> searchFunction)</h3></li>
+
+```Syntax
+
+Returns a non-null result from applying the given,
+search function on each entry, or null if none.
+Upon success, further element processing is suppressed ,
+and the results of any other parallel invocations,
+of the search function are ignored.
+
+```
+
+<li><h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/ConcurrentHashMapMethods35.java">35.searchKeys​(long parallelismThreshold, Function<? super K,​? extends U> searchFunction)</h3></li>
+
+
+```Syntax
+
+Returns a non-null result from applying the given,
+search function on each entry, or null if none.
+Upon success, further element processing is suppressed ,
+and the results of any other parallel invocations,
+of the search function are ignored.
+
+```
+
+<li><h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/ConcurrentHashMapMethods36.java">36.searchValues​(long parallelismThreshold, Function<? super V,​? extends U> searchFunction)</h3></li>
+
+
+```Syntax
+
+Returns a non-null result from applying the given,
+search function on each entry, or null if none.
+Upon success, further element processing is suppressed ,
+and the results of any other parallel invocations,
+of the search function are ignored.
+
+```
+
 </ul>
 
 </ul>
