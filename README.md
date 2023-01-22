@@ -3165,6 +3165,16 @@ using the given reducer to combine values,
 or null if none.
 
 ```
+
+<li><h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/ConcurrentHashMapMethods21.java">21. reduceKeys​(long parallelismThreshold, Function<? super K,​? extends U> transformer, BiFunction<? super U,​? super U,​? extends U> reducer)</h3></li>
+
+```Syntax
+
+Returns the result of accumulating the given transformation,
+of all keys using the given reducer to combine values, 
+or null if none.
+
+```
 </ul>
 
 </ul>
