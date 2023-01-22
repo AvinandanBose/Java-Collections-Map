@@ -3196,6 +3196,95 @@ and the given basis as an identity value.
 
 ```
 
+<li><h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/ConcurrentHashMapMethods24.java">24. reduceKeysToLong​(long parallelismThreshold, ToLongFunction<? super K> transformer, long basis, LongBinaryOperator reducer)</h3></li>
+
+```Syntax
+
+Returns the result of accumulating the given transformation,
+of all keys using the given reducer to combine values, 
+and the given basis as an identity value.
+
+```
+
+<li><h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/ConcurrentHashMapMethods25.java">25. reduceToDouble​(long parallelismThreshold, ToDoubleBiFunction<? super K,​? super V> transformer, double basis, DoubleBinaryOperator reducer)</h3></li>
+
+```Syntax
+
+Returns the result of accumulating the given transformation of all
+(key, value) pairs using the given reducer to combine values,
+and the given basis as an identity value.
+
+```
+
+<li><h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/ConcurrentHashMapMethods26.java">26.reduceToInt​(long parallelismThreshold, ToIntBiFunction<? super K,​? super V> transformer, int basis, IntBinaryOperator reducer)</h3></li>
+
+```Syntax
+
+Returns the result of accumulating the given transformation of all (key, value) ,
+pairs using the given reducer to combine values, 
+and the given basis as an identity value.
+
+```
+
+<li><h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/ConcurrentHashMapMethods27.java">27.reduceToLong​(long parallelismThreshold, ToLongBiFunction<? super K,​? super V> transformer, long basis, LongBinaryOperator reducer)</h3></li>
+
+```Syntax
+
+Returns the result of accumulating the given transformation of all 
+(key, value) pairs using the given reducer to combine values, 
+and the given basis as an identity value.
+
+```
+
+<li><h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/ConcurrentHashMapMethods28.java">28.reduceValues​(long parallelismThreshold, BiFunction<? super V,​? super V,​? extends V> reducer)</h3></li>
+
+```Syntax
+
+Returns the result of accumulating all values ,
+using the given reducer to combine values, or null if none.
+
+```
+
+<li><h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/ConcurrentHashMapMethods29.java">29.reduceValues​(long parallelismThreshold, Function<? super V,​? extends U> transformer, BiFunction<? super U,​? super U,​? extends U> reducer)</h3></li>
+
+```Syntax
+
+Returns the result of accumulating the given transformation ,
+of all values using the given reducer to combine values, 
+or null if none.
+
+```
+
+<li><h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/ConcurrentHashMapMethods30.java">30.reduceValuesToDouble​(long parallelismThreshold, ToDoubleFunction<? super V> transformer, double basis, DoubleBinaryOperator reducer)</h3></li>
+
+```Syntax
+
+Returns the result of accumulating the given transformation,
+of all values using the given reducer to combine values, 
+and the given basis as an identity value.
+
+```
+
+<li><h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/ConcurrentHashMapMethods31.java">31.reduceValuesToInt​(long parallelismThreshold, ToIntFunction<? super V> transformer, int basis, IntBinaryOperator reducer)</h3></li>
+
+```Syntax
+
+Returns the result of accumulating the given transformation,
+of all values using the given reducer to combine values, 
+and the given basis as an identity value.
+
+```
+
+<li><h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/ConcurrentHashMapMethods32.java">32.reduceValuesToLong​(long parallelismThreshold, ToLongFunction<? super V> transformer, long basis, LongBinaryOperator reducer)</h3></li>
+
+```Syntax
+
+Returns the result of accumulating the given transformation of all values,
+using the given reducer to combine values, and 
+the given basis as an identity value.
+
+```
+
 </ul>
 
 </ul>
