@@ -3137,6 +3137,16 @@ and the given basis as an identity value.
 
 ```
 
+<li><h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/ConcurrentHashMapMethods18.java">18. reduceEntriesToInt​(long parallelismThreshold, ToIntFunction<Map.Entry<K,​V>> transformer, int basis, IntBinaryOperator reducer)</h3></li>
+
+```Syntax
+
+Returns the result of accumulating the given transformation ,
+of all entries using the given reducer to combine values, 
+and the given basis as an identity value.
+
+```
+
 </ul>
 
 </ul>
