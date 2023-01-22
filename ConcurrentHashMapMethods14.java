@@ -19,6 +19,36 @@ public class ConcurrentHashMapMethods14 {
         return v1 + v2;
     });
     System.out.println("Result:" + result);
+
+     System.out.println(" ");
+
    }
 }
+
+/*
+ * +++++++++++++++++++++++++++
+ * + Map:{one=1, two=2, three=3, four=4}
+ * Note: The parallelismThreshold is 1, so the transformer is applied to each
+ * entry in the map.
+ * 
+ * + Key:one Value:1
+ * + Key:two Value:2
+ * + Key:three Value:3
+ * + Key:four Value:4
+ * 
+ * Note: The parallelismThreshold is 1, so the reducer is applied to each entry
+ * in the map.
+ * 
+ * + Value1:one1 Value2:two2 (return k + v;)
+ * + Value1:three3 Value2:four4 (return k + v;)
+ * + Value1:one1two2 Value2:three3four4 ( return v1 + v2;)
+ * + Result:one1two2three3four4( return v1 + v2;)
+ * 
+ * +++++++++++++++++++++++++++
+ */
+
    
+
+
+
+
