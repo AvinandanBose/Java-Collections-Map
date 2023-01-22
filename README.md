@@ -3116,6 +3116,16 @@ using the given reducer to combine values, or null if none.
 
 ```
 
+<li><h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/ConcurrentHashMapMethods16.java">16. reduceEntries​(long parallelismThreshold, Function<Map.Entry<K,​V>,​? extends U> transformer, BiFunction<? super U,​? super U,​? extends U> reducer)</h3></li>
+
+```Syntax
+
+Returns the result of accumulating the given transformation,
+of all entries using the given reducer to combine values, 
+or null if none.
+
+```
+
 </ul>
 
 </ul>
