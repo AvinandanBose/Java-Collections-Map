@@ -13,13 +13,21 @@ public class SortedMap9 {
         map.put("f", 6);
         System.out.println("Map:" + map);
 
-        SortedMap<Integer, Integer> map2 = new TreeMap<>(Comparator.comparingInt(o -> o));
+        SortedMap<Integer, Integer> map2 = new TreeMap<>(Comparator.comparingInt(o -> o*(-1)));
         map2.put(1, 1);
         map2.put(2, 2);
         map2.put(3, 3);
         map2.put(4, 4);
 
         System.out.println("Map2:" + map2);
+
+        SortedMap<Integer, Integer> map3 = new TreeMap<>(Comparator.comparingInt(o -> o * (1)));
+        map3.put(1, 1);
+        map3.put(2, 2);
+        map3.put(3, 3);
+        map3.put(4, 4);
+
+        System.out.println("Map2:" + map3);
         
     }
     
