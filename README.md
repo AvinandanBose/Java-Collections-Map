@@ -2630,7 +2630,67 @@ Set<Entry<keyType, valueType>> set_var = Map.entrySet();
 
 ```
 <h3><ins><i>Note:</ins> These methods are already discussed earlier.</i> </h3>
+
 </ul>
+
+<h2> <i>New Methods Of ConcurrentMap</i></h2>
+<ul>
+<li><h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/concurrentMap2.java">1.Application of of() Method</h3></li>
+
+```Syntax
+
+Returns an unmodifiable map containing zero mappings.
+
+```
+
+<li><h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/concurrentMap3.java">2.Application of of(1K,1V,..,nK,nV) Method</h3></li>
+
+```Syntax
+
+Returns an unmodifiable map containing 'N'mappings.
+
+```
+
+<li><h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/concurrentMap4.java">3.Application of of(Map.Entry<? extends K,? extends V>… entries) Method</h3></li>
+
+```Syntax
+
+Returns an unmodifiable map containing keys and values,
+extracted from the given entries. 
+The entries themselves are not stored in the map.
+
+```
+
+<table>
+ <tr>
+    <th>New Methods</th>
+    <th>Does This</th>
+    
+   
+</tr> 
+
+<tr>
+<td> 1.Application of of() Method</td>
+<td> Returns an unmodifiable map containing zero mappings. </td>
+</tr>
+
+<tr>
+<td> 2.Application of of(1K,1V,..,nK,nV) Method</td>
+<td> Returns an unmodifiable map containing 'N'mappings. </td>
+</tr>
+
+<tr>
+<td> 3.Application of of(Map.Entry<? extends K,? extends V>… entries) Method</td>
+<td> Returns an unmodifiable map containing keys and values,
+extracted from the given entries. 
+The entries themselves are not stored in the map. </td>
+</tr>
+
+</table>
+
+
+</ul>
+
 </ul>
 
 <h1></h1>
