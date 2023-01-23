@@ -3895,5 +3895,70 @@ public interface SortedMap<K, V> extends Map<K, V>
 <h2 align="Center">Constructors of ConcurrentSkipListMap</h2>
 <ul>
 
+<li><h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/constructConcurrentSkipListMap.java">1.ConcurrentSkipListMap()</h3></li>
+
+```Syntax
+
+Constructs a new, empty map, sorted according to the natural ordering of the keys.
+
+```
+
+<li><h3> 2.ConcurrentSkipListMap​(Comparator<? super K> comparator)</h3></li>
+
+<ul>
+
+<li><h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/constructConcurrentSkipListMap1.java">2.a.ConcurrentSkipListMap​(Comparator<? super K> comparator)</h3></li>
+
+```Syntax
+
+Constructs a new, empty map, sorted according to the specified comparator.
+
+Note: 
+
+1. ConcurrentSkipListMap<Key, Value> map = 
+new ConcurrentSkipListMap<>((a, b) -> b.compareTo(a))
+
+2. Comparator<? super Key> comparator = map.comparator();
+
+ConcurrentSkipListMap<Key, Value> map = 
+new ConcurrentSkipListMap<>(comparator)
+
+
+```
+
+<li><h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/constructConcurrentSkipListMap2.java">2.b.ConcurrentSkipListMap​(Comparator<? super K> comparator)</h3></li>
+
+```Syntax
+
+Constructs a new, empty map, sorted according to the specified comparator.
+
+:Already Discussed Earlier:
+
+
+```
+
+</ul>
+
+<li><h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/constructConcurrentSkipListMap3.java">3.ConcurrentSkipListMap​(Map<? extends K,​? extends V> m)</h3></li>
+
+```Syntax
+
+Constructs a new map containing the same mappings as the given map, 
+sorted according to the natural ordering of the keys.​
+
+
+```
+
+<li><h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/constructConcurrentSkipListMap4.java">4.ConcurrentSkipListMap​(SortedMap<K,​? extends V> m)</h3></li>
+
+```Syntax
+
+Constructs a new map containing the same mappings and 
+using the same ordering as the specified sorted map.
+
+
+```
+
+
 </ul>
 </ul>
