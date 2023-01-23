@@ -30,7 +30,7 @@ public class constructConcurrentSkipListMap1 {
         map2.put("c", "d");
         map2.put("e", "f");
         map2.put("g", "h");
-        System.out.println("Map1:" + map2);
+        System.out.println("Map2:" + map2);
 
     }
     
