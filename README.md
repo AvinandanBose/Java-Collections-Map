@@ -3936,8 +3936,11 @@ new ConcurrentSkipListMap<>(comparator)
 
 Constructs a new, empty map, sorted according to the specified comparator.
 
-:Already Discussed Earlier:
+Here Class implements Comparator interface for comparison.
 
+Generally negative comparison : ReverseOrder
+
+Generally positive comparison : AscendingOrder/NaturalOrder
 
 ```
 
@@ -3947,7 +3950,11 @@ Constructs a new, empty map, sorted according to the specified comparator.
 
 Constructs a new, empty map, sorted according to the specified comparator.
 
-:Already Discussed Earlier:
+Here Comparator object is passed inside Constructor.
+
+Generally negative comparison : ReverseOrder
+
+Generally positive comparison : AscendingOrder/NaturalOrder
 
 
 ```
@@ -3958,8 +3965,14 @@ Constructs a new, empty map, sorted according to the specified comparator.
 
 Constructs a new, empty map, sorted according to the specified comparator.
 
-:Already Discussed Earlier:
+Here Direct Comparator Class is called inside Constructor.
 
+Comparator.reverseOrder(): Gives Reverse Order of Values
+Comparator.naturalOrder(): Gives Natural Order of Values
+
+Any negative comparison : ReverseOrder
+
+Any positive comparison : AscendingOrder/NaturalOrder
 
 ```
 
