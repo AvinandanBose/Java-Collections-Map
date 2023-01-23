@@ -21,7 +21,7 @@ class srtMp implements Comparator<SortedMap11> {
 
     @Override
     public int compare(SortedMap11 o1, SortedMap11 o2) {
-        return o1.a - o2.a;
+        return o1.a - o2.b;
     }
     
 }
