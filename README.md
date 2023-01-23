@@ -2747,7 +2747,7 @@ public abstract class AbstractMap<K,V> extends Object implements Map<K,V>
 
 ![1_U3oE8gg95rTulEJQGG10GQ](https://user-images.githubusercontent.com/38869235/213486273-c66acf6a-c65c-435e-bec7-abd6ebcef0d5.jpg)
 
-<h3><i><ins>Note : </ins>Concurrent HashMap introduced <ins>parallelism threshold</ins> parameter, which says: How many elements are needed for an operation to be executed in parallel, synchronized. </i></h3>
+<h3><i><ins>Note : </ins>Concurrent HashMap introduced <ins>parallelism threshold</ins> parameter, which says: "How many elements are needed for an operation to be executed in parallel, synchronized". </i></h3>
 
 <h3><i><ins>Size of Segment  Calculation</ins></i></h3>
 
