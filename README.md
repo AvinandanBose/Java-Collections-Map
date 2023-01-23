@@ -2131,6 +2131,7 @@ public interface SortedMap<K,V> extends Map<K,V>
 <li> <h3>8.TreeMap maintains ascending order. As Tree Map implements <i>" Navigable Map" </i> and Navigable Map extends Sorted Map.
 Hence tree map maintains sorted structure of map i.e. in ascending order.</h3></li>
 <li> <h3>9.<i>" Entry pairs " </i> returned by the methods in this class and its views represent snapshots of mappings at the time they were produced. <i>" Entry.SetValue "</i>  is only supported when we try to change every specific values of the keys through a loop , But do not support the <i>" Entry.setValue "</i> method for individual entries.And they throw <i> "Unsupported Operation Exception" .</i> </h3></li>
+<li> <h3>10.TreeMap is based upon a red-black tree data structure.( Red Black Trees are self-balancing, meaning that the tree adjusts itself automatically after each insertion or deletion operation. )</h3></li>
 <ul>
 <li><h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/TreeMap.java">Entry.SetValue in TreeMap → Eg</h3></li>
 </ul>
@@ -3878,5 +3879,15 @@ public interface SortedMap<K, V> extends Map<K, V>
 
 
 </h3>
+<ul>
 
+<li> <h3> 1.The ConcurrentSkipListMap class is a member of the Java Collections Framework.</h3></li> 
+<li> <h3> 2.The ConcurrentSkipListMap was introduced in JDK 1.6.</h3></li> 
+<li> <h3> 3.The ConcurrentSkipListMap belongs to java.util.concurrent package.</h3></li> 
+<li> <h3> 4.The ConcurrentSkipListMap is a scalable implementation of ConcurrentNavigableMap.</h3></li> 
+<li> <h3> 5.All the elements of ConcurrentSkipListMap sorted based on natural ordering or by the Comparator passed during it’s construction time.</h3></li>
+<li> <h3> 6.This class uses a concurrent variation of SkipList data structure providing log(n) time cost for insertion, removal, update, and access operations. </h3></li>
+<li> <h3> 7.These operations are safe for executing concurrently by multiple threads. (ConcurrentSkipListMap is thread-safe.) </h3></li>
+
+</ul>
 </ul>
