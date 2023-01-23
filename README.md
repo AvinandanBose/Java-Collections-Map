@@ -3937,6 +3937,17 @@ Constructs a new, empty map, sorted according to the specified comparator.
 
 ```
 
+<li><h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/constructConcurrentSkipListMap5.java">2.c.ConcurrentSkipListMap​(Comparator<? super K> comparator)</h3></li>
+
+```Syntax
+
+Constructs a new, empty map, sorted according to the specified comparator.
+
+:Already Discussed Earlier:
+
+
+```
+
 </ul>
 
 <li><h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/constructConcurrentSkipListMap3.java">3.ConcurrentSkipListMap​(Map<? extends K,​? extends V> m)</h3></li>
