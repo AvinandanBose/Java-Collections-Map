@@ -3351,6 +3351,419 @@ Returns an enumeration of the keys in this table.
 
 ```
 
+<table>
+ <tr>
+    <th>New Methods</th>
+    <th>Does This</th>
+    
+   
+</tr> 
+
+<tr>
+    <td>1.forEach​(long parallelismThreshold, BiFunction<? super K,​? super V,​? extends U> transformer, Consumer<? super U> action)</td>
+    <td>
+
+A comparison function, which imposes a total ordering on some collection of objects. 
+Comparators can also be used to control the order of  sorted maps .
+Here,It returns the comparator used to order the keys in this map, 
+or null if this map uses the natural ordering of its keys.
+
+</td>
+
+</tr>
+
+
+<tr>
+    <td>2.forEach​(long parallelismThreshold, BiConsumer<? super K,​? super V> action) </td>
+    <td>
+
+Performs the given action for each (key, value).
+
+</td>
+
+</tr>
+
+<tr>
+    <td>3.forEachEntry​(long parallelismThreshold, Consumer<? super Map.Entry<K,​V> action) </td>
+    <td>
+
+Performs the given action for each (key, value).
+
+</td>
+
+</tr>
+
+<tr>
+    <td>4.forEachEntry​(long parallelismThreshold, Function<Map.Entry<K,​V>,​? extends U> transformer, Consumer<? super U> action) </td>
+    <td>
+
+Performs the given action for each non-null transformation of each entry.
+
+</td>
+
+</tr>
+
+<tr>
+    <td>5.forEachKey​(long parallelismThreshold, Consumer<? super K> action) </td>
+    <td>
+
+Performs the given action for each non-null transformation of each entry.
+
+</td>
+
+</tr>
+
+<tr>
+    <td>6.forEachKey​(long parallelismThreshold, Function<? super K,​? extends U> transformer, Consumer<? super U> action) </td>
+    <td>
+
+Performs the given action for each non-null transformation of each key.
+
+</td>
+
+</tr>
+
+<tr>
+    <td>7.forEachKey​(long parallelismThreshold, Consumer<? super V> action) </td>
+    <td>
+
+Performs the given action for each value.
+
+</td>
+
+</tr>
+
+<tr>
+    <td>8. forEachValue​(long parallelismThreshold, Function<? super V,​? extends U>transformer, Consumer<? super U> action)  </td>
+    <td>
+
+Performs the given action for each non-null transformation of each value.
+
+</td>
+
+</tr>
+
+<tr>
+    <td>8. forEachValue​(long parallelismThreshold, Function<? super V,​? extends U>transformer, Consumer<? super U> action)  </td>
+    <td>
+
+Performs the given action for each non-null transformation of each value.
+
+</td>
+
+</tr>
+
+
+<tr>
+    <td>9. keySet​(V mappedValue)  </td>
+    <td>
+
+Returns a Set view of the keys in this map, 
+using the given common mapped value for any additions 
+(i.e., Collection.add and Collection.addAll(Collection)). 
+This is of course only appropriate if it is acceptable ,
+to use the same value for all additions from this view.
+
+Which means if a Set's object is set to Map's keyset with 
+its Mapped Value and if we continue to add with
+Collection.add () function through set the , added
+values will be refered as "Keys" of the map , automatically
+gets added to Map as "Keys" gets mapped with the given Value.
+
+</td>
+
+</tr>
+
+
+<tr>
+    <td>10. MappingCount  </td>
+    <td>
+
+Returns the number of mappings. This method should be used instead of size . The reason is, a ConcurrentHashMap may contain more mappings,
+than can be represented as an int. The value returned is an estimate; the actual count may differ ,if there are concurrent insertions or removals.
+
+</td>
+
+</tr>
+
+<tr>
+    <td>11. newKeySet()  </td>
+    <td>
+
+Creates a new Set backed by a ConcurrentHashMap,from the given type to Boolean.TRUE.
+
+</td>
+
+</tr>
+
+<tr>
+    <td>12. newKeySet(int initialCapacity)   </td>
+    <td>
+
+Creates a new Set backed by a ConcurrentHashMap,from the given type to Boolean.TRUE.
+
+</td>
+
+</tr>
+
+<tr>
+    <td>13. reduce​(long parallelismThreshold, BiFunction<? super K,​? super V,​? extends U> transformer, BiFunction<? super U,​? super U,​? extends U> reducer)   </td>
+    <td>
+
+Returns the result of accumulating the given transformation ,of all (key, value) pairs using the given reducer ,to combine values, or null if none.
+
+</td>
+
+</tr>
+
+<tr>
+    <td>14. reduceEntries​(long parallelismThreshold, BiFunction<Map.Entry<K,​V>,​Map.Entry<K,​V>,​? extends Map.Entry<K,​V>> reducer) </td>
+    <td>
+
+Returns the result of accumulating all entries ,using the given reducer to combine values, or null if none.
+
+</td>
+
+</tr>
+
+<tr>
+    <td>15. reduceEntries​(long parallelismThreshold, Function<Map.Entry<K,​V>,​? extends U> transformer, BiFunction<? super U,​? super U,​? extends U> reducer) </td>
+    <td>
+
+Returns the result of accumulating the given transformation,of all entries using the given reducer to combine values, or null if none.
+
+</td>
+
+</tr>
+
+<tr>
+    <td>16. reduceEntriesToDouble​(long parallelismThreshold, ToDoubleFunction<Map.Entry<K,​V>> transformer, double basis, DoubleBinaryOperator reducer) </td>
+    <td>
+
+Returns the result of accumulating the given transformation ,of all entries using the given reducer to combine values, and the given basis as an identity value.
+
+</td>
+
+</tr>
+
+<tr>
+    <td>17. reduceEntriesToInt​(long parallelismThreshold, ToIntFunction<Map.Entry<K,​V>> transformer, int basis, IntBinaryOperator reducer) </td>
+    <td>
+
+Returns the result of accumulating the given transformation ,of all entries using the given reducer to combine values, and the given basis as an identity value.
+
+</td>
+
+</tr>
+
+<tr>
+    <td>18. reduceEntriesToLong​(long parallelismThreshold, ToLongFunction<Map.Entry<K,​V>> transformer, long basis, LongBinaryOperator reducer)</td>
+    <td>
+
+Returns the result of accumulating the given transformation,of all entries using the given reducer to combine values, and the given basis as an identity value.
+
+</td>
+
+</tr>
+
+<tr>
+    <td>19.reduceKeys​(long parallelismThreshold, BiFunction<? super K,​? super K,​? extends K> reducer)</td>
+    <td>
+
+Returns the result of accumulating all keys ,using the given reducer to combine values, or null if none.
+
+</td>
+
+</tr>
+
+<tr>
+    <td>20.reduceKeys​(long parallelismThreshold, Function<? super K,​? extends U> transformer, BiFunction<? super U,​? super U,​? extends U> reducer)</td>
+    <td>
+
+Returns the result of accumulating the given transformation,of all keys using the given reducer to combine values, or null if none.
+
+</td>
+
+</tr>
+
+<tr>
+    <td>21.  reduceKeysToDouble​(long parallelismThreshold, ToDoubleFunction<? super K> transformer, double basis, DoubleBinaryOperator reducer)</td>
+    <td>
+
+Returns the result of accumulating the given transformation,of all keys using the given reducer to combine values, and the given basis as an identity value.
+
+</td>
+
+</tr>
+
+<tr>
+    <td>22.  reduceKeysToInt​(long parallelismThreshold, ToIntFunction<? super K> transformer, int basis, IntBinaryOperator reducer)</td>
+    <td>
+
+Returns the result of accumulating the given transformation,of all keys using the given reducer to combine values, and the given basis as an identity value.
+
+</td>
+
+</tr>
+
+
+<tr>
+    <td>23.reduceKeysToLong​(long parallelismThreshold, ToLongFunction<? super K> transformer, long basis, LongBinaryOperator reducer)</td>
+    <td>
+
+Returns the result of accumulating the given transformation,of all keys using the given reducer to combine values, and the given basis as an identity value.
+
+</td>
+
+</tr>
+
+
+<tr>
+    <td>24.reduceToDouble​(long parallelismThreshold, ToDoubleBiFunction<? super K,​? super V> transformer, double basis, DoubleBinaryOperator reducer)</td>
+    <td>
+
+Returns the result of accumulating the given transformation of all (key, value) pairs using the given reducer to combine values,and the given basis as an identity value.
+
+</td>
+
+</tr>
+
+
+<tr>
+    <td>25. reduceToInt​(long parallelismThreshold, ToIntBiFunction<? super K,​? super V> transformer, int basis, IntBinaryOperator reducer)</td>
+    <td>
+
+Returns the result of accumulating the given transformation of all (key, value) ,pairs using the given reducer to combine values, and the given basis as an identity value.
+
+</td>
+
+</tr>
+
+<tr>
+    <td>26. reduceToLong​(long parallelismThreshold, ToLongBiFunction<? super K,​? super V> transformer, long basis, LongBinaryOperator reducer)</td>
+    <td>
+
+Returns the result of accumulating the given transformation of all (key, value) pairs using the given reducer to combine values, and the given basis as an identity value.
+
+</td>
+
+</tr>
+
+<tr>
+    <td>27. reduceValues​(long parallelismThreshold, BiFunction<? super V,​? super V,​? extends V> reducer)</td>
+    <td>
+
+Returns the result of accumulating all values ,using the given reducer to combine values, or null if none.
+
+</td>
+
+</tr>
+
+<tr>
+    <td>28. reduceValues​(long parallelismThreshold, Function<? super V,​? extends U> transformer, BiFunction<? super U,​? super U,​? extends U> reducer)</td>
+    <td>
+
+Returns the result of accumulating the given transformation ,of all values using the given reducer to combine values, or null if none.
+
+</td>
+
+</tr>
+
+<tr>
+    <td>29. reduceValuesToDouble​(long parallelismThreshold, ToDoubleFunction<? super V> transformer, double basis, DoubleBinaryOperator reducer)</td>
+    <td>
+
+Returns the result of accumulating the given transformation,of all values using the given reducer to combine values, and the given basis as an identity value.
+
+</td>
+
+</tr>
+
+<tr>
+    <td>30. reduceValuesToInt​(long parallelismThreshold, ToIntFunction<? super V> transformer, int basis, IntBinaryOperator reducer)</td>
+    <td>
+
+Returns the result of accumulating the given transformation,of all values using the given reducer to combine values, and the given basis as an identity value.
+
+</td>
+
+</tr>
+
+<tr>
+    <td>31. reduceValuesToLong​(long parallelismThreshold, ToLongFunction<? super V> transformer, long basis, LongBinaryOperator reducer)</td>
+    <td>
+
+Returns the result of accumulating the given transformation of all values,using the given reducer to combine values, and the given basis as an identity value.
+
+</td>
+
+</tr>
+
+<tr>
+    <td>32.search​(long parallelismThreshold, BiFunction<? super K,​? super V,​? extends U> searchFunction)</td>
+    <td>
+
+Returns a non-null result from applying the given,search function on each (key, value), or null if none. Upon success, further element processing is suppressed ,and the results of any other parallel invocations ,of the search function are ignored.
+
+</td>
+
+</tr>
+
+<tr>
+    <td>33. searchEntries​(long parallelismThreshold, Function<Map.Entry<K,​V>,​? extends U> searchFunction) </td>
+    <td>
+
+Returns a non-null result from applying the given,search function on each entry, or null if none.Upon success, further element processing is suppressed ,and the results of any other parallel invocations,of the search function are ignored.
+
+</td>
+
+</tr>
+
+<tr>
+    <td>34. searchKeys​(long parallelismThreshold, Function<? super K,​? extends U> searchFunction) </td>
+    <td>
+
+Returns a non-null result from applying the given,search function on each entry, or null if none.Upon success, further element processing is suppressed ,and the results of any other parallel invocations,of the search function are ignored.
+
+</td>
+
+</tr>
+
+
+<tr>
+    <td>35. searchValues​(long parallelismThreshold, Function<? super V,​? extends U> searchFunction) </td>
+    <td>
+
+Returns a non-null result from applying the given,search function on each entry, or null if none.Upon success, further element processing is suppressed ,and the results of any other parallel invocations,of the search function are ignored.
+
+</td>
+
+</tr>
+
+
+<tr>
+    <td>36. Enumeration<V> elements() </td>
+    <td>
+
+Returns an enumeration of the values in this table.
+
+</td>
+
+</tr>
+
+
+<tr>
+    <td>37. Enumeration<K> keys() </td>
+    <td>
+
+Returns an enumeration of the keys in this table.
+
+</td>
+
+</tr>
+
+</table>
+
 </ul>
 
 </ul>
