@@ -1544,6 +1544,10 @@ public interface SortedMap<K, V> extends Map<K, V>
 <ul>
 <li><h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/SortedMap1.java"> 1.Comparator - Eg (1)</a></h3></li>
 <li><h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/SortedMap2.java"> 2.Comparator - Eg (2)</a></h3></li>
+<li><h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/SortedMap8.java"> 3.Comparator - Eg (3)</a></h3></li>
+<li><h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/SortedMap9.java"> 4.Comparator - Eg (4)</a></h3></li>
+<li><h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/SortedMap10.java"> 5.Comparator - Eg (5)</a></h3></li>
+<li><h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/SortedMap11.java"> 6.Comparator - Eg (6)</a></h3></li>
 
 ```Syntax
 Comparator:
