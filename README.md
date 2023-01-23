@@ -2925,6 +2925,12 @@ The reason is : ConcurrentHashMap is Thread Safe and
 creating a deep copy of the map would be difficult to implement .
 
 ```
+<h3 ><i>How to implement Clone method? </i></h3>
+<ul>
+
+<li><h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/ConcurrentHashMapMethod_Clone.java">Process of Implementation of Clone() method by ConcurrentHashMap</h3></li>
+
+</ul>
 
 <h3><i><ins>New Methods of ConcurrentHashMap </ins></i></h3>
 
