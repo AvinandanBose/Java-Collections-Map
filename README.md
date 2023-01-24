@@ -3997,7 +3997,12 @@ using the same ordering as the specified sorted map.
 
 
 ```
+<h2></h2>
+<h2 align="Center">Methods of ConcurrentSkipListMap </h2>
 
-
+<ul>
+<li><h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/ConcurrentSkipListMapMethods.java">Methods of ConcurrentSkipListMap</h3></li>
+<h3><i><ins>Note:</ins> These methods are already discussed above. </i></h3> 
+</ul>
 </ul>
 </ul>
