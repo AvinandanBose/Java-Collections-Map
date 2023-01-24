@@ -4006,3 +4006,66 @@ using the same ordering as the specified sorted map.
 </ul>
 </ul>
 </ul>
+
+<h1> </h1>
+<h1> Map.Entry Interface (Sub Interface of Map Interface) and Map.of() </h1>
+<ul>
+<h2> </h2>
+<h2 align="Center"> Map.Entry Interface (Sub Interface of Map Interface)  </h2>
+
+<li> <h3>1.A map contains values on the basis of key, i.e. key and value pair.</h3> </li>
+
+<li> <h3>2.Each key and value pair is known as an Entry.</h3> </li>
+
+<li> <h3>3.Entry is the subinterface of Map.</h3> </li>
+
+<li> <h3>4.So we can access it by Map.Entry name.</h3> </li>
+
+<li> <h3>5.Map.Entry interface in Java provides certain methods to access the entry in the Map.</h3> </li>
+
+<li> <h3>6.Map.Entry helps us to gain access to the entries of the Map.</h3> </li>
+
+<li> <h3>7.By gaining access to the entry of the Map we can easily manipulate them.</h3> </li>
+
+<li> <h3>8.Map.Entry is a generic and is defined in the java.util package.</h3> </li>
+
+<h3 align="Center">
+
+```Syntax
+
+public static interface Map.Entry<K,V>
+
+```
+
+</h3>
+
+<h2></h2>
+<h2 align="Center"> Implementation of Map.Entry </h2>
+
+<ul>
+<li><h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/MapEntry_HashMap.java">1.Implementation of Map.Entry in HashMap</h3></li>
+<li><h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/MapEntry_LinkedHashMap.java">2.Implementation of Map.Entry in LinkedHashMap</h3></li>
+<li><h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/MapEntry_WeakHashMap.java">3.Implementation of Map.Entry in WeakHashMap</h3></li>
+<li><h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/MapEntry_TreeMap.java">4.Implementation of Map.Entry in TreeMap</h3></li>
+<li><h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/MapEntry_ConcurrentHashMap.java">4.Implementation of Map.Entry in ConcurrentHashMap</h3></li>
+<li><h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/MapEntry_ConcurrentSkipListMap.java">5.Implementation of Map.Entry in ConcurrentSkipListMap</h3></li>
+</ul>
+
+<h2> </h2>
+<h2 align="Center"> Map.of(K,V) and Map.ofEntries(Map.entry(K,V))  </h2>
+
+<li> <h3>1.The Map.of and Map.ofEntries are static factory methods that return unmodifiable Map containing specified mapping.</h3> </li>
+
+<li> <h3>2.They are  introduced in Java 9.</h3> </li>
+
+<h2></h2>
+<h2 align="Center"> Implementation of Map.Entry </h2>
+
+<ul>
+
+<li><h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/MapOf.java">1.Implementation of MapOf functionality</h3></li>
+<li><h3> <a href="https://github.com/AvinandanBose/JavaUtilMap/blob/main/MapOfEntries.java">2.Implementation of MapOfEntries functionality</h3></li>
+
+</ul>
+
+</ul>
