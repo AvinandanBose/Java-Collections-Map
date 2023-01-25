@@ -140,7 +140,144 @@ Iterator<Map<Key, Value>> iterator = map.iterator(); → Cannot be Obtained
 </table>
 </ul>
 
+<h2> </h2>
+<h2 align="Center"> Methods of Map Interface </h2>
+<ul>
+<table>
+<tr>
+<th>Methods of Map Interface </th>
+<th> Does This</th>
+</tr>
 
+<tr>
+<td>1. clear() </td>
+<td> Removes all of the mappings from this map</td>
+</tr>
+
+<tr>
+<td>2. compute(K key, BiFunction<? super K,? super V,? extends V> remappingFunction) </td>
+<td> Attempts to compute a mapping for the specified key and its current mapped value (or null if there is no current mapping).</td>
+</tr>
+
+<tr>
+<td>3. computeIfAbsent(K key, Function<? super K,? extends V> mappingFunction) </td>
+<td> If the specified key is not already associated with a value (or is mapped to null), attempts to compute its value using the given mapping function and enters it into this map unless null.</td>
+</tr>
+
+<tr>
+<td>4. computeIfPresent(K key, BiFunction<? super K,? super V,? extends V> remappingFunction) </td>
+<td> If the value for the specified key is present and non-null, attempts to compute a new mapping given the key and its current mapped value.</td>
+</tr>
+
+<tr>
+<td>5. containsKey(Object key) </td>
+<td> Returns true if this map contains a mapping for the specified key.</td>
+</tr>
+
+<tr>
+<td>6. containsValue(Object value) </td>
+<td>Returns true if this map maps one or more keys to the specified value.</td>
+</tr>
+
+<tr>
+<td>7. entrySet() </td>
+<td>Returns a Set view of the mappings(All Entries) contained in this map.</td>
+</tr>
+
+<tr>
+<td>8. equals(Object o) </td>
+<td>Compares the specified object with this map for equality.</td>
+</tr>
+
+<tr>
+<td>9. forEach(BiConsumer<? super K,? super V> action) </td>
+<td>Performs the given action for each entry in this map until all entries have been processed or the action throws an exception.</td>
+</tr>
+
+<tr>
+<td>10. get(Object key) </td>
+<td>Returns the value to which the specified key is mapped, or null if this map contains no mapping for the key.</td>
+</tr>
+
+<tr>
+<td>11. getOrDefault(Object key, V defaultValue) </td>
+<td>Returns the value to which the specified key is mapped, or defaultValue if this map contains no mapping for the key.</td>
+</tr>
+
+<tr>
+<td>12. hashCode() </td>
+<td>Returns the hash code value for this map.</td>
+</tr>
+
+<tr>
+<td>13. isEmpty() </td>
+<td>Returns true if this map contains no key-value mappings.</td>
+</tr>
+
+<tr>
+<td>14.keySet() </td>
+<td>Returns a Set view of the keys contained in this map.</td>
+</tr>
+
+<tr>
+<td>15.merge(K key, V value, BiFunction<? super V,? super V,? extends V> remappingFunction) </td>
+<td>If the specified key is not already associated with a value or is associated with null, associates it with the given non-null value.</td>
+</tr>
+
+<tr>
+<td>16.put(K key, V value) </td>
+<td>Associates the specified value with the specified key in this map.</td>
+</tr>
+
+<tr>
+<td>17.putAll(Map<? extends K,? extends V> m) </td>
+<td>Copies all of the mappings from the specified map to this map.</td>
+</tr>
+
+<tr>
+<td>18.putIfAbsent(K key, V value) </td>
+<td>If the specified key is not already associated with a value (or is mapped to null) associates it with the given value and returns null, else returns the current value.</td>
+</tr>
+
+<tr>
+<td>19.remove(Object key)</td>
+<td>Removes the mapping for a key from this map if it is present.</td>
+</tr>
+
+<tr>
+<td>20.remove(Object key, Object value)</td>
+<td>Removes the entry for the specified key only if it is currently mapped to the specified value.</td>
+</tr>
+
+<tr>
+<td>21.replace(K key, V value)</td>
+<td>Replaces the entry for the specified key only if it is currently mapped to some value.</td>
+</tr>
+
+<tr>
+<td>22.replace(K key, V oldValue, V newValue)</td>
+<td>Replaces the entry for the specified key only if currently mapped to the specified value.</td>
+</tr>
+
+<tr>
+<td>23.replaceAll(BiFunction<? super K,? super V,? extends V> function)</td>
+<td>Replaces each entry's value with the result of invoking the given function on that entry until all entries have been processed or the function throws an exception.</td>
+</tr>
+
+<tr>
+<td>24.size()</td>
+<td>Returns the number of key-value mappings in this map.</td>
+</tr>
+
+<tr>
+<td>25.values()</td>
+<td>Returns a Collection view of the values contained in this map.</td>
+</tr>
+
+</table>
+</ul>
+
+<h1> </h1>
 <h1> 3. HashMap </h1>
 
 <ul>
