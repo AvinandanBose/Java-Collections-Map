@@ -4008,7 +4008,7 @@ using the same ordering as the specified sorted map.
 </ul>
 
 <h1> </h1>
-<h1> Map.Entry Interface (Sub Interface of Map Interface) and Map.of() </h1>
+<h1>F. Map.Entry Interface (Sub Interface of Map Interface) and Map.of() </h1>
 <ul>
 <h2> </h2>
 <h2 align="Center"> Map.Entry Interface (Sub Interface of Map Interface)  </h2>
