@@ -67,6 +67,102 @@ public abstract class AbstractMap<K,V> extends Object, implements Map<K,V>
 
 </h3>
 
+<h2> </h2>
+<h2 align="Center"> Methods of Abstract Map(Abstract Class) </h2>
+
+<ul>
+<table>
+<tr>
+<th>Methods of Abstract Map(Abstract Class)</th>
+<th> Does This</th>
+</tr>
+
+<tr>
+<td>1. clear() </td>
+<td> Removes all of the mappings from this map .</td>
+</tr>
+
+<tr>
+<td>2.clone() </td>
+<td> Returns a shallow copy of this map.</td>
+</tr>
+
+<tr>
+<td>3. containsKey(Object key) </td>
+<td> Returns true if this map contains a mapping for the specified key.</td>
+</tr>
+
+<tr>
+<td>4. containsValue(Object value) </td>
+<td>Returns true if this map maps one or more keys to the specified value.</td>
+</tr>
+
+<tr>
+<td>5.entrySet() </td>
+<td> Returns a Set view of the mappings contained in this map.</td>
+</tr>
+
+<tr>
+<td>6. equals(Object o) </td>
+<td>Compares the specified object with this map for equality.</td>
+</tr>
+
+<tr>
+<td>7. get(Object key) </td>
+<td>Returns the value to which the specified key is mapped, or null if this map contains no mapping for the key.</td>
+</tr>
+
+<tr>
+<td>8. hashCode() </td>
+<td>Returns the hash code value for this map.</td>
+</tr>
+
+<tr>
+<td>9. isEmpty() </td>
+<td>Returns true if this map contains no key-value mappings.</td>
+</tr>
+
+<tr>
+<td>10. keySet()</td>
+<td>Returns a Set view of the keys contained in this map.</td>
+</tr>
+
+<tr>
+<td>11. put(K key, V value) </td>
+<td>Associates the specified value with the specified key in this map .</td>
+</tr>
+
+<tr>
+<td>12. putAll(Map<? extends K,? extends V> m) </td>
+<td>Copies all of the mappings from the specified map to this map .</td>
+</tr>
+
+<tr>
+<td>13. remove(Object key) </td>
+<td>Removes the mapping for a key from this map if it is present.</td>
+</tr>
+
+
+<tr>
+<td>14.size() </td>
+<td>Returns the number of key-value mappings in this map.</td>
+</tr>
+
+<tr>
+<td>15.toString()</td>
+<td>Returns a string representation of this map.</td>
+</tr>
+
+<tr>
+<td>16.values()</td>
+<td>Returns a Collection view of the values contained in this map.</td>
+</tr>
+
+</table>
+
+<h3> <i> <ins> Note: </ins> These methods are discussed below . </i> </h3>
+</ul>
+
 </ul>
 
 <h1 align ="center">A. Map - Interface </h1>
@@ -275,6 +371,8 @@ Iterator<Map<Key, Value>> iterator = map.iterator(); → Cannot be Obtained
 </tr>
 
 </table>
+
+<h3> <i> <ins> Note: </ins> These methods are discussed below . </i> </h3>
 </ul>
 
 <h1> </h1>
