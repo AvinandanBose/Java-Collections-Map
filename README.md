@@ -758,13 +758,13 @@ Returns true if the given object is also a map and the two maps represent the sa
 </tr>
 
 <tr>
-  <td >toString()</td>
+  <td >2.toString()</td>
   <td >Returns a string representation of this map. 
 </td>
 </tr>
 
 <tr>
-  <td >hashCode()</td>
+  <td >3.hashCode()</td>
   <td >Returns the hash code value for this map. 
 </td>
 </tr>
