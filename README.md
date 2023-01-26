@@ -1,4 +1,4 @@
-# JavaUtilMap
+# Java Collections Map
 Here is all about Map of Java
 
 <h1>1. AbstractMap[Abstract Class] </h1>
