@@ -4307,7 +4307,7 @@ public static interface Map.Entry<K,V>
 </ul>
 
 <h1> </h1>
-<h1 align="Center">HashTable </h1>
+<h1 align="Center">HashTable Class</h1>
 <ul>
 
 ```mermaid
