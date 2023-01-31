@@ -4305,3 +4305,35 @@ public static interface Map.Entry<K,V>
 </ul>
 
 </ul>
+
+<h1> </h1>
+<h1 align="Center">HashTable </h1>
+<ul>
+
+```mermaid
+
+sequenceDiagram
+
+   java.util.HashTable->>java.util.Dictionary:extends 
+   java.util.HashTable->>java.util.Map:implements
+   java.util.HashTable->>java.io.Serializable:implements
+  java.util.HashTable->>java.lang.Cloneable:implements
+  
+
+
+```
+
+<h3 align="Center">
+
+```Syntax
+
+public class Hashtable<K,V> extends Dictionary<K,V> 
+		implements Map<K,V>, Cloneable, Serializable
+
+```
+
+<h3>
+
+<h3> <i><ins>Note :</ins> Details of <ins>HashTable</ins> class is explained 👉 <a href="https://github.com/AvinandanBose/Java-Collections">Here </a></h3>
+
+</ul>
