@@ -1035,6 +1035,7 @@ functions inherited by HashMap() have same actions in program . </h3>
     TreeMap-->|implements| NavigableMap;
     ConcurrentNavigableMap-->|extends| ConcurrentMap;
     ConcurrentNavigableMap-->|extends| NavigableMap;
+    HashTable-->|implements|Map
  ```
  </ul> 
  
