@@ -4337,3 +4337,5 @@ public class Hashtable<K,V> extends Dictionary<K,V>
 <h3> <i><ins>Note :</ins> Details of <ins>HashTable</ins> class is explained 👉 <a href="https://github.com/AvinandanBose/Java-Collections">Here </a></h3>
 
 </ul>
+
+<h1>👉<a href= "https://github.com/AvinandanBose/JavaGeneric">Implementation of Map in Java Generics</h1>
