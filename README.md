@@ -4334,7 +4334,7 @@ public class Hashtable<K,V> extends Dictionary<K,V>
 
 <h3>
 
-<h3> <i><ins>Note :</ins> Details of <ins>HashTable</ins> class is explained 👉 <a href="https://github.com/AvinandanBose/Java-Collections">Here </a></h3>
+<h3> <i><ins>Note :</ins> Details of <ins>HashTable</ins> class is explained 👉 <a href="https://github.com/AvinandanBose/Java-Collections-HashTable">Link Here </a></h3>
 
 </ul>
 
