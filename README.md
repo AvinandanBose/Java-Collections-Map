@@ -4075,6 +4075,98 @@ Returns an enumeration of the keys in this table.
 
 </ul>
 
+<h2></h2>
+<h2 align="Center">ConcurrentHashMap.KeySetView - Inner Class of ConcurrentHashMap </h2>
+
+```mermaid
+
+sequenceDiagram
+
+  java.util.concurrent.ConcurrentHashMap->>java.util.ConcurrentHashMap.KeySetView:InnerClass 
+  java.util.ConcurrentHashMap.KeySetView->>java.util.concurrent.ConcurrentHashMap.CollectionView:extends
+  java.util.ConcurrentHashMap.KeySetView->>java.util.Set:implements
+  java.util.ConcurrentHashMap.KeySetView->>java.io.Serializable:implements
+
+```
+
+<h3 align="Center">
+
+```Syntax
+
+public class ConcurrentHashMap<K,V> extends AbstractMap<K,V>
+    implements ConcurrentMap<K,V>, Serializable {
+
+ ......
+
+ public static final class KeySetView<K,V> extends CollectionView<K,V,K>
+        implements Set<K>, java.io.Serializable
+
+ ....
+
+}
+
+```
+
+</h3>
+
+<ul>
+
+<h3><i> <li>1. CollectionView class is an abstract class of ConcurrentHashMap class which is not viable or be imported to any file . Syntax as follows: </li></i><h3>
+
+<h3 align="Center">
+
+```Syntax
+
+abstract static sealed class CollectionView<K,V,E>
+        implements Collection<E>, java.io.Serializable permits EntrySetView, KeySetView, ValuesView
+
+```
+</h3>
+
+<h3><i><li> 2.  More Over EntrySetView, KeySetView and ValuesView are "Static Final Classes" and are not viable or be imported to any file.  Syntax as follows:</li></i><h3>
+
+<h3><i><ins>EntrySetView Class</ins></i></h3>
+
+<h3 align="Center">
+
+```Syntax
+
+static final class EntrySetView<K,V> extends CollectionView<K,V,Map.Entry<K,V>>
+        implements Set<Map.Entry<K,V>>, java.io.Serializable
+
+```
+</h3>
+
+<h3><i><ins> KeySetView Class</ins></i></h3>
+
+<h3 align="Center">
+
+```Syntax
+
+public static final class KeySetView<K,V> extends CollectionView<K,V,K>
+        implements Set<K>, java.io.Serializable
+
+```
+</h3>
+
+<h3><i><ins>  ValuesView Class</ins></i></h3>
+
+<h3 align="Center">
+
+```Syntax
+
+static final class ValuesView<K,V> extends CollectionView<K,V,V>
+        implements Collection<V>, java.io.Serializable
+
+```
+</h3>
+
+<h3><i><li> 3.  CollectionView class, EntrySetView class, KeySetView class and ValuesView class cannot be implemented directly but can be implemented through KeySetView as KeySetView , the inner class of ConcurrentHashMap class inherit those classes along with Set and Serializable interface.  </li></i><h3>
+
+<h3><i><li> 4.  The main motive of KeySetView , the inner class of ConcurrentHashMap to store the Keys of the given Map as a Set in a Variable or object created by KeySet class or ConcurrentHashMap.KeySet class.  </li></i><h3>
+
+</ul>
+
 </ul>
 </ul>
 
