@@ -4118,12 +4118,13 @@ public class ConcurrentHashMap<K,V> extends AbstractMap<K,V>
 ```Syntax
 
 abstract static sealed class CollectionView<K,V,E>
-        implements Collection<E>, java.io.Serializable permits EntrySetView, KeySetView, ValuesView
+        implements Collection<E>, java.io.Serializable 
+	permits EntrySetView, KeySetView, ValuesView
 
 ```
 </h3>
 
-<h3><i><li> 2.  More Over EntrySetView, KeySetView and ValuesView are "Static Final Classes" and are not viable or be imported to any file.  Syntax as follows:</li></i><h3>
+<h3><i><li> 2.  More Over EntrySetView, KeySetView and ValuesView are "Static Final Classes" of "ConcurrentHashMap" class and are not viable or be imported to any file.  Syntax as follows:</li></i><h3>
 
 <h3><i><ins>EntrySetView Class</ins></i></h3>
 
@@ -4131,7 +4132,8 @@ abstract static sealed class CollectionView<K,V,E>
 
 ```Syntax
 
-static final class EntrySetView<K,V> extends CollectionView<K,V,Map.Entry<K,V>>
+static final class EntrySetView<K,V> extends 
+	CollectionView<K,V,Map.Entry<K,V>>
         implements Set<Map.Entry<K,V>>, java.io.Serializable
 
 ```
